@@ -1,0 +1,85 @@
+
+
+
+ <div class="span9">
+    <div class="hero-unit">
+     <h1>New Activity</h1>
+    </div>
+
+
+
+<div class="span9 ">
+<ul class="thumbnails">
+ <li class="span6"><h4><img src="/assets/apple.jpg" height="25" width="25" />&nbsp;&nbsp;has invited you to <font color ="green">Product Marketing Coordinator</font> </h4>
+<br />
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/600x300" alt="">
+    </a></li>
+ <li class="span3">
+   <h4>New <font color ="green">invite</font> from Andrea Kilm, <font color ="green"> Talent Hunter</font><img src="/assets/apple.jpg" height="8" width="16" /></h4>
+  <br /><br /><br /> <br /><br /><br /><br /><a class="btn btn-success ">Join Now</a>
+  </li>
+</ul>
+</div>
+
+
+
+
+<div class="span9 "><hr />
+<ul class="thumbnails">
+ <li class="span6"><h4><img alt="Rails" src="/assets/google.jpg" height="80" width="60" /> added a new <font color ="red">Talent Hunter</font>, Kevin Rose</h4>
+    </li>
+ <li class="span3">
+   <a class="btn btn-danger ">Watch Kevin</a>
+  </li>
+</ul>
+</div>
+
+
+
+
+<div class="span9 "><hr />
+    <ul class="thumbnails">
+
+<li class="span3">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/260x180" alt="">
+    </a>
+  </li>
+<li class="span3">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/260x180" alt="">
+    </a>
+  </li>
+<li class="span3">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/260x180" alt="">
+    </a>
+  </li>
+
+  
+</ul>
+
+</div>
+
+
+
+<div class="span9 "><hr />
+<ul class="thumbnails">
+ <li class="span6">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/600x300" alt="">
+    </a></li>
+ <li class="span3">
+   <h4>New <font color ="blue">invite</font> from <font color ="green">@ Apple!<font></h4>
+  <br /><br /> <br /><br /><br /> <a class="btn btn-primary btn-large ">Apply Now</a>
+  </li>
+</ul>
+</div>
+
+
+  
+
+
+
+

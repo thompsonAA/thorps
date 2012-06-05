@@ -1,0 +1,6 @@
+
+
+('a').popover({placement:'right'});
+
+
+

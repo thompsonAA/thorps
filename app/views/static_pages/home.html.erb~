@@ -1,0 +1,8 @@
+    <% if signed_in? %>
+ <div id="newsfeed">
+      <%= render 'users/home_sidebar' %>
+      <%= render 'users/home_newsfeed' %>
+ </div>
+    <% else %>
+      <%= render 'sessions/signup' %>
+    <% end %> 

@@ -1,0 +1,47 @@
+
+<h1>Sign up</h1>
+
+ <%= form_for(User.new, { :class => 'form-horizontal' }) do |f|  %>
+    
+   <legend>Be discovered. for <font color="#CD00CD">you</font>.</legend>
+    <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">first name</p> <div class="controls">
+      <%= f.text_field :first_name %>
+      </div>
+      </div>
+     
+
+   <div class="control-group">
+    <label class="control-label" for="input01"></label>
+      <p class="help-block">last name</p><div class="controls">
+      <%= f.text_field :last_name %>
+      </div>
+      </div>
+
+    <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">.edu email address</p><div class="controls">
+      <%= f.text_field :email %>
+      </div>
+      </div>
+
+      <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">password</p><div class="controls">
+      <%= f.password_field :password %>
+      </div>
+      </div>
+
+     <div class="control-group">
+      <label class="control-label" for="input01"></label>
+       <p class="help-block">confirm password</p><div class="controls">
+      <%= f.password_field :password_confirmation %>
+      </div>
+      </div>
+     <%= f.submit "Create my account", class: "btn btn-large btn-primary" %><p class="help-block2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or <%= link_to "request an invite", invite_path %></p>
+ <% end %>
+ 
+
+  </div>
+

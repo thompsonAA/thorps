@@ -1,0 +1,37 @@
+<div class="span6">
+    <div class="hero-unit">
+     <h2><%= @user.first_name %><%= @user.last_name %>, <%= @user.email %></h2>
+    </div>
+<div class="span12">
+<div class="tabbable"> 
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Overview</a></li>
+    <li><a href="#tab2" data-toggle="tab">Education</a></li>
+    <li><a href="#tab3" data-toggle="tab">Skills</a></li>
+    <li><a href="#tab4" data-toggle="tab">Showcase</a></li>
+    <li><a href="#tab5" data-toggle="tab">Index</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <p>test Overview test</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>test Education test</p>
+    </div>
+  <div class="tab-pane" id="tab3">
+      <p>test Skills test</p>
+    </div>
+<div class="tab-pane" id="tab4">
+      <p>test Showcase test</p>
+    </div>
+<div class="tab-pane" id="tab5">
+      <p>test Index test</p>
+    </div>
+  </div>
+</div>
+          
+            </div><!--/span-->
+          </div>
+        
+      </div>
+

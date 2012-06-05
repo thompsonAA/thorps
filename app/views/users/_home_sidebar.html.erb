@@ -1,0 +1,33 @@
+
+
+    <div class="row">
+       <div class="span3">
+          <div class="sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">User Name </li>
+              <%= content_tag(:li, :class => 'sidebar') do %>
+                <%= link_to current_user do %>
+             <%= content_tag :i, '', :class => 'icon-user' %> Profile
+                <% end -%>
+             <% end -%>
+
+              <%= content_tag(:li, :class => 'sidebar') do %>
+                <%= link_to invites_path do %>
+             <%= content_tag :i, '', :class => 'icon-plus' %> Invites
+                <% end -%>
+             <% end -%>
+<li class="sidebar"><a href="#"><i class="icon-star"></i> Watching</a></li>
+              <li class="nav-header">Discover</li>
+              <li class="sidebar"><a href="#"><i class="icon-fire"></i> Companies</a></li>
+              <li class="sidebar"><a href="#"><i class="icon-user"></i> Talent Hunters</a></li>
+<li class="sidebar"><a href="#"><i class="icon-map-marker"></i> Search</a></li>
+              
+              <li class="nav-header">Review</li>
+              <li class="sidebar"><a href="#"><i class="icon-tint"></i> Pools</a></li>
+              <li class="sidebar"><a href="#"><i class="icon-pencil"></i> Offers</a></li>
+               <li class="sidebar"><a href="#"><i class="icon-play-circle"></i> Interviews</a></li>
+              
+            </ul>
+          </div><!--/.well -->    
+        </div><!--/span-->
+

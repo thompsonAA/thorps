@@ -1,0 +1,315 @@
+
+<div id="topnav">
+
+<div class="row" >
+
+   <div class="span9" >
+     <h2 class="username"><%= @user.first_name %> <%= @user.last_name %></h2>
+   </div>
+
+   <div id="watchbutton" class="span1" ><a class="btn btn-info btn-large">Watch</a>
+   </div>
+</div>
+
+
+<div class="row">
+  <span id="invitebutton" >
+   <div class="btn-group 2 ">
+    <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Invite 
+     </a>
+           <ul class="dropdown-menu">
+              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Send:</span></h5></li></li><li><%= link_to "Invite to Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Invite to Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Invite to Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Request:</span></h5></li><li><%= link_to "Interview", current_user, :class => "foo" %></li><li><%= link_to "Video Chat", current_user, :class => "foo" %></li>
+           </ul>
+
+       </div>
+    </span>
+
+
+
+<span id="broadcastbutton" >
+  <div class="btn-group 2 ">
+      <a id="btn22" class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Broadcast <span class="caret"></span>
+      </a>
+           <ul class="dropdown-menu">
+              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Talent Hunter:</span></h5></li></li><li><%= link_to "Eryk Verhagen", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
+                  </li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Department:</span></h5></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li><li><%= link_to "(All) Marketing Department:", current_user %></li><li><%= link_to "(All) Marketing Department:", current_user %></li>
+           </ul>
+       </div>
+      </span>
+  </div>
+ </div>
+
+
+  
+<div class="tab-content">
+   
+  <div class="tab-pane active" id="tab1">
+    
+     
+    
+        <span id="userphoto">
+        <ul class="thumbnails">
+          <li id="background" class="thumbnail" > <img id="portrait" src="/assets/allyson.jpg" class="stretch" />
+          </li>
+        </ul>
+        </span>
+
+
+    <span id="rightabout">
+
+       <div class="span3">
+         <h3 id="specialtyname"> Marketing / Product Management</h3>
+       </div>
+       <div class="span3">
+         <h2 id="specialty"><i class="icon-star"></i> Specialty</h2>
+       </div>
+
+
+
+     <div class="span3">
+        <h3 id="locationname"> Santa Barbara, California </h3>
+     </div>
+     <div class="span3">
+        <h2 id="location"><i class="icon-home"></i> Current Location</h2>
+     </div>
+
+    <div class="span3"><h3 id="contentname"> Photos </h3>
+    </div>
+
+<div id="photosfront" class="span3"><i class="icon-camera"></i><ul id="thumbs" class="thumbnails">
+              <div id="photo1" class="span1">
+                <li><a href="#" rel="popover" title="A Title" data-content= <img src='http://placehold.it/125x100'/> <img src='http://placehold.it/125x100'/></a>
+               </li>
+              </div>
+
+              <div id="photo2" class="span1"><li><a href="#" rel="popover" title="A Title" data-content= <img src='http://placehold.it/125x100'/> <img src='http://placehold.it/125x100'/></a>
+               </li>
+              </div>
+<div id="photo3" class="span1"><li><a href="#" rel="popover" title="A Title" data-content= <img src='http://placehold.it/125x100'/> <img src='http://placehold.it/125x100'/></a>
+               </li>
+              </div>
+
+
+               </ul>
+</div>
+
+
+<div class="span3"><h3 id="studiedsubject">B.S. International Business</h3>
+</div>
+
+<div class="span3">
+<h2 id="studiedplace"><i class="icon-pencil"></i> Columbia University</h2>
+</div>
+
+
+<div class="span3">
+<h3 id="workedname"> Worked as Marketing Analyst, PSN</h3>
+</div>
+<div class="span3">
+<h2 id="pastworked"><i class="icon-lock"></i> Past Experience</h2>
+</div>
+
+      </span>
+  </div>
+ 
+
+
+
+
+<div class="tab-pane" id="tab2">
+ <div class="row">
+  <div id="schoolshow" class="span12">
+    <div id="toptabs" class="span4 offset4">
+      <div class="btn-group">
+         <ul class="nav nav-pills blue">
+            <li class="active"><a href="#tab6" data-toggle="tab"><i class="icon-pencil"></i> Undergraduate</a>
+            </li>
+            <li><a href="#tab7" data-toggle="tab"><i class="icon-star"></i> Other</a>          </li>
+          </ul>
+        </div> 
+      </div>
+   </div>
+          <div class="tab-content">
+          
+           <div class="tab-pane active" id="tab6">
+             <div id="undergradshow" class="span12">
+               <div class="span5">
+                 <ul class="thumbnails">
+                   <li> <a href="#" class="thumbnail"><img src="/assets/wpolo23.jpg" height="200" width="360" /></a>
+                   </li>
+                 </ul>
+               </div>
+                 <div class="span7">
+                <img src="/assets/clu.jpg" height="100" width="200" class="rooster" />                </div>
+                   <div class="span5">
+                     <p> I ended up at Cal Lutheran kind of randomly, was recruited for the Men's Water Polo and Swim team. It was a neat little private liberal arts school with a rather large athletic facility. While I was there, I quickly realized I needed more, and began planning my international business exchange venture.</p> 
+                  </div>
+             </div>
+           </div>
+   
+
+
+  <div class="tab-pane" id="tab7">
+     
+       <div id="othershow" class="span12">
+         <div class ="span12">
+            <ul class="thumbnails">
+              <div class="span5">
+                <li> <a href="#" class="thumbnail"><img src="/assets/hague2.jpg" height="300" width="400" /></a>
+                </li>
+              </div>
+                <div class="span7">
+             <img src="/assets/hague.jpg" height="250" width="200" class="rooster" />               </div>
+                <div class="span5"><p>My experience in The Hague was honestly the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.</p>
+                </div>
+      
+</div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+   
+ 
+<div class="tab-pane" id="tab3">
+  <div class="row">
+    <div id="experienceshow" class="span12">
+      <div id="toptabs">
+        <div class="btn-group">
+         <ul class="nav nav-pills blue">
+            <li class="active"><a href="#tab8" data-toggle="tab"><i class="icon-pencil"></i> Most Recent</a>
+            </li>
+            <li><a href="#tab9" data-toggle="tab"><i class="icon-star"></i> Past</a>
+            </li>
+         </ul>
+        </div> 
+      </div> 
+    </div>
+
+       <div class="tab-content">
+         <div class="tab-pane active" id="tab8">
+            <div id="recentshow" class="span12">
+                <ul class="thumbnails">
+
+                 <div class="span6">
+                   <div class="span6">
+                    <h3 class="lightsp"><i class="icon-lock"></i> Marketing Manager</h3></div><div class="span5" id="mystery">Public Safety Network
+                   </div>
+                     <div class="span5">            
+<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipincididunt ut  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad min </p>           </div>
+                 </div>
+
+                    <div class="span6">
+                      <div class="span6"> <h3 class="lightsp"><i class="icon-lock"></i> Business Development Assistant</h3>
+                      </div>
+                        <div class="span5" id="mystery">Rockefeller & Company
+                        </div>
+                      <div class="span5">            
+<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipincididunt ut  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad min </p>              </div>
+                     </div>
+
+                </div>
+              </div>
+           
+          
+
+
+   <div class="tab-pane" id="tab9">
+      <div id="pastshow" class="span12">
+        
+            <ul class="thumbnails">
+              <div class="span5">
+                <li> <a href="#" class="thumbnail"><img src="/assets/hague2.jpg" height="300" width="400" /></a>
+                </li>
+              </div>
+               <div class="span7">
+             <img src="/assets/hague.jpg" height="250" width="200" class="rooster" />              </div>
+            
+
+               <div class="span7"> 
+ <span>My experience in The Hague was honestly the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.  </span>
+                </div>
+          </div>
+        </div> 
+      </div>
+
+    </div>
+ </div>
+
+
+
+
+    
+
+
+
+    <div class="tab-pane" id="tab4">
+      <div class="row">
+        <div id="skillshow" class ="span12"><br /> <br /><h3 class="verified">Verified Skills</h3>
+       <br /> <br /> <br /> <br /> <br /> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span><br /><br /><br /><span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span><br /><br /><br /> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span>
+       </div>
+     </div>
+   </div>
+
+
+
+      <div class="tab-pane" id="tab5">
+        <div class="row">
+           <div id="videoshow" class ="span6">
+            
+               <ul class="thumbnails">
+                 <div  class="span12">
+                <li id="dotvid"><object style="height: 390px; width: 640px">
+<param value="http://www.youtube.com/v/HRHFEDyHIsc?version=3" name="movie">
+<param value="true" name="allowFullScreen">
+<param value="always" name="allowScriptAccess">
+<embed width="640" height="370" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" src="http://www.youtube.com/v/HRHFEDyHIsc?version=3">
+</object>
+               </li>
+              </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="row" class="span12">
+  <div id="navbar" class="span12">
+     <ul class="tabnavcenter">
+       <li class="active"><a href="#tab1" data-toggle="tab">About</a></li>
+       <li><a href="#tab2" data-toggle="tab">Education</a></li>
+       <li><a href="#tab3" data-toggle="tab">Experience</a></li>
+       <li><a href="#tab4" data-toggle="tab">Verified Skills</a></li>
+       <li><a href="#tab5" data-toggle="tab">Video</a></li>
+     </ul>
+    </div>
+</div>       
+
+
+
+  <div class="tab-pane active" id="tab1">
+    
+       <div class="row">
+         <div class="span 12">
+           <div class="row">
+             <div id="aboutuser" class="span12"><h1 class="aboutuser">About West</h1><p class="aboutuserp"> I wanted to build something new, something different </p>
+             </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+

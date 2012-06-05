@@ -1,0 +1,9 @@
+<% if signed_in? %>
+
+<div id="invitefeed">
+      <%= render 'users/home_sidebar' %>
+      <%= render 'users/invites_feed' %>
+</div>
+  <% else %>
+      <%= render 'sessions/signup' %>
+  <% end %> 

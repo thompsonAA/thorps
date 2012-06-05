@@ -1,0 +1,134 @@
+<% provide(:title, "Welcome to Itern") %> 
+<h3><b>Introducing, </b></h3>
+<br />
+<div class="row-fluid">
+    <div class="span6">
+<legend>The world's <font color=" #820BBB">best</font> talent ...</legend>
+   
+&nbsp;&nbsp;&nbsp;Not currently invited? <%= link_to "Request an Invite", invite_path %> now.
+<br /><br />
+      
+    <%= form_for(User.new, { :class => 'form-horizontal' }) do |f|  %>
+    
+   
+    <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">First Name</p> <div class="controls">
+      <%= f.text_field :first_name %>
+      </div>
+      </div>
+     
+
+   <div class="control-group">
+    <label class="control-label" for="input01"></label>
+      <p class="help-block">Last Name</p><div class="controls">
+      <%= f.text_field :last_name %>
+      </div>
+      </div>
+
+    <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">.edu Email address</p><div class="controls">
+      <%= f.text_field :email %>
+      </div>
+      </div>
+
+         <div class="control-group">
+            <label class="control-label"></label><p class="help-block">Specialty</p>
+        <div class="controls">
+            <select>
+                <option value="1">Marketing</option>
+                <option value="2">Finance</option>
+                <option value="3">Engineering</option>
+            </select>
+        </div>
+
+        </div>
+      <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">Password</p><div class="controls">
+      <%= f.password_field :password %>
+      </div>
+      </div>
+
+     <div class="control-group">
+      <label class="control-label" for="input01"></label>
+       <p class="help-block">Confirm Password</p><div class="controls">
+      <%= f.password_field :password_confirmation %>
+      </div>
+      </div>
+     <%= f.submit "Create User account", class: "btn btn-large btn-primary", id: "signupbutton1"  %>
+ <% end %>
+</div>
+
+
+<div class="span6">
+      <legend>... to be <font color="#CC00FF">discovered</font> by you.</legend>
+
+&nbsp;&nbsp;&nbsp;Don't have a company invite yet? <%= link_to "Request an invite", invite_path %> now. <br /><br />     
+
+<%= form_for(User.new, { :class => 'form-horizontal' }) do |f|  %>
+    
+   
+    <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">Company Name</p> <div class="controls">
+      <%= f.text_field :first_name %>
+      </div>
+      </div>
+     
+
+   <div class="control-group">
+    <label class="control-label" for="input01"></label>
+      <p class="help-block">Talent Hunter ID</p><div class="controls">
+      <%= f.text_field :last_name %>
+      </div>
+      </div>
+
+    <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">Company email address</p><div class="controls">
+      <%= f.text_field :email %>
+      </div>
+      </div>
+
+
+             
+        <div class="control-group">
+            <label class="control-label"></label><p class="help-block">Industry</p>
+        <div class="controls">
+            <select>
+                <option value="1">Technology</option>
+                <option value="2">Marketing</option>
+                <option value="3">Banking</option>
+            </select>
+        </div>
+
+        </div>
+    
+
+      <div class="control-group">
+    <label class="control-label" for="input01"></label>
+     <p class="help-block">password</p><div class="controls">
+      <%= f.password_field :password %>
+      </div>
+      </div>
+
+     <div class="control-group">
+      <label class="control-label" for="input01"></label>
+       <p class="help-block">confirm password</p><div class="controls">
+      <%= f.password_field :password_confirmation %>
+      </div>
+      </div>
+     <%= f.submit "Create Company account", class: "btn btn-large btn-primary", id: "signupbutton2" %>
+ <% end %>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
