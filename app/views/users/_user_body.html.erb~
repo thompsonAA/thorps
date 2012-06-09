@@ -42,17 +42,16 @@
 
   
 <div class="tab-content">
-   
-  <div class="tab-pane active" id="tab1">
+   <div class="tab-pane active" id="tab1">
     
-     
+   <div class="span12">
     
-        <span id="userphoto">
-        <ul class="thumbnails">
-          <li id="background" class="thumbnail" > <img id="portrait" src="/assets/allyson.jpg" class="stretch" />
+        <div id="userphoto">
+        <ul class="learn">
+          <li class="thumbnaile" > <img id="portrait" src="/assets/allyson.jpg" class="stretch" />
           </li>
-        </ul>
-        </span>
+       </ul>
+        </div>
 
 
     <span id="rightabout">
@@ -112,7 +111,7 @@
       </span>
   </div>
  
-
+</div>
 
 
 

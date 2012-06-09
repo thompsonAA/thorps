@@ -444,13 +444,14 @@ margin-left:390px;
 
 height:89px;
 background-color:#fff;
--webkit-box-shadow: -1px 2px 3px  rgba(0, 0, 0, 0.12);
-	   -moz-box-shadow: -1px 2px 3px  rgba(0, 0, 0, 0.12);
-	        box-shadow:  -1px 2px 3px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: -1px 0px 3px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -3px 0px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -3px 0px 3px rgba(0, 0, 0, 0.12);
 
 }
 
 #userphoto {
+
 
 float:left;
 
@@ -540,11 +541,7 @@ padding-bottom:0px;
 
 }
 
-#thumbs {
 
-margin:0 0 0 0;
-
-}
 
 #photo1 {
 padding-bottom:0px;
@@ -779,30 +776,95 @@ background-color:#fff;
   border: 1px solid #ddd;
 }
 
+.love {
+
+padding-left:-0px;
 
 
-.thumbnails {
-  margin-left:-17px;
-  list-style: none;
-  *zoom: 1;
+}
+
+.thumbs {
+  margin-left: 0px;
+  
+  *zoom: 0;
+}
+
+.thumbs:before,
+.thumbs:after {
+  display: table;
+  content: "";
+}
+
+.thumbs:after {
+  clear: both;
+}
+
+.row-fluid .thumbs {
+  margin-left: 0;
+}
+
+.thumbs > li {
+  float: left;
+  margin-bottom: 18px;
+  margin-left: 20px;
 }
 
 
+.thumbnaile {
 
-.thumbnail{
+*zoom: 0;
+
+ display:block;
+ line-height: 1;
+  border: 1px solid #ddd;
+
+  padding: 4px;
+  
+  
+  
 -webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
-line-height: 0;
-border: 1px solid #ddd;
+
+
  
-  -webkit-box-shadow: -2px 3px 5px  rgba(0, 0, 0, 0.3);
-	   -moz-box-shadow: -2px 3px 5px  rgba(0, 0, 0, 0.3);
-	        box-shadow:  -2px 3px 5px rgba(0, 0, 0, 0.3);
+ -webkit-box-shadow: -2px 3px 3px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -2px 3px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -2px 3px 3px rgba(0, 0, 0, 0.12);
+
 
 margin-right:0px;
 margin-left: 0px;
 
+}
+
+.learn {
+
+
+margin-left: -30px;
+
+
+}
+
+
+
+
+a.thumbnaile:hover {
+  border-color: #0088cc;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+          box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.thumbnaile > img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.thumbnaile .caption {
+  padding: 9px;
 }
 
 
