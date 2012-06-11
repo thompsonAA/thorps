@@ -32,7 +32,7 @@
       </a>
            <ul class="dropdown-menu">
               <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Talent Hunter:</span></h5></li></li><li><%= link_to "Jamie O Brian", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
-                  </li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Department:</span></h5></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li><li><%= link_to "(All) Marketing Department:", current_user %></li><li><%= link_to "(All) Marketing Department:", current_user %></li>
+                  </li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Department:</span></h5></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li></li>
            </ul>
        </div>
       </span>
@@ -46,7 +46,6 @@
     <div class="tab-pane active" id="tab1">
     
    
-  <div class="span12">
         <div id="userphoto">
         <ul class="learn">
           <li class="thumbnaile" > <img id="portrait" src="/assets/allyson.jpg" class="stretch" />
@@ -111,7 +110,7 @@
 
       </div>
   </div>
-</div>
+
 
 
 
@@ -133,10 +132,7 @@
            <div class="tab-pane active" id="tab6">
              <div id="undergradshow" class="span12">
                <div class="span5">
-                 <ul class="thumbnails">
-                   <li> <a href="#" class="thumbnail"><img src="/assets/wpolo23.jpg" height="200" width="360" /></a>
-                   </li>
-                 </ul>
+                 
                </div>
                  <div class="span7">
                 <img src="/assets/clu.jpg" height="100" width="200" class="rooster" />                </div>
