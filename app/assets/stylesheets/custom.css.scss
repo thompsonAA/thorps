@@ -810,10 +810,15 @@ padding-left:-0px;
 }
 
 
+
+
+
+
+
 .thumbnaile {
 
 *zoom: 0;
-
+overflow:hidden;
  display:block;
  line-height: 1;
   border: 1px solid #ddd;
@@ -833,19 +838,10 @@ padding-left:-0px;
 	        box-shadow:  -2px 3px 3px rgba(0, 0, 0, 0.12);
 
 
-margin-right:0px;
-margin-left: 0px;
+
+margin-left: -20px;
 
 }
-
-.learn {
-
-
-margin-left: 2px;
-
-
-}
-
 
 
 
@@ -1156,6 +1152,8 @@ ul.tabnavcenter    {
  font-weight:700;
  color:#000;
  overflow:hidden;
+ border-top:1px solid rgba(0, 0, 0, 0.14);
+border-right:1px solid rgba(0, 0, 0, 0.14);
  
  -webkit-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.14);
 	   -moz-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.14);
@@ -1168,6 +1166,7 @@ ul.tabnavcenter    {
 
 padding-bottom:5px;
 margin-left:-2px;
+
 
 }
 
