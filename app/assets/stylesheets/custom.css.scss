@@ -769,8 +769,8 @@ background-color:#fff;
 /* User Portrait */
 
 .stretch {
-    width:695px;
-    height:395px;
+    width:675px;
+    height:380px;
 
   line-height: 0;
   border: 1px solid #ddd;
@@ -811,19 +811,14 @@ padding-left:-0px;
 
 
 
-
-
-
-
 .thumbnaile {
 
 *zoom: 0;
-overflow:hidden;
  display:block;
  line-height: 1;
-  border: 1px solid #ddd;
-
-  padding: 4px;
+  border: 1px solid #eee;
+  background:#fff;
+  padding: 12px;
   
   
   
@@ -1146,7 +1141,7 @@ ul.tabnavcenter    {
  
  background: #fff;
  width:955px;
- margin-top:-8px;
+ margin-top:-4px;
  margin-bottom:5px;
  font-size:14px;
  font-weight:700;
