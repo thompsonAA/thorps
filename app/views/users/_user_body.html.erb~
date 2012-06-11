@@ -74,8 +74,8 @@
         <h2 id="location"><i class="icon-home"></i> Current Location</h2>
      </div>
 
-    <span class="go"><h3 id="contentname"><i class="icon-camera"></i> Photos </h3>
-    </span>
+    <div class="go"><h3 id="contentname"><i class="icon-camera"></i> Photos </h3>
+    </div>
 
 <div id="photosfront" class="span3"><ul id="thumbs" class="thumbnails">
               <div id="photo1" class="span1">
