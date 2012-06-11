@@ -31,7 +31,7 @@
       <a id="btn22" class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Broadcast <span class="caret"></span>
       </a>
            <ul class="dropdown-menu">
-              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Talent Hunter:</span></h5></li></li><li><%= link_to "Eryk Verhagen", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
+              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Talent Hunter:</span></h5></li></li><li><%= link_to "Jamie O Brian", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
                   </li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Department:</span></h5></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li><li><%= link_to "(All) Marketing Department:", current_user %></li><li><%= link_to "(All) Marketing Department:", current_user %></li>
            </ul>
        </div>
@@ -40,21 +40,22 @@
  </div>
 
 
-  <div class="span12">
-<div class="tab-content">
-   <div class="tab-pane active" id="tab1">
+
+
+   <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
     
    
-    <span id="welcome">
-        <span id="userphoto">
+  <div class="span12">
+        <div id="userphoto">
         <ul class="learn">
           <li class="thumbnaile" > <img id="portrait" src="/assets/allyson.jpg" class="stretch" />
           </li>
        </ul>
-        </span>
+        </div>
 
 
-    <span id="rightabout">
+    <div id="rightabout">
 
        <div class="span3">
          <h3 id="specialtyname"> Marketing / Product Management</h3>
@@ -108,9 +109,9 @@
 <h2 id="pastworked"><i class="icon-lock"></i> Past Experience</h2>
 </div>
 
-      </span></span>
+      </div>
   </div>
- 
+</div>
 
 
 
@@ -270,7 +271,6 @@
       </div>
     </div>
   </div>
-</div>
 
 <div class="row" class="span12">
   <div id="navbar" class="span12">
