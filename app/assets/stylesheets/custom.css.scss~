@@ -58,9 +58,9 @@
   margin-right:auto;
   min-height: 40px;
   background: #fff;
-   -webkit-box-shadow: -2px 3px 3px  rgba(0, 0, 0, 0.12);
-	   -moz-box-shadow: -2px 3px 3px  rgba(0, 0, 0, 0.12);
-	        box-shadow:  -2px 3px 3px rgba(0, 0, 0, 0.12);
+   -webkit-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -2px 2px 3px rgba(0, 0, 0, 0.12);
 
 }
 
