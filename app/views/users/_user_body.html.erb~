@@ -18,7 +18,7 @@
     <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Invite 
      </a>
            <ul class="dropdown-menu">
-              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To:</span></h5></li></li><li><%= link_to "Invite to Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Invite to Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Invite to Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Request:</span></h5></li><li><%= link_to "Interview", current_user, :class => "foo" %></li><li><%= link_to "Video Chat", current_user, :class => "foo" %></li>
+              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To:</span></h5></li></li><li><%= link_to "Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Invite to Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Invite to Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Request:</span></h5></li><li><%= link_to "Interview", current_user, :class => "foo" %></li><li><%= link_to "Video Chat", current_user, :class => "foo" %></li>
            </ul>
 
        </div>
