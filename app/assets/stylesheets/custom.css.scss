@@ -5,6 +5,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200);
+@import url(http://fonts.googleapis.com/css?family=Cantata+One);
+@import url(http://fonts.googleapis.com/css?family=Muli);
 
 
 
@@ -18,7 +20,7 @@
   float: none;
   padding: 9px 10px 11px;
   line-height: 19px;
-  color: #7F7F7F;
+  color: #5d5d5d;
   text-shadow: none;
   font-weight:700;
   text-decoration: none;
@@ -187,8 +189,9 @@ html {
 
 body {
   padding-top: 55px;
-  border:1px #000;
-  background:#F8F8FF;
+
+  background: #f8f8f8;
+  
 
   }
 
@@ -450,7 +453,7 @@ margin-left:390px;
 
 #topnav {
 margin-top:-3px;
-margin-bottom:-2px;
+margin-bottom:-4px;
 height:89px;
 background-color:#fff;
 -webkit-box-shadow: -3px 0px 1px  rgba(0, 0, 0, 0.12);
@@ -487,10 +490,10 @@ box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
 #specialtyname {
-letter-spacing:1px;
+letter-spacing:0px;
 margin-top:16px;
 padding-bottom:0px;
-color:#000;
+color:#282828;
 font-size: 19px;
 margin-left:-10px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -503,20 +506,20 @@ font-weight:normal;
 
 
 #specialty {
-
+font-family: 'Yanone Kaffeesatz', sans-serif;
 padding-top:5px;
 margin-bottom:15px;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
-color: $grayLight;
+color:#848484;
 
 }
 
 #locationname {
-letter-spacing:1px;
-color:#000;
+letter-spacing:0px;
+color:#282828;
 font-size: 19px;
 margin-left:-10px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -530,29 +533,29 @@ font-weight:normal;
 }
 
 #location {
-
+font-family: 'Yanone Kaffeesatz', sans-serif;
 padding-top:5px;
 padding-bottom:30px;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
-color: $grayLight;
+color: #848484;
 
 
 }
 
 #contentname {
-
+font-family: 'Yanone Kaffeesatz', sans-serif;
 padding-top:10px;
 padding-bottom:	0px;
-font-size: 16px;
+font-size: 18px;
 margin-left:-10px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
 font-weight:normal;
-color: $grayLight;
+color: #848484;
 
 }
 
@@ -586,10 +589,10 @@ margin-left:3px;
 }
 
 #studiedsubject {
-letter-spacing:1px;
+letter-spacing:0px;
 padding-top:35px;
 padding-bottom:0px;
-color:#000;
+color:#282828;
 font-size: 19px;
 margin-left:-10px;
 text-align: center;
@@ -600,23 +603,23 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #studiedplace {
-
+font-family: 'Yanone Kaffeesatz', sans-serif;
 padding-top:5px;
 padding-bottom:15px;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 font-weight: normal;
 float:left;
-color: $grayLight;
+color: #848484;
 
 }
 
 #workedname {
-letter-spacing:1px;
+letter-spacing:0px;
 padding-top:10px;
 padding-bottom:0px;
-color:#000;
+color:#282828;
 font-size: 19px;
 margin-left:-10px;
 
@@ -628,14 +631,14 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #pastworked {
-
+font-family: 'Yanone Kaffeesatz', sans-serif;
 padding-top:5px;
 padding-bottom:10px;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
-color: $grayLight;
+color: #848484;
 
 }
 
@@ -661,7 +664,7 @@ text-align: center;
 float:left;
 padding-top:5px;
 padding-bottom:10px;
-color: $grayLight;
+color: #848484;
 
 }
 
@@ -739,10 +742,10 @@ padding-bottom:5px;
 letter-spacing:0px;
 margin-left:6px;
 padding-top:7px;
-font-size: 35px;
+font-size: 30px;
 margin-bottom:10px;
-font-weight:bold;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight:normal;
+font-family: 'Muli', sans-serif;
 }
 
 .usernamep  {
@@ -1031,13 +1034,13 @@ color:#000;
   
   margin-bottom: 30px;
   background-color: #fff;
--webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
-     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: -2px 0px 1px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -2px 0px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -2px 0px 3px rgba(0, 0, 0, 0.12);
 
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  -webkit-border-radius: 1px;
+     -moz-border-radius: 1px;
+          border-radius: 1px;
 }
 
 
@@ -1170,23 +1173,20 @@ font-weight:bold;
 ul.tabnavcenter    {
  
  background: #fff;
- width:955px;
+ width:958px;
  margin-top:-4px;
  margin-bottom:5px;
- font-size:14px;
+ font-size:22px;
  font-weight:700;
  color:#000;
  overflow:hidden;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
  
- 
- -webkit-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.14);
-	   -moz-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.14);
-	        box-shadow:  -3px 3px 3px rgba(0, 0, 0, 0.14);
+ -webkit-box-shadow: -3px 0px 1px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -3px 0px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -3px 0px 3px rgba(0, 0, 0, 0.12);
 
 }
-
-
-
 
 
 
@@ -1225,15 +1225,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 
 }
 
-ul.tabnavcenter li.active a {
+ul.tabnavcenter li.active:hover {
 
-color: #0198E1;
-cursor:pointer;
- text-decoration: none
-}
-
-ul.tabnavcenter li:hover {
- 
 background: #fafafa; /* Old browsers */
 background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
@@ -1245,21 +1238,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 
 
 
+
+}
+
+ul.tabnavcenter li.active a {
+
+color: #000;
+cursor:pointer;
+text-decoration: none
+}
+
+ul.tabnavcenter li:hover {
+ 
+background: #fff;
+
+
 }
 
 ul.tabnavcenter li a{
-color:#0198E1;
+font-size:19px;
+color: #000;
 display: block;
-line-height: 50px;
-padding-left:63px;
-padding-right:63px;
+line-height: 49px;
+padding-left:67px;
+padding-right:67px;
+font-weight:500;
+
 
 }
 
-
-
 ul.tabnavcenter li:hover a {
- color: #0198E1;
+ color: #000;
  cursor:pointer;
  text-decoration: none
 
