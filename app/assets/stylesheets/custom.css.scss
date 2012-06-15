@@ -19,7 +19,7 @@
 
 .navbar .nav > li > a {
   float: none;
-  padding: 9px 10px 11px;
+  padding: 13px 10px 12px;
   line-height: 19px;
   color: #5d5d5d;
   text-shadow: none;
@@ -30,13 +30,13 @@
 
 .navbar .nav > li.hova:hover > a {
   color: #7F7F7F;
-  
+  padding: 13px 10px 12px;
 }
 
 
 .navbar .nav > li.hova:hover {
   background:#F2F2F2;
-  
+  height:47px;
 }
 
 
@@ -268,6 +268,7 @@ h1.aboutuser {
 padding-left:8px;
 padding-top:8px;
 font-size: 19px;
+color:#fff;
 
 }
 
@@ -325,7 +326,7 @@ border-width:1px;
 border-color:#EDEDED;
 width:955px;
 height:150px;
-background:#fff;
+background:#42C0FB;
 -webkit-box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2);
 	   -moz-box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2);
 	        box-shadow:  0px 0px 4px rgba(0, 0, 0, 0.2);
@@ -454,8 +455,6 @@ margin-left:390px;
 
 
 
-
-
 #topnav {
 margin-top:-3px;
 margin-bottom:-4px;
@@ -499,9 +498,9 @@ letter-spacing:0px;
 margin-top:16px;
 padding-bottom:0px;
 color:#282828;
-font-size: 19px;
+font-size: 17px;
 margin-left:-10px;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
 font-weight:normal;
@@ -511,10 +510,10 @@ font-weight:normal;
 
 
 #specialty {
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding-top:5px;
 margin-bottom:15px;
-font-size: 18px;
+font-size: 17px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -525,9 +524,9 @@ color:#848484;
 #locationname {
 letter-spacing:0px;
 color:#282828;
-font-size: 19px;
+font-size: 17px;
 margin-left:-10px;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
 padding-top:10px;
@@ -538,10 +537,10 @@ font-weight:normal;
 }
 
 #location {
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding-top:5px;
 padding-bottom:30px;
-font-size: 18px;
+font-size: 17px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -551,10 +550,10 @@ color: #848484;
 }
 
 #contentname {
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding-top:10px;
 padding-bottom:	0px;
-font-size: 18px;
+font-size: 17px;
 margin-left:-10px;
 letter-spacing: -1px;
 text-align: center;
@@ -598,20 +597,20 @@ letter-spacing:0px;
 padding-top:35px;
 padding-bottom:0px;
 color:#282828;
-font-size: 19px;
+font-size: 17px;
 margin-left:-10px;
 text-align: center;
 float:left;
 font-weight:normal;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 }
 
 #studiedplace {
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding-top:5px;
 padding-bottom:15px;
-font-size: 18px;
+font-size: 17px;
 letter-spacing: -1px;
 text-align: center;
 font-weight: normal;
@@ -625,21 +624,21 @@ letter-spacing:0px;
 padding-top:10px;
 padding-bottom:0px;
 color:#282828;
-font-size: 19px;
+font-size: 17px;
 margin-left:-10px;
 
 text-align: center;
 float:left;
 font-weight:normal;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 }
 
 #pastworked {
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding-top:5px;
 padding-bottom:10px;
-font-size: 18px;
+font-size: 17px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -1181,19 +1180,16 @@ ul.tabnavcenter    {
  width:958px;
  margin-top:-4px;
  margin-bottom:5px;
- font-size:22px;
- font-weight:700;
+ 
  color:#000;
  overflow:hidden;
- font-family: 'Yanone Kaffeesatz', sans-serif;
+ font-family: 'Open Sans', sans-serif;
  
  -webkit-box-shadow: -3px 0px 1px  rgba(0, 0, 0, 0.12);
 	   -moz-box-shadow: -3px 0px 3px  rgba(0, 0, 0, 0.12);
 	        box-shadow:  -3px 0px 3px rgba(0, 0, 0, 0.12);
 
 }
-
-
 
 #navbar {
 
@@ -1261,12 +1257,12 @@ background: #fff;
 }
 
 ul.tabnavcenter li a{
-font-size:19px;
+font-size:17px;
 color: #000;
 display: block;
 line-height: 47px;
-padding-left:67px;
-padding-right:67px;
+padding-left:59px;
+padding-right:59px;
 font-weight:500;
 
 
