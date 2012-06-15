@@ -66,7 +66,7 @@
   width:960px;
   margin-left:auto;
   margin-right:auto;
-  min-height: 40px;
+  min-height: 47px;
   background: #fff;
    -webkit-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
 	   -moz-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
@@ -243,7 +243,7 @@ padding:2px 2px;
 
 }
 
-.logo{ margin: 0 0 0 15px; }
+.logo{ margin: 3px 0 5px 15px; }
 
 .dropdown{ margin: 0 5px 0 0; }
 
@@ -452,14 +452,18 @@ margin-left:390px;
 /* Profile Tab1 --User Content- Right Section-- */
 
 
+
+
+
+
 #topnav {
 margin-top:-3px;
 margin-bottom:-4px;
 height:89px;
 background-color:#fff;
--webkit-box-shadow: -3px 0px 1px  rgba(0, 0, 0, 0.12);
-	   -moz-box-shadow: -3px 0px 3px  rgba(0, 0, 0, 0.12);
-	        box-shadow:  -3px 0px 3px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: -2px 0px 1px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -2px 0px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -2px 0px 3px rgba(0, 0, 0, 0.12);
 
 }
 
@@ -745,7 +749,7 @@ margin-left:6px;
 padding-top:7px;
 font-size: 30px;
 margin-bottom:10px;
-font-weight:normal;
+font-weight:bold;
 font-family: 'Open Sans', sans-serif;
 }
 
@@ -1260,7 +1264,7 @@ ul.tabnavcenter li a{
 font-size:19px;
 color: #000;
 display: block;
-line-height: 49px;
+line-height: 47px;
 padding-left:67px;
 padding-right:67px;
 font-weight:500;
