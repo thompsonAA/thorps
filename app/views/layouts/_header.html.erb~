@@ -7,9 +7,9 @@
             <nav>
             <ul class="nav pull-right">
          <% if signed_in? %>
-            <li class="hova"><%= link_to "Home", root_path %></li>
-            <li class="hova"><%= link_to "Profile", current_user %></li>
-            <li class="hova"><%= link_to "Invites", invites_path %></li>
+            <li class="hova"><%= link_to "activity", root_path %></li>
+            <li class="hova"><%= link_to "profile", current_user %></li>
+            <li class="hova"><%= link_to "invites", invites_path %></li>
            
             <li id="fat-menu" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i><b class="caret"></b>

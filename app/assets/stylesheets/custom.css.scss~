@@ -40,6 +40,15 @@
   height:47px;
 }
 
+.navbar .nav > .dropdown-menu > li:hover > a
+{
+
+padding: 100px 10px 12px;
+
+}
+
+
+
 
 .navbar .nav > li > a:active {
   float: none;
@@ -269,7 +278,7 @@ h1.aboutuser {
 padding-left:8px;
 padding-top:8px;
 font-size: 19px;
-color:#fff;
+color:#000;
 
 }
 
@@ -327,7 +336,7 @@ border-width:1px;
 border-color:#EDEDED;
 width:955px;
 height:150px;
-background:#42C0FB;
+background:#fff;
 -webkit-box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2);
 	   -moz-box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2);
 	        box-shadow:  0px 0px 4px rgba(0, 0, 0, 0.2);
@@ -638,8 +647,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif;
 padding-top:5px;
 padding-bottom:10px;
-font-size: 17px;
-letter-spacing: 0px;
+font-size: 16px;
+letter-spacing: -1px;
 text-align: center;
 float:left;
 color: #848484;
@@ -750,6 +759,7 @@ font-size: 30px;
 margin-bottom:10px;
 font-weight:bold;
 font-family: 'Open Sans', sans-serif;
+
 }
 
 .usernamep  {
@@ -1176,9 +1186,9 @@ font-weight:bold;
 ul.tabnavcenter    {
  
  background: #fff;
- width:958px;
+ width:960px;
  margin-top:-4px;
- margin-bottom:5px;
+ margin-bottom:2px;
  
  color:#000;
  overflow:hidden;
@@ -1256,12 +1266,12 @@ background: #fff;
 }
 
 ul.tabnavcenter li a{
-font-size:17px;
+font-size:16px;
 color: #000;
 display: block;
 line-height: 47px;
-padding-left:59px;
-padding-right:59px;
+padding-left:61px;
+padding-right:61px;
 font-weight:500;
 
 
@@ -1470,9 +1480,9 @@ overflow:stretch;
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
   color: #fff;
-  font-weight:600;
+  font-weight:bold;
   text-decoration: none;
-  background-color: #42C0FB;
+  background-color: #7CFC00;
 }
 
 
