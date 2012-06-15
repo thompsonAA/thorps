@@ -1259,7 +1259,7 @@ background: #fff;
 
 ul.tabnavcenter li a{
 font-size:16px;
-color: #5d5d5d;
+color: #474747;
 display: block;
 line-height: 47px;
 padding-left:61px;
