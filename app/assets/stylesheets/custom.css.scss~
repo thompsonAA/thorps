@@ -104,11 +104,42 @@ width:1100px;
 }
 
 
-.tab-content {
+.tab-content > #tab1 {
 
 margin-top:10px;
 margin-bottom:10px;
 margin-left:-2px;
+}
+
+
+.tab-content > #tab2 {
+width:960px;
+margin-top:0px;
+margin-bottom:10px;
+margin-left:0px;
+-webkit-box-shadow: -2px 2px 0px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: -2px 2px 0px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  -2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+#schoolshow {
+width:960px;
+margin-left:20px;
+margin-top:0px;
+background:#fff;
+
+
+}
+
+#undergradshow {
+
+margin-top:0px;
+width:960px;
+height:355px;
+background:#fff;
+
+
 }
 
 
@@ -335,34 +366,11 @@ background:#fff;
 
 
 
-#schoolshow {
-width:960px;
-margin-top:0px;
-background:#fff;
-
-
-}
-
-#undergradshow {
-
-margin-top:0px;
-width:960px;
-height:342px;
-background:#fff;
--webkit-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.15);
-	   -moz-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.15);
-	        box-shadow:  -3px 3px 3px  rgba(0, 0, 0, 0.15) ;
-
-}
-
-
 #experienceshow {
 
 margin-top:0px;
 width:960px;
-
 background:#fff;
-
 
 }
 
@@ -1465,7 +1473,7 @@ overflow:stretch;
   color: #fff;
   font-weight:bold;
   text-decoration: none;
-  background-color: #7CFC00;
+  background-color: #1FBED6;
 }
 
 
