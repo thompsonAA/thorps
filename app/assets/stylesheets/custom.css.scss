@@ -114,9 +114,9 @@ margin-left:-2px;
 
 .tab-content > #tab2 {
 width:960px;
-margin-top:0px;
-margin-bottom:10px;
-margin-left:0px;
+margin-top:10px;
+margin-bottom:9px;
+margin-left:1px;
 -webkit-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
 	   -moz-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
 	        box-shadow:  -2px 2px 3px rgba(0, 0, 0, 0.12);
@@ -134,13 +134,31 @@ background:#fff;
 
 #undergradshow {
 
-margin-top:0px;
+padding-top:70px;
 width:960px;
 height:355px;
 background:#fff;
 
 
 }
+
+#othershow {
+
+margin-top:0px;
+width:960px;
+height:342px;
+background:#fff;
+
+
+}
+
+
+
+
+
+
+
+
 
 
 #groupon{
@@ -400,17 +418,6 @@ background:#fff;
 
 }
 
-#othershow {
-
-margin-top:0px;
-width:960px;
-height:342px;
-background:#fff;
--webkit-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.15);
-	   -moz-box-shadow: -3px 3px 3px  rgba(0, 0, 0, 0.15);
-	        box-shadow:  -3px 3px 3px  rgba(0, 0, 0, 0.15) ;
-
-}
 
 
 
@@ -454,7 +461,7 @@ margin-left:15px;
 /* Nav Pills */
 
 #toptabs{
-
+margin-top:10px;
 margin-left:390px;
 
 }
