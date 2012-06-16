@@ -1386,10 +1386,16 @@ margin-top:-1px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   font-weight:700;
   color: #fff;
-   background-color:#83F52C;
-  *background-color:#83F52C;
-  
-  
+   background-color: #49E20E;
+ 
+  border-color: #488214 #488214 #42C0FB;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-image: -ms-linear-gradient(top, #83F52C, #49E20E);
+  background-image: -webkit-gradient(linear, 0 0, 0 75%, from(#83F52C), to(#49E20E));
+  background-image: -webkit-linear-gradient(top, #83F52C, #49E20E  );
+  background-image: -o-linear-gradient(top, #83F52C, #49E20E);
+  background-image: -moz-linear-gradient(top, #83F52C, #49E20E );
+  background-image: linear-gradient(top, #83F52C, #49E20E );
   
  
 }
