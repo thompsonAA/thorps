@@ -74,38 +74,22 @@
         <h2 id="location"><i class="icon-home"></i> Current Location</h2>
      </div>
 
-    <div class="go"><h3 id="contentname"><i class="icon-camera"></i> Photos </h3>
-    </div>
-
-<div id="photosfront" class="span3"><ul id="thumbs" class="thumbnails">
-              <div id="photo1" class="span1">
-                <li><a href="#" rel="popover" title="A Title" data-content= <img src='http://placehold.it/125x100'/> <img src='http://placehold.it/125x100'/></a>
-               </li>
-              </div>
-
-              <div id="photo2" class="span1"><li><a href="#" rel="popover" title="A Title" data-content= <img src='http://placehold.it/125x100'/> <img src='http://placehold.it/125x100'/></a>
-               </li>
-              </div>
-<div id="photo3" class="span1"><li><a href="#" rel="popover" title="A Title" data-content= <img src='http://placehold.it/125x100'/> <img src='http://placehold.it/125x100'/></a>
-               </li>
-              </div>
-
-
-               </ul>
-</div>
-
+    
 
 <div class="span3"><h3 id="studiedsubject">B.S. International Business</h3>
 </div>
+<div class="span3"><h3 id="studiedsubject2">The Hague University</h3>
+</div>
 
 <div class="span3">
-<h2 id="studiedplace"><i class="icon-pencil"></i> Columbia University</h2>
+<h2 id="studiedplace"><i class="icon-pencil"></i> Education</h2>
 </div>
 
 
 <div class="span3">
-<h3 id="workedname"> Marketing Analyst, PSN</h3>
+<h3 id="workedname"> Project Manager at PSN Inc.</h3>
 </div>
+
 <div class="span3">
 <h2 id="pastworked"><i class="icon-lock"></i> Past Experience</h2>
 </div>
@@ -242,7 +226,7 @@
     <div class="tab-pane" id="tab4">
       <div class="row">
         <div id="skillshow" class ="span12"><br /> <br /><h3 class="verified">Verified Skills</h3>
-       <br /> <br /> <br /> <br /> <br /> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span><br /><br /><br /><span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span><br /><br /><br /> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span> <span class="label label-info">Skill</span>
+       
        </div>
      </div>
    </div>
