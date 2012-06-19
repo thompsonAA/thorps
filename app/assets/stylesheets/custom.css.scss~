@@ -1443,15 +1443,7 @@ margin-top:-1px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   font-weight:700;
   color: #fff;
-  background-color:#9B30FF;
-  border-color: #1FBED6, #1FBED6, #1FBED6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  background-image: -ms-linear-gradient(top, #7F00FF , #9B30FF);
-  background-image: -webkit-gradient(linear, 0 0, 0 75%, from(#7F00FF), to(#9B30FF));
-  background-image: -webkit-linear-gradient(top, #7F00FF ,  #9B30FF  );
-  background-image: -o-linear-gradient(top, #7F00FF , #9B30FF );
-  background-image: -moz-linear-gradient(top, #7F00FF, #9B30FF  );
-  background-image: linear-gradient(top, #7F00FF, #9B30FF );
+  background:-moz-linear-gradient(-90deg, #FFFFFF 50%, #E3E2DD) repeat scroll 0 0 transparent;
 
 }
 
@@ -1545,7 +1537,7 @@ overflow:stretch;
   color: #000;
   font-weight:normal;
   text-decoration: none;
-  background-color: #FFFF66;
+  background-color: #FFFFF0;
 }
 
 
