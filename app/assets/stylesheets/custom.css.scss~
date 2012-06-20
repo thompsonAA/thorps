@@ -532,7 +532,7 @@ box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 
 #specialtyname {
 letter-spacing:-1px;
-margin-top:40px;
+margin-top:35px;
 padding-bottom:3px;
 color:#6495ED;
 font-size: 18px;
@@ -1442,7 +1442,7 @@ margin-top:-1px;
 
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   font-weight:700;
- background: #007FFF; /* Old browsers */
+ background: #60AFFE; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #7F00FF 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a8a8a8), color-stop(100%,#2300b2)); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center, ellipse cover, #60AFFE 10%, #007FFF 100%); /* Chrome10+,Safari5.1+ */
@@ -1459,8 +1459,9 @@ margin-top:-1px;
 .btn-info:hover,
 .btn-info:active,
 .btn-info.active,
+
 {
- background: #007FFF;/* Old browsers */
+ background: #007FFF ;/* Old browsers */
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   font-weight:700;
   
@@ -1483,7 +1484,7 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
      background: #a8a8a8; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #2300b2 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a8a8a8), color-stop(100%,#2300b2)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover, #4000BF 10%, #4D00B2 100%); /* Chrome10+,Safari5.1+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #8d26a8 10%, #6600CC 100%); /* Chrome10+,Safari5.1+ */
     background: -o-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* Opera 12+ */
     background: -ms-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* IE10+ */
     background: radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* W3C */
