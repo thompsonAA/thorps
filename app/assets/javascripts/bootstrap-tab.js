@@ -1,10 +1,12 @@
-
-
 $('#myTab a').click(function (e) {
   e.preventDefault();
   $(this).tab('show');
-
-   $(this.href +'2').html($(this.href).html()
-
 })
+
+
+$('#myTab a[href="#home"]').tab('show');
+$('#myTab a[href="#tab2"]').tab('show');
+$('#myTab a[href="#tab3"]').tab('show');
+$('#myTab a[href="#tab4"]').tab('show');
+$('#myTab a[href="#tab5"]').tab('show');
 
