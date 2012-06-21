@@ -43,7 +43,7 @@
 
 
    <div class="tab-content">
-    <div class="tab-pane active" id="tab1">
+    <div class="tab-pane active" id="home">
     
    
 
@@ -245,10 +245,11 @@
     </div>
   </div>
 
+
 <div class="row" class="span12">
   <div id="navbar" class="span12">
-     <ul class="tabnavcenter">
-       <li class="active"><a href="#tab1" data-toggle="tab">about</a></li>
+     <ul class="tabnavcenter" >
+       <li class="active"><a href="#home" data-toggle="tab">about</a></li>
        <li><a href="#tab2" data-toggle="tab">education</a></li>
        <li><a href="#tab3" data-toggle="tab">experience</a></li>
        <li><a href="#tab4" data-toggle="tab">verified skills</a></li>
@@ -256,6 +257,7 @@
      </ul>
     </div>
 </div>       
+
 
 
   <div class="tab-content2">
@@ -272,9 +274,7 @@
  </div>
 </div>
 
-  </div>
-
-
+  
 
 
 
