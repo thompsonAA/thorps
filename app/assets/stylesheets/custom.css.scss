@@ -143,6 +143,19 @@ margin-left:20px;
 height:163px;
 background: #67E6EC;
 margin-top:250px;
+ /* Rounded Corners */ 
+    -moz-border-radius-topleft: 0px; 
+    -moz-border-radius-bottomleft: 0px; 
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-bottom-left-radius: 0px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    -moz-border-radius-topright: 0px; 
+    -moz-border-radius-bottomright: 0px; 
+    -webkit-border-top-right-radius: 0px; 
+    -webkit-border-bottom-right-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
 
 
 
