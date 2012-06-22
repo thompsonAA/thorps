@@ -256,14 +256,35 @@
        <li><a href="#tab5" data-toggle="tab">video</a></li>
      </ul>
     </div>
-</div>       
+</div>     
 
 
+
+
+
+<script>
+
+$(function () { 
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+
+   $(this.href +'2').html($(this.href).html()
+
+}) 
+}) 
+
+}(window.jQuery);
+
+
+</script>
 
 
 
   
-  
+  <div class="tab-content2">
+
+     <div class="tab-pane active" id="home2">
     
        <div class="row">
          <div class="span 12">
