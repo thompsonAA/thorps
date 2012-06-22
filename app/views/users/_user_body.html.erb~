@@ -102,7 +102,7 @@
 
 <div class="tab-pane" id="tab2">
  <div class="row">
-  <div id="schoolshow" class="span12">
+  
     <div id="toptabs" class="span4 offset4">
       <div class="btn-group">
          <ul class="nav nav-pills blue">
@@ -112,7 +112,7 @@
           </ul>
         </div> 
       </div>
-   </div>
+   
           <div class="tab-content">
           
            <div class="tab-pane active" id="tab6">
@@ -121,6 +121,9 @@
                  
                    
              </div>
+      <div id="undergradwhy">
+dwdwdwdwdwdwdwd
+       </div>
            </div>
    
 
@@ -130,12 +133,17 @@
        <div id="othershow" class="span12">
          <div class ="span12">
             
-                <div class="span7">
-             <img src="/assets/hague.jpg" height="250" width="200" class="rooster" />               </div>
+                   <div class="span7">
+             <img src="/assets/hague.jpg" height="250" width="200" class="rooster" /> </div>
                 <div class="span5"><p>My experience in The Hague was honestly the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.</p>
                 </div>
       
+         </div>
+<div id="otherwhy">
+Firework
 </div>
+
+
           </div>
         </div>
       </div>
@@ -145,7 +153,7 @@
  
 <div class="tab-pane" id="tab3">
   <div class="row">
-    <div id="experienceshow" class="span12">
+    
       <div id="toptabs">
         <div class="btn-group">
          <ul class="nav nav-pills blue">
@@ -154,7 +162,7 @@
             <li><a href="#tab9" data-toggle="tab"><i class="icon-star"></i> Past</a>
             </li>
          </ul>
-        </div> 
+        
       </div> 
     </div>
 
@@ -181,6 +189,11 @@
                      </div>
 
                 </div>
+<div id="otherwhy" >
+Yo
+</div>
+
+
               </div>
            
           
@@ -189,20 +202,23 @@
    <div class="tab-pane" id="tab9">
       <div id="pastshow" class="span12">
         
-            <ul class="thumbnails">
-              <div class="span5">
-                <li> <a href="#" class="thumbnail"><img src="/assets/hague2.jpg" height="300" width="400" /></a>
-                </li>
-              </div>
+            
                <div class="span7">
              <img src="/assets/hague.jpg" height="250" width="200" class="rooster" />              </div>
             
 
                <div class="span7"> 
  <span>My experience in The Hague was honestly the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.  </span>
-                </div>
+                </div><div id="pastwhy">
+So I'm single
+</div>
           </div>
+
+
+
         </div> 
+
+
       </div>
 
     </div>
@@ -259,25 +275,6 @@
 </div>     
 
 
-
-
-
-<script>
-
-$(function () { 
-$('#myTab a').click(function (e) {
-  e.preventDefault();
-  $(this).tab('show');
-
-   $(this.href +'2').html($(this.href).html()
-
-}) 
-}) 
-
-}(window.jQuery);
-
-
-</script>
 
 
 
