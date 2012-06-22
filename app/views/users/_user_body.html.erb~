@@ -122,7 +122,8 @@
                    
              </div>
       <div id="undergradwhy">
-dwdwdwdwdwdwdwd
+<div class="span12"><p class="userwhy"> I wanted to build something new, something different </p>
+             </div>
        </div>
            </div>
    
@@ -140,7 +141,8 @@ dwdwdwdwdwdwdwd
       
          </div>
 <div id="otherwhy">
-Firework
+<div class="span12"><p class="userwhy"> I wanted to build something new, something different </p>
+             </div>
 </div>
 
 
@@ -189,8 +191,9 @@ Firework
                      </div>
 
                 </div>
-<div id="otherwhy" >
-Yo
+<div id="recentwhy" >
+<div class="span12"><p class="userwhy"> I wanted to build something new, something different </p>
+             </div>
 </div>
 
 
@@ -210,7 +213,8 @@ Yo
                <div class="span7"> 
  <span>My experience in The Hague was honestly the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.  </span>
                 </div><div id="pastwhy">
-So I'm single
+<div class="span12"><p class="userwhy"> I wanted to build something new, something different </p>
+             </div>
 </div>
           </div>
 
