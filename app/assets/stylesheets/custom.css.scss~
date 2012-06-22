@@ -106,7 +106,7 @@ width:1100px;
 
 .tab-content > #home {
 
-margin-top:10px;
+margin-top:12px;
 margin-bottom:9px;
 margin-left:-2px;
 
@@ -145,6 +145,7 @@ background: #67E6EC;
 margin-top:250px;
 
 
+
 }
 
 
@@ -158,7 +159,7 @@ font-weight:bold;
 
 p.userwhy {
 line-height:150%;
-padding-left:-5px;
+padding-left:1px;
 padding-top:2px;
 
 
@@ -251,6 +252,7 @@ margin-top:250px;
 width:960px;
 height:413px;
 margin-top:10px;
+background:#fff;
 margin-bottom:11px;
 margin-left:1px;
 -webkit-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
@@ -262,12 +264,25 @@ margin-left:1px;
 #skillshow {
 
 
-margin-top:0px;
+margin-top:65px;
 width:960px;
-height:395px;
-background:#fff;
+height:250px;
+background: #fff;
 
 }
+
+
+#skillwhy {
+
+
+width:960px;
+margin-left:0px;
+height:163px;
+background:#67E6EC;
+margin-top:0px;
+
+}
+
 
 
 
@@ -582,7 +597,7 @@ box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 
 #specialtyname {
 letter-spacing:-1px;
-margin-top:35px;
+margin-top:25px;
 padding-bottom:3px;
 color:#6495ED;
 font-size: 18px;
@@ -1311,7 +1326,7 @@ ul.tabnavcenter    {
  
  background: #fff;
  width:960px;
- margin-top:-4px;
+ margin-top:0px;
  margin-bottom:2px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
@@ -1427,7 +1442,8 @@ ul.tabnavcenter
 
  .nav-pills > .active > a, .nav-pills > .active li, .nav-pills > .active > li:hover, .nav-pills > .active > a:hover {
 
-color:#0198E1;
+color:#00E5EE;
+
 
 background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
