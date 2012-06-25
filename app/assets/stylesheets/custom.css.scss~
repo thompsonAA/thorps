@@ -36,7 +36,7 @@
 
 
 .navbar .nav > li.hova:hover {
-  background:#F2F2F2;
+  background: #00FFFF;
   height:47px;
 }
 
@@ -120,9 +120,9 @@ margin-top:12px;
 background:#fff;
 margin-bottom:11px;
 margin-left:1px;
--webkit-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
-	   -moz-box-shadow: -2px 2px 3px  rgba(0, 0, 0, 0.12);
-	        box-shadow:  -2px 2px 3px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  0px 0px 3px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -140,22 +140,22 @@ background: #fff;
 #undergradwhy{
 width:960px;
 margin-left:20px;
-height:155px;
-background: #67E6EC;
+height:163px;
+background:  #62B1F6;
 margin-top:250px;
  /* Rounded Corners */ 
-    -moz-border-radius-topleft: 5px; 
-    -moz-border-radius-bottomleft: 5px; 
-    -webkit-border-top-left-radius: 5px; 
-    -webkit-border-bottom-left-radius: 5px; 
-    border-top-left-radius: 5px; 
-    border-bottom-left-radius: 5px; 
-    -moz-border-radius-topright: 5px; 
-    -moz-border-radius-bottomright: 5px; 
-    -webkit-border-top-right-radius: 5px; 
-    -webkit-border-bottom-right-radius: 5px; 
-    border-top-right-radius: 5px; 
-    border-bottom-right-radius: 5px; 
+    -moz-border-radius-topleft: 0px; 
+    -moz-border-radius-bottomleft: 0px; 
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-bottom-left-radius: 0px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    -moz-border-radius-topright: 0px; 
+    -moz-border-radius-bottomright: 0px; 
+    -webkit-border-top-right-radius: 0px; 
+    -webkit-border-bottom-right-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
 
 
 
@@ -173,8 +173,10 @@ font-weight:bold;
 p.userwhy {
 line-height:150%;
 padding-left:1px;
-padding-top:2px;
-
+padding-right:1px;
+padding-top:0px;
+font-size:20px;
+font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -195,7 +197,7 @@ background: #fff;
 width:960px;
 margin-left:0px;
 height:163px;
-background:#67E6EC;
+background: #62B1F6;
 margin-top:250px;
 
 
@@ -232,7 +234,7 @@ background: #fff;
 width:960px;
 margin-left:20px;
 height:163px;
-background:#67E6EC;
+background: #62B1F6;
 margin-top:250px;
 
 
@@ -254,7 +256,7 @@ background: #fff;
 width:960px;
 margin-left:0px;
 height:163px;
-background:#67E6EC;
+background: #62B1F6;
 margin-top:250px;
 
 
@@ -291,7 +293,7 @@ background: #fff;
 width:960px;
 margin-left:0px;
 height:163px;
-background:#67E6EC;
+background: #62B1F6;
 margin-top:0px;
 
 }
@@ -571,7 +573,7 @@ margin-left:390px;
 
 
 #topnav {
-margin-top:-3px;
+margin-top:1px;
 margin-bottom:-4px;
 height:89px;
 background-color:#fff;
@@ -1339,7 +1341,7 @@ ul.tabnavcenter    {
  
  background: #fff;
  width:960px;
- margin-top:0px;
+ margin-top:2px;
  margin-bottom:2px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
@@ -1417,8 +1419,8 @@ font-size:16px;
 color: #474747;
 display: block;
 line-height: 47px;
-padding-left:61px;
-padding-right:61px;
+padding-left:59px;
+padding-right:59px;
 font-weight:500;
 
 
@@ -1455,7 +1457,7 @@ ul.tabnavcenter
 
  .nav-pills > .active > a, .nav-pills > .active li, .nav-pills > .active > li:hover, .nav-pills > .active > a:hover {
 
-color:#00E5EE;
+color: #0198E1;
 
 
 background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
@@ -1496,7 +1498,7 @@ margin-bottom:100px;
 
 #watchbutton {
 margin-top:10px;
-margin-left:176px;
+margin-left:178px;
 
 }
 
@@ -1560,7 +1562,7 @@ margin-top:-1px;
   font-weight:700;
   color:#fff;
   border-color: #5900b3;
-    background: #8000ff; /* Old browsers */
+    background: #7300e6; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #2300b2 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a8a8a8), color-stop(100%,#2300b2)); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center, ellipse cover, #8000ff 100%, #6600CC 100%); /* Chrome10+,Safari5.1+ */
