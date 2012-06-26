@@ -114,7 +114,7 @@ margin-left:-2px;
 
 
 .tab-content > #tab2 {
-width:960px;
+width:1000px;
 height:413px;
 margin-top:12px;
 background:#fff;
@@ -138,7 +138,7 @@ background: #fff;
 }
 
 #undergradwhy{
-width:960px;
+width:1000px;
 margin-left:20px;
 height:163px;
  background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #7F00FF 100%); /* FF3.6+ */
@@ -246,7 +246,13 @@ background: #fff;
 width:960px;
 margin-left:20px;
 height:163px;
-background: #62B1F6;
+ background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #7F00FF 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a8a8a8), color-stop(100%,#2300b2)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #60AFFE 10%, #007FFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#2300b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 margin-top:250px;
 
 
@@ -268,7 +274,13 @@ background: #fff;
 width:960px;
 margin-left:0px;
 height:163px;
-background: #62B1F6;
+ background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #7F00FF 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a8a8a8), color-stop(100%,#2300b2)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #60AFFE 10%, #007FFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#2300b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 margin-top:250px;
 
 
@@ -305,7 +317,13 @@ background: #fff;
 width:960px;
 margin-left:0px;
 height:163px;
-background: #62B1F6;
+ background: -moz-radial-gradient(center, ellipse cover, #a8a8a8 0%, #7F00FF 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a8a8a8), color-stop(100%,#2300b2)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #60AFFE 10%, #007FFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover, #a8a8a8 0%,#2300b2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#2300b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 margin-top:0px;
 
 }
@@ -615,7 +633,7 @@ float:left;
 margin-left:0px;
 background-color:#fff;
 height:414px;
-width:247px;
+width:288px;
 -webkit-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 -moz-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2); 
@@ -627,8 +645,8 @@ letter-spacing:-1px;
 margin-top:25px;
 padding-bottom:3px;
 color:#6495ED;
-font-size: 18px;
-margin-left:1px;
+font-size: 20px;
+margin-left:10px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
@@ -642,8 +660,8 @@ font-weight:normal;
 font-family: 'Open Sans', sans-serif;
 padding-top:4px;
 margin-bottom:30px;
-margin-left:15px;
-font-size: 16px;
+margin-left:50px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -663,8 +681,8 @@ margin-top:3px;
 #locationname {
 letter-spacing:-1px;
 color:#6495ED;
-font-size: 18px;
-margin-left:1px;
+font-size: 20px;
+margin-left:10px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
@@ -679,8 +697,8 @@ font-weight:normal;
 font-family: 'Open Sans', sans-serif;
 padding-top:4px;
 margin-bottom:30px;
-margin-left:15px;
-font-size: 16px;
+margin-left:50px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -737,8 +755,8 @@ letter-spacing:-1px;
 margin-top:10px;
 padding-bottom:4px;
 color:#6495ED;
-font-size: 18px;
-margin-left:1px;
+font-size: 20px;
+margin-left:10px;
 text-align: center;
 float:left;
 font-weight:normal;
@@ -751,8 +769,8 @@ letter-spacing:-1px;
 margin-top:0px;
 padding-bottom:3px;
 color:   #6495ED;
-font-size: 18px;
-margin-left:5px;
+font-size: 20px;
+margin-left:28px;
 text-align: center;
 float:left;
 font-weight:normal;
@@ -767,9 +785,9 @@ font-family: 'Open Sans', sans-serif;
 #studiedplace {
 font-family: 'Open Sans', sans-serif;
 padding-top:4px;
-margin-left:15px;
+margin-left:50px;
 padding-bottom:30px;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 font-weight: normal;
@@ -783,8 +801,8 @@ letter-spacing:-1px;
 padding-top:10px;
 padding-bottom:3px;
 color:#6495ED;
-font-size: 18px;
-margin-left:1px;
+font-size: 20px;
+margin-left:10px;
 text-align: center;
 float:left;
 font-weight:normal;
@@ -799,7 +817,7 @@ padding-top:5px;
 padding-bottom:0px;
 color:#003366;
 font-size: 17px;
-margin-left:10px;
+margin-left:-1px;
 text-align: center;
 float:left;
 font-weight:normal;
@@ -812,8 +830,8 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 padding-top:4px;
 padding-bottom:10px;
-margin-left:15px;
-font-size: 16px;
+margin-left:45px;
+font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -1352,7 +1370,7 @@ font-weight:bold;
 ul.tabnavcenter    {
  
  background: #fff;
- width:960px;
+ width:996px;
  margin-top:2px;
  margin-bottom:2px;
  overflow:hidden;
@@ -1431,8 +1449,8 @@ font-size:16px;
 color: #474747;
 display: block;
 line-height: 47px;
-padding-left:59px;
-padding-right:59px;
+padding-left:55px;
+padding-right:55px;
 font-weight:500;
 
 
@@ -1505,12 +1523,16 @@ margin-bottom:100px;
 }
 
 
+li.clear {
 
+list-style-type: none;
+padding:10px;
+}
 /*Top Nav Button placement */
 
 #watchbutton {
 margin-top:10px;
-margin-left:178px;
+margin-left:210px;
 
 }
 
