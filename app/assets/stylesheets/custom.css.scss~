@@ -178,9 +178,9 @@ font-weight:bold;
 
 p.userwhy {
 line-height:150%;
-padding-left:1px;
+margin-left:4px;
 padding-right:1px;
-padding-top:0px;
+padding-top:2px;
 font-size:20px;
 font-family: 'Open Sans', sans-serif;
 
@@ -658,9 +658,9 @@ font-weight:normal;
 
 #specialty {
 font-family: 'Open Sans', sans-serif;
-padding-top:4px;
+padding-top:6px;
 margin-bottom:30px;
-margin-left:50px;
+margin-left:54px;
 font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
@@ -672,7 +672,8 @@ color:  #A9ACB6;
 
 .icon-star, .icon-home, .icon-pencil, .icon-lock {
 
-margin-top:3px;
+margin-top:6px;
+margin-right:5px;
 
 } 
 
@@ -695,9 +696,9 @@ font-weight:normal;
 
 #location {
 font-family: 'Open Sans', sans-serif;
-padding-top:4px;
+padding-top:6px;
 margin-bottom:30px;
-margin-left:50px;
+margin-left:54px;
 font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
@@ -770,7 +771,7 @@ margin-top:0px;
 padding-bottom:3px;
 color:   #6495ED;
 font-size: 20px;
-margin-left:28px;
+margin-left:35px;
 text-align: center;
 float:left;
 font-weight:normal;
@@ -784,8 +785,8 @@ font-family: 'Open Sans', sans-serif;
 
 #studiedplace {
 font-family: 'Open Sans', sans-serif;
-padding-top:4px;
-margin-left:50px;
+padding-top:6px;
+margin-left:54px;
 padding-bottom:30px;
 font-size: 18px;
 letter-spacing: -1px;
@@ -828,9 +829,9 @@ font-family: 'Open Sans', sans-serif;
 
 #pastworked {
 font-family: 'Open Sans', sans-serif;
-padding-top:4px;
+padding-top:6px;
 padding-bottom:10px;
-margin-left:45px;
+margin-left:54px;
 font-size: 18px;
 letter-spacing: -1px;
 text-align: center;
@@ -1002,6 +1003,7 @@ background-color:#fff;
     width:675px;
     height:380px;
 
+
   line-height: 0;
   border: 1px solid #ddd;
 }
@@ -1083,6 +1085,19 @@ a.thumbnaile:hover {
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+/* Rounded Corners */ 
+    -moz-border-radius-topleft: 7px; 
+    -moz-border-radius-bottomleft: 7px; 
+    -webkit-border-top-left-radius: 7px; 
+    -webkit-border-bottom-left-radius: 7px; 
+    border-top-left-radius: 7px; 
+    border-bottom-left-radius: 7px; 
+    -moz-border-radius-topright: 7px; 
+    -moz-border-radius-bottomright: 7px; 
+    -webkit-border-top-right-radius: 7px; 
+    -webkit-border-bottom-right-radius: 7px; 
+    border-top-right-radius: 7px; 
+    border-bottom-right-radius: 7px; 
 }
 
 .thumbnaile .caption {
@@ -1371,7 +1386,7 @@ ul.tabnavcenter    {
  
  background: #fff;
  width:996px;
- margin-top:2px;
+ margin-top:1px;
  margin-bottom:2px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
@@ -1449,8 +1464,8 @@ font-size:16px;
 color: #474747;
 display: block;
 line-height: 47px;
-padding-left:55px;
-padding-right:55px;
+padding-left:54px;
+padding-right:54px;
 font-weight:500;
 
 
