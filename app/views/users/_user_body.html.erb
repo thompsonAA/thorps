@@ -274,10 +274,24 @@
 </div>     
 
 
+ <script type="text/javascript">
+    $(function () {
+        $('#myTab >li>a').on('click', function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+            //
+            $(this.getAttribute('href') + '2').html($(this).html());
+        });
+    });
+</script>
 
+<div class="tab-content2">
+    <div class="tab-pane active" id="home2"></div>
+    <div class="tab-pane" id="profile2"></div>
+    <div class="tab-pane" id="messages2"></div>
+    <div class="tab-pane" id="settings2"></div>
 
-
-
+</div>
 
   
 
