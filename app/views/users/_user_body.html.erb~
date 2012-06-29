@@ -68,7 +68,7 @@
 
     
 
-<h3 id="studiedsubject"> International Bus. Management</h3>
+<h3 id="studiedsubject"> B.S. International Business</h3>
 
 <h3 id="studiedsubject2">The Hague University</h3>
 
@@ -91,7 +91,7 @@
 
 <div class="tab-pane" id="tab2">
  <div class="row">
-  
+  <div id="back1">
     <div id="toptabs" class="span4 offset4">
       <div class="btn-group">
          <ul class="nav nav-pills blue">
@@ -101,7 +101,7 @@
           </ul>
         </div> 
       </div>
-   
+   </div>
           <div class="tab-content">
           
            <div class="tab-pane active" id="tab6">
@@ -286,8 +286,9 @@ $('#myTab a:first').tab('show')
 </script>
 
 
+
 <div class="tab-content2">
-    <div class="tab-pane2" id="home2">Home Content 2</div>
+    <div class="tab-pane2" id="home2"><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p></div>
     <div class="tab-pane2" id="tab22">Profile Tab-2</div>
 </div>
 
