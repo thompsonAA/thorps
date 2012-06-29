@@ -658,7 +658,7 @@ margin-left:15px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
-font-weight:bold;
+font-weight:normal;
 
 }
 
@@ -666,11 +666,11 @@ font-weight:bold;
 
 #specialty {
 font-family: 'Open Sans', sans-serif;
-font-weight:bold;
+font-weight:normal;
 padding-top:4px;
-margin-bottom:35px;
+margin-bottom:19px;
 margin-left:15px;
-font-size: 18px;
+font-size: 19px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -696,18 +696,18 @@ text-align: center;
 float:left;
 margin-top:10px;
 padding-bottom:1px;
-font-weight:bold;
+font-weight:normal;
 
 
 }
 
 #location {
 font-family: 'Open Sans', sans-serif;
-font-weight:bold;
+font-weight:normal;
 padding-top:4px;
-margin-bottom:35px;
+margin-bottom:110px;
 margin-left:15px;
-font-size: 18px;
+font-size: 19px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -782,7 +782,7 @@ font-size: 20px;
 margin-left:15px;
 text-align: center;
 float:left;
-font-weight:bold;
+font-weight:normal;
 font-family: 'Open Sans', sans-serif;
  
 
@@ -795,11 +795,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 padding-top:4px;
 margin-left:15px;
-padding-bottom:35px;
-font-size: 18px;
+padding-bottom:19px;
+font-size: 19px;
 letter-spacing: -1px;
 text-align: center;
-font-weight:bold;
+font-weight:normal;
 float:left;
 color: #6495ED;
 
@@ -814,7 +814,7 @@ font-size: 20px;
 margin-left:15px;
 text-align: center;
 float:left;
-font-weight:bold;
+font-weight:normal;
 font-family: 'Open Sans', sans-serif;
  
 
@@ -837,11 +837,11 @@ font-family: 'Open Sans', sans-serif;
 
 #pastworked {
 font-family: 'Open Sans', sans-serif;
-font-weight:bold;
+font-weight:normal;
 padding-top:4px;
 padding-bottom:10px;
 margin-left:15px;
-font-size: 18px;
+font-size: 19px;
 letter-spacing: -1px;
 text-align: center;
 float:left;
@@ -1510,11 +1510,34 @@ ul.tabnavcenter
 
 /*Nav pills color */
 
+
+.nav-pills {
+
+
+
+
+}
+
+
+
+
  .nav-pills > .active > a, .nav-pills > .active li, .nav-pills > .active > li:hover, .nav-pills > .active > a:hover {
 
 color: #0198E1;
 
-
+/* Rounded Corners */ 
+    -moz-border-radius-topleft: 0px; 
+    -moz-border-radius-bottomleft: 0px; 
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-bottom-left-radius: 0px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    -moz-border-radius-topright: 0px; 
+    -moz-border-radius-bottomright: 0px; 
+    -webkit-border-top-right-radius: 0px; 
+    -webkit-border-bottom-right-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
 background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
@@ -1539,11 +1562,35 @@ background: -ms-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa
 background: linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
 
-
+/* Rounded Corners */ 
+    -moz-border-radius-topleft: 0px; 
+    -moz-border-radius-bottomleft: 0px; 
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-bottom-left-radius: 0px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    -moz-border-radius-topright: 0px; 
+    -moz-border-radius-bottomright: 0px; 
+    -webkit-border-top-right-radius: 0px; 
+    -webkit-border-bottom-right-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
 }
 
 
-.nav .nav-pills {
+.nav .nav-pills {/* Rounded Corners */ 
+    -moz-border-radius-topleft: 0px; 
+    -moz-border-radius-bottomleft: 0px; 
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-bottom-left-radius: 0px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    -moz-border-radius-topright: 0px; 
+    -moz-border-radius-bottomright: 0px; 
+    -webkit-border-top-right-radius: 0px; 
+    -webkit-border-bottom-right-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
 margin-bottom:100px;
 }
 
