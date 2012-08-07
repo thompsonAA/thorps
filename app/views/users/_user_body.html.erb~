@@ -1,23 +1,18 @@
 
 <div id="topnav">
 
-<div class="row" >
+ <div><h3 class="username"><%= @user.first_name %> <%= @user.last_name %></h3>
+ </div>
+ <div><span id="foundin">in</span> <h3 id="specialtyname"> Product Management </h3></div>
+   
 
-   <div class="span9" >
-     <h3 class="username"><%= @user.first_name %> <%= @user.last_name %></h2>
-   </div>
+<div>
+   <span class="watchbutton" ><a class="btn btn-large">Watch</a>
+   </span></div>
 
-   <div id="watchbutton" class="span1" ><a class="btn btn-large">Watch</a>
-   </div>
 </div>
 
-
-<div class="row">
-  <span id="foundin">in</span>
-  <h3 id="specialtyname"> Product Management </h3>
-  </div>
-
- </div>
+ 
 
 
 
@@ -253,7 +248,7 @@
        <li><a href="#tab2" data-target="#tab2, #tab2_else">education</a></li>
        <li><a href="#tab3" data-target="#tab3, #tab3_else">experience</a></li>
        <li><a href="#tab4" data-target="#tab4, #tab4_else">verified skills</a></li>
-       <li><a href="#tab5"> video</a></li>
+       <li><a href="#tab5" data-target="#tab5, #tab5_else"> video</a></li>
      </ul>
     </div>
 </div>     
@@ -282,6 +277,8 @@ $('#myTab a').click(function (e) {
 <div class="tab-pane fade" id="tab9_else"><p class="userwhy"> Used to work as a lifeguard </p>
    </div>
 <div class="tab-pane fade" id="tab4_else"><p class="userwhy"> I don't even think verified skills should be included in the MVP, lol </p>
+   </div>
+<div class="tab-pane fade" id="tab5_else"><p class="userwhy"> Funniest speech of the night from my sister's wedding night. </p>
    </div>
 </div>
 

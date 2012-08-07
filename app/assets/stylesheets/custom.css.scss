@@ -123,8 +123,6 @@ background:#f1f5fd;
 }
 
 
-
-
 .tab-content > #tab2 {
 width:1000px;
 height:413px;
@@ -144,11 +142,6 @@ background:#fff;
 width:1000px;
 height:100px;
 background:#fff;
-border-top: 1px solid rgba(0, 0, 0, 0.12);
-border-right: 1px solid rgba(0, 0, 0, 0.12);
--moz-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
--webkit-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -188,11 +181,6 @@ background: #fff;
 width:1000px;
 height:100px;
 background:#fff;
-border-top: 1px solid rgba(0, 0, 0, 0.12);
-border-right: 1px solid rgba(0, 0, 0, 0.12);
--moz-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
--webkit-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -201,11 +189,6 @@ box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
 width:1000px;
 height:100px;
 background:#fff;
-border-top: 1px solid rgba(0, 0, 0, 0.12);
-border-right: 1px solid rgba(0, 0, 0, 0.12);
--moz-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
--webkit-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
 }
 
 #tab4_else {
@@ -213,11 +196,20 @@ box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
 width:1000px;
 height:100px;
 background:#fff;
-border-top: 1px solid rgba(0, 0, 0, 0.12);
-border-right: 1px solid rgba(0, 0, 0, 0.12);
--moz-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
--webkit-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
-box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.12);
+}
+
+#tab9_else {
+
+width:1000px;
+height:100px;
+background:#fff;
+}
+
+#tab5_else {
+
+width:1000px;
+height:100px;
+background:#fff;
 }
 
 .testerli {
@@ -262,24 +254,19 @@ margin-top:250px;
 
 
 
-.userwhy {
-color:#666666;
+p.userwhy {
+color:#000;
 font-weight:normal;
 letter-spacing:0px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
 font-weight:normal;
-
-
-}
-
-p.userwhy {
 line-height:150%;
-margin-left:9px;
+margin-left:12px;
 padding-right:2px;
-padding-top:8px;
-font-size:17px;
+padding-top:2px;
+font-size:16px;
 font-family: 'Open Sans', sans-serif;
 
 }
@@ -702,12 +689,17 @@ margin-left:375px;
 
 
 
+
+
+
 #topnav {
+margin-left:1px;
 margin-top:1px;
-margin-bottom:-4px;
-height:70px;
+margin-bottom:-11px;
+height:69px;
+width:1000px;
 background-color:#fff;
--webkit-box-shadow: -2px 0px 1px  rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: -2px 0px 3px  rgba(0, 0, 0, 0.12);
 	   -moz-box-shadow: -2px 0px 3px  rgba(0, 0, 0, 0.12);
 	        box-shadow:  -2px 0px 3px rgba(0, 0, 0, 0.12);
 
@@ -744,11 +736,11 @@ box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 #foundin {
 
 letter-spacing:0px;
-margin-top:-5px;
+margin-top:27px;
 padding-bottom:1px;
 color:#999999;
 font-size: 17px;
-margin-left:45px;
+margin-left:7px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
@@ -758,11 +750,11 @@ font-weight:normal;
 
 #specialtyname {
 letter-spacing:0px;
-margin-top:-4px;
+margin-top:28px;
 padding-bottom:1px;
 color:#007bb1;
 font-size: 17px;
-margin-left:6px;
+margin-left:7px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
@@ -1077,7 +1069,9 @@ padding-bottom:5px;
 
 .username  {
 letter-spacing:0px;
-margin-left:8px;
+float:left;
+margin-left:14px;
+margin-top:11px;
 color: #000000;
 padding-top:7px;
 font-size: 28px;
@@ -1534,10 +1528,13 @@ ul.tabnavcenter    {
  margin-bottom:2px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
+ border-left: 1px solid rgba(0, 0, 0, 0.12);
+ border-top:1px solid rgba(0, 0, 0, 0.12);
+border-right:1px solid rgba(0, 0, 0, 0.12);
  
- -webkit-box-shadow: -3px 0px 1px  rgba(0, 0, 0, 0.12);
-	   -moz-box-shadow: -3px 0px 3px  rgba(0, 0, 0, 0.12);
-	        box-shadow:  -3px 0px 3px rgba(0, 0, 0, 0.12);
+ -webkit-box-shadow: 0px 3px 0px  rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: 0px 3px 3px  rgba(0, 0, 0, 0.12);
+	        box-shadow:  0px 3px 3px rgba(0, 0, 0, 0.12);
 
 }
 
@@ -1703,16 +1700,17 @@ padding:10px;
 }
 /*Top Nav Button placement */
 
-#watchbutton {
-margin-top:10px;
-margin-left:212px;
+.watchbutton {
+margin-top:16px;
+margin-left:462px;
+float:left;
 
 }
 
 #invitebutton {
 
 float:left;
-margin-left:100px;
+margin-left:104px;
 margin-top:13px;
 }
 
@@ -1825,7 +1823,7 @@ overflow:stretch;
   color: #fff;
   font-weight:normal;
   text-decoration: none;
-  background-color: #3B5998;
+  background-color: #336699;
 }
 
 
