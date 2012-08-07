@@ -98,9 +98,9 @@
     <div id="toptabs" class="span4 offset4">
       <div class="btn-group">
          <ul class="nav nav-pills blue">
-            <li class="active"><a href="#tab6" data-toggle="tab"><i class="icon-pencil"></i> Undergraduate</a>
+            <li class="active"><a href="#tab6" data-toggle="tab" data-target="#tab6, #tab2_else"><i class="icon-pencil"></i> Undergraduate</a>
             </li>
-            <li><a href="#tab7" data-toggle="tab"><i class="icon-star"></i> Other</a>          </li>
+            <li><a href="#tab7" data-toggle="tab" data-target="#tab7, #tab7_else"><i class="icon-star"></i> Other</a>          </li>
           </ul>
         
       </div>
@@ -136,15 +136,15 @@
   </div>
    
  
-<div class="tab-pane fade" id="tab3">
+<div class="tab-pane fade" id="tab3" >
   <div class="row">
     
       <div id="toptabs">
         <div class="btn-group">
          <ul class="nav nav-pills blue">
-            <li class="active"><a href="#tab8" data-toggle="tab"><i class="icon-pencil"></i> Most Recent </a>
+            <li class="active"><a href="#tab8" data-toggle="tab" data-target="#tab8, #tab3_else"><i class="icon-pencil"></i> Most Recent </a>
             </li>
-            <li><a href="#tab9" data-toggle="tab"><i class="icon-star"></i> Past</a>
+            <li><a href="#tab9" data-toggle="tab" data-target="#tab9, #tab9_else"><i class="icon-star"></i> Past</a>
             </li>
          </ul>
         
@@ -249,43 +249,52 @@
 <div class="row" class="span12">
   <div id="navbar" class="span12">
      <ul class="tabnavcenter" id="myTab">
-       <li class="active"><a href="#home">about</a></li>
-       <li><a href="#tab2">education</a></li>
-       <li><a href="#tab3">experience</a></li>
-       <li><a href="#tab4">verified skills</a></li>
+       <li class="active"><a href="#home" data-target="#home, #home_else">about</a></li>
+       <li><a href="#tab2" data-target="#tab2, #tab2_else">education</a></li>
+       <li><a href="#tab3" data-target="#tab3, #tab3_else">experience</a></li>
+       <li><a href="#tab4" data-target="#tab4, #tab4_else">verified skills</a></li>
        <li><a href="#tab5"> video</a></li>
      </ul>
     </div>
 </div>     
 
+
 <script type="text/javascript">
-$('#myTab a:first').tab('show') 
-    $(document).ready(function() {
-        
-        $('#myTab>li>a').on('click', function (e) {
-            e.preventDefault();
-            $(this).tab('show');
-            $(".tab-pane2").each(function(i, e) {
-                $(e).hide();
-            });
-            $(this.getAttribute('href') + "2").show();
-        });
-    });
+$('#myTab a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+});
 </script>
 
 
 
-<div class="tab-content2">
-    <div class="tab-pane2" id="home2"><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p></div>
-    <div class="tab-pane2" id="tab22">Profile Tab-2</div>
+<div class="tab-content">
+    <div class="tab-pane active fade in" id="home_else"><p class="userwhy"> Hi, I'm West. I'm a 26 year old, startup enthusiast, world traveler, over-thinker </p>
+    </div>
+    
+    <div class="tab-pane fade" id="tab2_else"><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
+   </div>
+
+<div class="tab-pane fade" id="tab7_else"><p class="userwhy"> Studying abroad in The Hague was insanely fun. I worked with people from all over the world </p>
+   </div>
+<div class="tab-pane fade" id="tab3_else"><p class="userwhy"> As an Analyst for Public Safety Network and ended up climbing the ranks to become a Product Manager </p>
+   </div>
+<div class="tab-pane fade" id="tab9_else"><p class="userwhy"> Used to work as a lifeguard </p>
+   </div>
+<div class="tab-pane fade" id="tab4_else"><p class="userwhy"> I don't even think verified skills should be included in the MVP, lol </p>
+   </div>
 </div>
 
 
- 
+    </div>
 
 
 
-<li class="testerli"></li>
+
+
+    
+
+ <li class="testerli"></li>
 <li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li><li class="testerli"></li>
   
 
