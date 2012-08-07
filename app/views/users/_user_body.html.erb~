@@ -1,7 +1,7 @@
 
 <div id="topnav">
 
- <h3 id="username"><%= @user.first_name %> <%= @user.last_name %></h3>
+ <span id="username"><%= @user.first_name %> <%= @user.last_name %></span>
  
  <div><span id="foundin">in</span> <h3 id="specialtyname"> Product Management </h3></div>
    
@@ -278,7 +278,7 @@ $('#myTab a').click(function (e) {
    </div>
 <div class="tab-pane fade" id="tab4_else"><p class="userwhy"> I don't even think verified skills should be included in the MVP, lol </p>
    </div>
-<div class="tab-pane fade" id="tab5_else"><p class="userwhy"> Funniest speech of the night from my sister's wedding night. </p>
+<div class="tab-pane fade" id="tab5_else"><p class="userwhy"> Voted unniest speech of the night from my sister's wedding night. </p>
    </div>
 </div>
 

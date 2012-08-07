@@ -10,6 +10,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
 
 
 .container,
@@ -105,17 +106,18 @@ border-right:1px solid rgba(0, 0, 0, 0.12);
 
 overflow:hidden;
 height:415px;
-width:1100px;
+width:1000px;
 
 }
 
 
 .tab-content > #home {
 
-margin-top:6px;
+margin-top:12px;
 margin-bottom:9px;
 margin-left:-2px;
-
+height:417px;
+width:1030px;
 }
 
 #home_else {
@@ -132,7 +134,7 @@ width:1000px;
 height:413px;
 margin-top:12px;
 background:#f1f5fd;
-margin-bottom:11px;
+margin-bottom:13px;
 margin-left:1px;
 background:#fff;
 
@@ -172,14 +174,8 @@ background: #fff;
 
 }
 
-#home2 {
-margin-top:-8px;
-width:1000px;
-height:75px;
-background: #fff;
 
 
-}
 
 
 #tab7_else {
@@ -312,7 +308,7 @@ width:1000px;
 height:413px;
 margin-top:12px;
 background:#fff;
-margin-bottom:11px;
+margin-bottom:13px;
 margin-left:1px;
 -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
 	   -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
@@ -384,7 +380,7 @@ width:1000px;
 height:413px;
 margin-top:12px;
 background:#fff;
-margin-bottom:11px;
+margin-bottom:13px;
 margin-left:1px;
 -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
 	   -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
@@ -427,7 +423,7 @@ margin-top:0px;
 width:1000px;
 height:413px;
 margin-top:12px;
-margin-bottom:11px;
+margin-bottom:13px;
 background:#fff;
 margin-left:1px;
 -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
@@ -696,8 +692,8 @@ margin-left:375px;
 
 #topnav {
 margin-left:1px;
-margin-top:-7px;
-margin-bottom:-11px;
+margin-top:-11px;
+margin-bottom:-2px;
 height:69px;
 width:1000px;
 background-color:#f1f5fd;
@@ -721,13 +717,15 @@ padding-left:0px;
 
 #rightabout {
 float:left;
-margin-left:0px;
+margin-left:1px;
 background-color:#fff;
 height:414px;
 width:288px;
--webkit-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
--moz-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2); 
+
+-webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
+	        box-shadow:  0px 0px 8px 1px rgba(0, 0, 0, 0.12);
+
 
 }
 
@@ -735,7 +733,7 @@ box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 #foundin {
 
 letter-spacing:0px;
-margin-top:27px;
+margin-top:39px;
 padding-bottom:1px;
 color:#999999;
 font-size: 17px;
@@ -749,7 +747,7 @@ font-weight:normal;
 
 #specialtyname {
 letter-spacing:0px;
-margin-top:28px;
+margin-top:40px;
 padding-bottom:1px;
 color:#007bb1;
 font-size: 17px;
@@ -1070,13 +1068,13 @@ padding-bottom:5px;
 letter-spacing:0px;
 float:left;
 margin-left:14px;
-margin-top:14px;
-color: #000000;
+margin-top:32px;
+color: #000;
 padding-top:7px;
 font-size: 28px;
 margin-bottom:5px;
-font-weight:bold;
-font-family: 'Open Sans', sans-serif;
+font-weight:600;
+font-family: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -1157,12 +1155,14 @@ padding-left:-0px;
 
 .thumbnaile {
 
-*zoom: 0;
- display:block;
- line-height: 1;
+  *zoom: 0;
+  display:block;
+  line-height: 1;
   background:#fff;
   padding: 15px;
   margin-left: -20px;
+  margin-right: 3px;
+  margin-top:2px;
   
   
   
@@ -1498,7 +1498,7 @@ ul.tabnavcenter    {
  
  background: #fff;
  width:1000px;
- margin-top:-3px;
+ margin-top:-1px;
  margin-bottom:2px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
@@ -1658,7 +1658,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 
 #insta {
 width:288px;
-height:58px;
+height:68px;
 background:#fff;
 box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.12);;
  
@@ -1675,8 +1675,8 @@ padding:10px;
 /*Top Nav Button placement */
 
 .watchbutton {
-margin-top:14px;
-margin-left:477px;
+margin-top:24px;
+margin-left:495px;
 position:absolute;
 float:left;
 }
@@ -1685,13 +1685,13 @@ float:left;
 
 float:left;
 margin-left:104px;
-margin-top:13px;
+margin-top:18px;
 }
 
 #broadcastbutton {
 float:left;
 margin-left:17px;
-margin-top:13px;
+margin-top:18px;
 
 }
 
