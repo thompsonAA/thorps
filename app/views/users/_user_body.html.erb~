@@ -94,7 +94,7 @@
 
 <div class="tab-pane" id="tab2">
  <div class="row">
-  <div id="back1">
+  
     <div id="toptabs" class="span4 offset4">
       <div class="btn-group">
          <ul class="nav nav-pills blue">
@@ -102,7 +102,7 @@
             </li>
             <li><a href="#tab7" data-toggle="tab"><i class="icon-star"></i> Other</a>          </li>
           </ul>
-        </div> 
+        
       </div>
    </div>
           <div class="tab-content">
@@ -113,10 +113,7 @@
                  
                    
              </div>
-      <div id="undergradwhy">
-<p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
-            
-       </div>
+      
            </div>
    
 
@@ -132,10 +129,7 @@
 
 
 
-          </div><div id="otherwhy">
-<p class="userwhy"> My experience in The Hague was the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.</p>
-             
-</div>
+          </div>
         </div>
       </div>
     </div> 
@@ -180,10 +174,7 @@
                      </div>
 
                 </div>
-<div id="recentwhy" >
-<p class="userwhy"> I wanted to build something new, something different </p>
-             
-</div>
+
 
 
               </div>
@@ -201,10 +192,7 @@
 
                <div class="span7"> 
  <span>My experience in The Hague was honestly the first time in my life I can honestly say that I came out of my shell. My comfort zone was shattered, and in its place, gave birth to a beautiful new begginning.  </span>
-                </div><div id="pastwhy">
-<p class="userwhy"> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  </p>
-             
-</div>
+                </div>
           </div>
 
 
@@ -231,10 +219,7 @@
        </div>
      </div>
 
-<div id="skillwhy">
-<p class="userwhy"> I wanted to build something new, something different </p>
-            
-</div>
+
 
    </div>
 
