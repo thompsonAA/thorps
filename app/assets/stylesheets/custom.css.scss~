@@ -266,7 +266,7 @@ text-align: left;
 float:left;
 font-weight:normal;
 line-height:150%;
-margin-left:12px;
+margin-left:10px;
 padding-right:2px;
 padding-top:4px;
 font-size:16px;
@@ -693,8 +693,8 @@ margin-left:375px;
 
 #topnav {
 margin-left:1px;
-margin-top:-13px;
-margin-bottom:1px;
+margin-top:-18px;
+margin-bottom:4px;
 height:69px;
 width:1000px;
 background-color:#f1f5fd;
@@ -721,7 +721,7 @@ float:left;
 margin-left:1px;
 margin-top:2px;
 background-color:#fff;
-height:414px;
+height:411px;
 width:288px;
 
 -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
@@ -735,7 +735,7 @@ width:288px;
 #foundin {
 
 letter-spacing:0px;
-margin-top:46px;
+margin-top:48px;
 padding-bottom:1px;
 color:#999999;
 font-size: 22px;
@@ -749,7 +749,7 @@ font-weight:normal;
 
 #specialtyname {
 letter-spacing:0px;
-margin-top:46px;
+margin-top:49px;
 padding-bottom:1px;
 color:#007bb1;
 font-size: 18px;
@@ -794,14 +794,14 @@ color: #999999  ;
 
 #locationname {
 letter-spacing:0px;
-color:#666666;
+color:#404040;
 font-size: 19px;
 margin-left:15px;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 float:left;
 margin-top:22px;
-padding-bottom:1px;
+padding-bottom:3px;
 font-weight:normal;
 
 
@@ -883,8 +883,8 @@ margin-left:3px;
 #studiedsubject {
 letter-spacing:0px;
 margin-top:20px;
-padding-bottom:4px;
-color:#666666;
+padding-bottom:6px;
+color:#404040;
 font-size: 19px;
 margin-left:15px;
 text-align: center;
@@ -897,8 +897,8 @@ font-family: 'Open Sans', sans-serif;
 #studiedsubject2 {
 letter-spacing:0px;
 margin-top:0px;
-padding-bottom:1px;
-color:  #666666 ;
+padding-bottom:3px;
+color:  #404040;
 font-size: 19px;
 margin-left:15px;
 text-align: center;
@@ -929,8 +929,8 @@ color: #999999;
 #workedname {
 letter-spacing:0px;
 padding-top:20px;
-padding-bottom:1px;
-color:#666666;
+padding-bottom:3px;
+color:#404040;
 font-size: 19px;
 margin-left:15px;
 text-align: center;
@@ -944,7 +944,7 @@ font-family: 'Open Sans', sans-serif;
 #workedname2 {
 letter-spacing:-1px;
 padding-top:5px;
-padding-bottom:1px;
+padding-bottom:3px;
 color:#003366;
 font-size: 17px;
 margin-left:-1px;
@@ -1071,9 +1071,9 @@ letter-spacing:0px;
 float:left;
 margin-left:6px;
 margin-top:38px;
-color: #000;
+color: #404040;
 padding-top:7px;
-font-size: 28px;
+font-size: 27px;
 margin-bottom:5px;
 font-weight:bolder;
 font-family: 'Open Sans', sans-serif;
@@ -1500,7 +1500,7 @@ ul.tabnavcenter    {
  
  background: #fff;
  width:1000px;
- margin-top:-1px;
+ margin-top:2px;
  margin-bottom:2px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
@@ -1677,8 +1677,8 @@ padding:10px;
 /*Top Nav Button placement */
 
 .watchbutton {
-margin-top:30px;
-margin-left:481px;
+margin-top:35px;
+margin-left:488px;
 position:absolute;
 float:left;
 }
