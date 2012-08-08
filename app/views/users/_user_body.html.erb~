@@ -3,9 +3,6 @@
 
  <span id="username"><%= @user.first_name %> <%= @user.last_name %></span>
  
- <div><span id="foundin"></span> <h3 id="specialtyname">  </h3></div>
-   
-
 <div>
 <span id="invitebutton" >
    <div class="btn-group 2 ">
@@ -59,33 +56,46 @@
 
     <div id="rightabout">
 
-<div id="insta">
+    <div id="specialtybox">
+    <h3 id="specializesin">Hire in</h3>
+     <div class="space"></div>
+     <h3 id="specialtyname">  Product Management</h3>
 
-         </div>
-         
+     </div>
 
         
-         
-
+         <div id="locationbox">
+         <h3 id="livesin">Lives in</h3><div class="space"></div>
          <h3 id="locationname"> Santa Barbara, California </h3>
-         <h2 id="location"> Current Location</h2>
-    
+         </div>
 
     
 
-<h3 id="studiedsubject"> B.S. International Business</h3>
 
+<div id="studiedbox">
+
+<h3 id="studied">Studied</h3><div class="space"></div>
+<h3 id="studiedsubject">International Business</h3>
+
+
+
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<h3 class="at">at</h3><div class="space"></div>
 <h3 id="studiedsubject2">The Hague University</h3>
 
-
-
-<h2 id="studiedplace"> My Education</h2>
+</div>
 
 
 
 
-<h3 id="workedname"> Project Manager at PSN</h3>
-<h2 id="pastworked"> Past Experience</h2>
+<div id="workedbox">
+<h3 id="workedas">Worked as</h3><div class="space"></div><h3 id="workedname"> Project Manager </h3>
+
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<h3 class="at">at</h3><div class="space"></div>
+<h3 id="pastworked">Public Safety Network</h3>
+</div>
 
 
       </div>
@@ -251,11 +261,11 @@
 <div class="row" class="span12">
   <div id="navbar" class="span12">
      <ul class="tabnavcenter" id="myTab">
-       <li class="active"><a href="#home" data-target="#home, #home_else">about</a></li>
-       <li><a href="#tab2" data-target="#tab2, #tab2_else">education</a></li>
-       <li><a href="#tab3" data-target="#tab3, #tab3_else">experience</a></li>
-       <li><a href="#tab4" data-target="#tab4, #tab4_else">verified skills</a></li>
-       <li><a href="#tab5" data-target="#tab5, #tab5_else"> video</a></li>
+       <li class="active"><a href="#home" data-target="#home, #home_else">About</a></li>
+       <li><a href="#tab2" data-target="#tab2, #tab2_else">Education</a></li>
+       <li><a href="#tab3" data-target="#tab3, #tab3_else">Experience</a></li>
+       <li><a href="#tab4" data-target="#tab4, #tab4_else">Verified Skills</a></li>
+       <li><a href="#tab5" data-target="#tab5, #tab5_else"> Video</a></li>
      </ul>
     </div>
 </div>     
