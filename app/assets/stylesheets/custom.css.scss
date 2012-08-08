@@ -25,6 +25,7 @@
   line-height: 19px;
   color: #5d5d5d;
   text-shadow: none;
+  font-family:"helvetica neue",helvetica,arial,sans-serif;
   font-weight:700;
   text-decoration: none;
  
@@ -37,7 +38,7 @@
 
 
 .navbar .nav > li.hova:hover {
-  background: #60AFFE; /* Old browsers */
+  background: #747779; /* Old browsers */
     
   height:47px;
 }
@@ -147,7 +148,7 @@ background:#fff;
 
 width:1000px;
 height:100px;
-background:#f1f5fd;
+background: none repeat scroll 0 0 #F0F0F0;
 }
 
 
@@ -180,7 +181,7 @@ background: #fff;
 
 width:1000px;
 height:100px;
-background:#f1f5fd;
+background: none repeat scroll 0 0 #F0F0F0;
 }
 
 
@@ -188,28 +189,28 @@ background:#f1f5fd;
 
 width:1000px;
 height:100px;
-background:#f1f5fd;
+background: none repeat scroll 0 0 #F0F0F0;
 }
 
 #tab4_else {
 
 width:1000px;
 height:100px;
-background:#f1f5fd;
+background: none repeat scroll 0 0 #F0F0F0;
 }
 
 #tab9_else {
 
 width:1000px;
 height:100px;
-background:#f1f5fd;
+background: none repeat scroll 0 0 #F0F0F0;
 }
 
 #tab5_else {
 
 width:1000px;
 height:100px;
-background:#f1f5fd;
+background: none repeat scroll 0 0 #F0F0F0;
 }
 
 .testerli {
@@ -255,7 +256,7 @@ margin-top:250px;
 
 
 p.userwhy {
-color:#000;
+color:#212222;
 width:1000px;
 height:500px;
 font-weight:normal;
@@ -574,7 +575,7 @@ padding:2px 2px;
 
 }
 
-.logo{ margin: 11px 8px 5px 17px; }
+.logo{ margin: 11px 8px 5px 20px; }
 
 .dropdown{ margin: 0 5px 0 0; }
 
@@ -679,7 +680,7 @@ margin-left:15px;
 /* Nav Pills */
 
 #toptabs{
-margin-top:10px;
+margin-top:26px;
 margin-left:375px;
 
 
@@ -1017,7 +1018,7 @@ font-family: 'Open Sans', sans-serif;
 .at {
 
 letter-spacing:0px;
-margin-top:6px;
+margin-top:7px;
 padding-bottom:1px;
 color:#fff;
 font-size: 14px;
@@ -1723,7 +1724,7 @@ background: #fff;
 
 ul.tabnavcenter li a{
 font-size:16px;
-color: #474747;
+color: #000;
 display: block;
 line-height: 47px;
 padding-left:65px;
@@ -1734,7 +1735,7 @@ font-weight:500;
 }
 
 ul.tabnavcenter li:hover a {
- color: #000;
+ color: #474747;
  cursor:pointer;
  text-decoration: none
 
@@ -1763,19 +1764,14 @@ ul.tabnavcenter
 /*Nav pills color */
 
 
-.nav-pills {
 
-
-
-
-}
 
 
 
 
  .nav-pills > .active > a, .nav-pills > .active li, .nav-pills > .active > li:hover, .nav-pills > .active > a:hover {
 
-color: #0198E1;
+color: #262626;
 background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
@@ -1831,7 +1827,7 @@ float:left;
 #invitebutton {
 
 float:left;
-margin-left:17px;
+margin-left:18px;
 margin-top:42px;
 }
 
@@ -1851,14 +1847,14 @@ margin-top:42px;
   border-color:#000;
   font-weight:700;
   background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-image: -moz-linear-gradient(top, #686a6c, #343536);
+  background-image: -ms-linear-gradient(top, #686a6c, #343536);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#686a6c), to(#343536));
+  background-image: -webkit-linear-gradient(top, #686a6c, #343536);
+  background-image: -o-linear-gradient(top, #686a6c, #343536);
+  background-image: linear-gradient(top, #686a6c, #343536);
   background-repeat: repeat-x;
- filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+ filter: progid:dximagetransform.microsoft.gradient(startColorstr='#686a6c', endColorstr='#343536', GradientType=0);
    
  
 
@@ -1922,14 +1918,15 @@ color:#fff;
   border-color:#000;
   font-weight:700;
   background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-image: -moz-linear-gradient(top, #686a6c, #343536);
+  background-image: -ms-linear-gradient(top, #686a6c, #343536);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#686a6c), to(#343536));
+  background-image: -webkit-linear-gradient(top, #686a6c, #343536);
+  background-image: -o-linear-gradient(top, #686a6c, #343536);
+  background-image: linear-gradient(top, #686a6c, #343536);
   background-repeat: repeat-x;
- filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+ filter: progid:dximagetransform.microsoft.gradient(startColorstr='#686a6c', endColorstr='#343536', GradientType=0);
+   
 
  
 }
@@ -1974,7 +1971,7 @@ overflow:stretch;
   color: #fff;
   font-weight:normal;
   text-decoration: none;
-  background-color: #336699;
+  background-color: #007bb1;
 }
 
 
