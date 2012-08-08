@@ -3,8 +3,34 @@
 
  <span id="username"><%= @user.first_name %> <%= @user.last_name %></span>
  
- <div><span id="foundin">,</span> <h3 id="specialtyname"> Product Management </h3></div>
+ <div><span id="foundin"></span> <h3 id="specialtyname">  </h3></div>
    
+
+<div>
+<span id="invitebutton" >
+   <div class="btn-group 2 ">
+    <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Invite <span class="caret"></span>
+     </a>
+           <ul class="dropdown-menu">
+              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Invite West to:</span></h5></li></li><li><%= link_to "Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Request:</span></h5></li><li><%= link_to "Interview", current_user, :class => "foo" %></li><li><%= link_to "Video Chat", current_user, :class => "foo" %></li>
+           </ul>
+
+       </div>
+    </span>
+       <span id="broadcastbutton" >
+  <div class="btn-group 2 ">
+      <a id="btn22" class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Broadcast <span class="caret"></span>
+      </a>
+           <ul class="dropdown-menu">
+              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Broadcast West to Talent Hunter:</span></h5></li></li><li><%= link_to "Jamie O Brian", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
+                  </li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Department:</span></h5></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li></li>
+           </ul>
+       </div>
+      </span>
+
+</div>
+
+
 
 <div>
    <span class="watchbutton" ><a class="btn btn-large">Watch</a>
@@ -34,26 +60,7 @@
     <div id="rightabout">
 
 <div id="insta">
-<span id="invitebutton" >
-   <div class="btn-group 2 ">
-    <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Invite <span class="caret"></span>
-     </a>
-           <ul class="dropdown-menu">
-              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Invite West to:</span></h5></li></li><li><%= link_to "Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Request:</span></h5></li><li><%= link_to "Interview", current_user, :class => "foo" %></li><li><%= link_to "Video Chat", current_user, :class => "foo" %></li>
-           </ul>
 
-       </div>
-    </span>
-       <span id="broadcastbutton" >
-  <div class="btn-group 2 ">
-      <a id="btn22" class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Broadcast <span class="caret"></span>
-      </a>
-           <ul class="dropdown-menu">
-              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Broadcast West to Talent Hunter:</span></h5></li></li><li><%= link_to "Jamie O Brian", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
-                  </li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;To Department:</span></h5></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li></li>
-           </ul>
-       </div>
-      </span>
          </div>
          
 
