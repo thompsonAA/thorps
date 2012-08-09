@@ -57,16 +57,16 @@
     <div id="rightabout">
 
     <div id="specialtybox">
-   <div id="specialtyblack">
-    <h3 id="specializesin">Specialty</h3></div>
+   
+    <h3 id="specializesin">My Specialty</h3>
      <div class="space"></div>
      <h3 id="specialtyname">  Product Management</h3>
 
      </div>
 
         
-         <div id="locationbox"><div id="locationblack">
-         <h3 id="livesin">Location</h3></div><div class="space"></div>
+         <div id="locationbox">
+         <h3 id="livesin">Current Location</h3><div class="space"></div>
          <h3 id="locationname">Santa Barbara, California </h3>
          </div>
 
@@ -74,11 +74,11 @@
 
 
 <div id="studiedbox">
-<div id="educationblack">
-<h3 id="studied">Education</h3></div><div class="space"></div>
+
+<h3 id="studied">My Education</h3><div class="space"></div>
 <h3 id="studiedsubject">B.S. International Business</h3>
 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<h3 class="at">from</h3><div class="space"></div>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<h3 class="from">from</h3><div class="space"></div>
 <h3 id="studiedsubject2">The Hague University</h3>
 
 </div>
@@ -86,8 +86,8 @@
 
 
 
-<div id="workedbox"><div id="experienceblack">
-<h3 id="workedas">Experience</h3></div><div class="space"></div><h3 id="workedname"> Project Manager </h3>
+<div id="workedbox">
+<h3 id="workedas">Past Experience</h3><div class="space"></div><h3 id="workedname"> Project Manager </h3>
 
 
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
