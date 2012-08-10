@@ -54,6 +54,8 @@
         </div>
 
  <div id="topbar">
+  <h3 id="specialtyname">Product Management </h3>
+
     </div>
     <div id="rightabout">
 
@@ -95,6 +97,9 @@
 
 
 <div id="right-bar">
+
+<li class="indexed"> 97 </li>
+
 </div>
 
 
