@@ -717,7 +717,8 @@ padding-left:0px;
 
 #rightabout {
 float:left;
-margin-left:1px;
+margin-left:0px;
+margin-right:1px;
 margin-top:2px;
 background: #fff;
 height:411px;

@@ -56,13 +56,7 @@
 
     <div id="rightabout">
 
-    <div id="specialtybox">
-   
-    <h3 id="specializesin">My Specialty</h3>
-     <div class="space"></div>
-     <h3 id="specialtyname">  Product Management</h3>
-
-     </div>
+    
 
         
          <div id="locationbox">
