@@ -264,18 +264,6 @@
  
 
 
-<div class="row" class="span12">
-  <div id="navbar" class="span12">
-     <ul class="tabnavcenter" id="myTab">
-       <li class="active"><a href="#home" data-target="#home, #home_else" data-toggle="tab">About</a></li>
-       <li><a href="#tab2" data-target="#tab2, #tab2_else" data-toggle="tab">Education</a></li>
-       <li><a href="#tab3" data-target="#tab3, #tab3_else" data-toggle="tab">Experience</a></li>
-       <li><a href="#tab4" data-target="#tab4, #tab4_else" data-toggle="tab">Skills</a></li>
-       <li><a href="#tab5" data-target="#tab5, #tab5_else" data-toggle="tab"> Video</a></li>
-     </ul>
-    </div>
-</div>     
-
 
 
 <div class="tab-content">
@@ -296,6 +284,28 @@
 <div class="tab-pane fade" id="tab5_else"><p class="userwhy"> Voted unniest speech of the night from my sister's wedding night. </p>
    </div>
 </div>
+
+
+
+
+
+
+
+  <div id="navbar" class="span12">
+     <ul class="tabnavcenter">
+       <li class="active" ><a href="#home" data-target="#home, #home_else" data-toggle="tab" id="homenav"></a></li>
+       <li><a href="#tab2" data-target="#tab2, #tab2_else" data-toggle="tab" id="ednav"></a></li>
+       <li><a href="#tab3" data-target="#tab3, #tab3_else" data-toggle="tab" id="exnav"></a></li>
+       <li><a href="#tab4" data-target="#tab4, #tab4_else" data-toggle="tab" id="sknav"></a></li>
+       <li><a href="#tab5" data-target="#tab5, #tab5_else" data-toggle="tab" id="vinav" ></a></li>
+     </ul>
+    </div>
+
+    
+
+
+
+
 
 
     </div>

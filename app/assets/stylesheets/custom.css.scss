@@ -120,8 +120,8 @@ width:1200px;
 }
 
 #home_else {
-
-width:1000px;
+float:left;
+width:600px;
 height:1000px;
 background: none repeat scroll 0 0 #F0F0F0;
 
@@ -146,7 +146,7 @@ background:#fff;
 
 #tab2_else {
 
-width:1000px;
+width:690px;
 height:100px;
 background: none repeat scroll 0 0 #F0F0F0;
 }
@@ -179,7 +179,7 @@ background: #fff;
 
 #tab7_else {
 
-width:1000px;
+width:690px;
 height:100px;
 background: none repeat scroll 0 0 #F0F0F0;
 }
@@ -187,28 +187,28 @@ background: none repeat scroll 0 0 #F0F0F0;
 
 #tab3_else {
 
-width:1000px;
+width:690px;
 height:100px;
 background: none repeat scroll 0 0 #F0F0F0;
 }
 
 #tab4_else {
 
-width:1000px;
+width:690px;
 height:100px;
 background: none repeat scroll 0 0 #F0F0F0;
 }
 
 #tab9_else {
 
-width:1000px;
+width:690px;
 height:100px;
 background: none repeat scroll 0 0 #F0F0F0;
 }
 
 #tab5_else {
 
-width:1000px;
+width:690px;
 height:100px;
 background: none repeat scroll 0 0 #F0F0F0;
 }
@@ -761,7 +761,7 @@ margin-left:1px;
 margin-top:-58px;
 float:left;
 width:50px;
-background: #fff;
+background: #f8f8f8;
 height:415px;
 border-top:1px solid rgba(0, 0, 0, 0.1);
     
@@ -1383,7 +1383,7 @@ padding-bottom:5px;
 letter-spacing:-1px;
 float:left;
 margin-left:6px;
-margin-top:36px;
+margin-top:38px;
 color: #404040;
 padding-top:7px;
 font-size: 29px;
@@ -1822,9 +1822,10 @@ font-weight:bold;
 ul.tabnavcenter    {
  
  background: #fff;
- width:1050px;
+ width:292px;
  margin-top:2px;
  margin-bottom:2px;
+ margin-left:699px;
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
  
@@ -1836,17 +1837,16 @@ ul.tabnavcenter    {
 }
 
 #navbar {
-
-padding-bottom:5px;
-margin-left:-4px;
+float:left;
+position:absolute;
 
 
 }
 
 
 ul.tabnavcenter li {
-
-
+margin-left:1px;
+margin-right:1px;
 background-color: #fff;
 float:left;
 border-right: 1px solid #E8E8E9;
@@ -1859,28 +1859,9 @@ list-style-type:none;
 
 ul.tabnavcenter li.active {
 
-background: #fafafa; /* Old browsers */
-background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* IE10+ */
-background: linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
-
 }
 
 ul.tabnavcenter li.active:hover {
-
-background: #fafafa; /* Old browsers */
-background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* IE10+ */
-background: linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
-
 }
 
 ul.tabnavcenter li.active a {
@@ -1918,31 +1899,53 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-ul.tabnavcenter li:hover {
- 
-background: #fff;
 
 
-}
+#homenav {
 
-ul.tabnavcenter li a{
-font-size:16px;
-color: #000;
-display: block;
 line-height: 47px;
-padding-left:71px;
-padding-right:71px;
-font-weight:500;
+width:48px;
+height:43px;
+background:blue;
+display: block;
+}
 
+
+#ednav {
+line-height: 47px;
+width:48px;
+height:43px;
+background:green;
+display: block;
+}
+
+
+ #exnav {
+width:48px;
+height:43px;
+background:yellow;
+display: block;
 
 }
 
-ul.tabnavcenter li:hover a {
- color: #474747;
- cursor:pointer;
- text-decoration: none
+#sknav {
+width:48px;
+height:43px;
+background:orange;
+display: block;
 
 }
+
+#vinav {
+width:48px;
+height:43px;
+background:red;
+display: block;
+
+}
+
+
+
 
 ul.tabnavcenter
 { 
