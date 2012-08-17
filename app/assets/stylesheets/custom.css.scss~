@@ -770,7 +770,7 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 #topbar {
-background-image: url(/assets/bg.jpg) #fff;
+background:  #fff;
 height:55px;
 width:292px;
 float:left;
@@ -1948,8 +1948,8 @@ ul.tabnavcenter    {
 
 #navbar {
 float:left;
-margin-left:138px;
-margin-top:44px;
+margin-left:199px;
+margin-top:47px;
 margin-right:0px;
 
 }
@@ -1957,7 +1957,26 @@ margin-right:0px;
  #futurebutton  {
   display: block;
   background-color:#eeeeee;
-  
+  padding-right:10px;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:7px;
+  /* Rounded Corners */ 
+    -moz-border-radius-topleft: 1px; 
+    -moz-border-radius-bottomleft: 1px; 
+    -webkit-border-top-left-radius: 1px; 
+    -webkit-border-bottom-left-radius: 1px; 
+    border-top-left-radius: 1px; 
+    border-bottom-left-radius: 1px; 
+    -moz-border-radius-topright: 1px; 
+    -moz-border-radius-bottomright: 1px; 
+    -webkit-border-top-right-radius: 1px; 
+    -webkit-border-bottom-right-radius: 1px; 
+    border-top-right-radius: 1px; 
+    border-bottom-right-radius: 1px; 
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow:  0px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .open > .active >  #futurebutton:hover  {
@@ -2028,8 +2047,8 @@ font-family: 'Open Sans', sans-serif;
 #homenav {
 
 line-height: 47px;
-width:38px;
-height:32px;
+width:36px;
+height:30px;
 background:red;
 display: block;
 }
@@ -2037,32 +2056,32 @@ display: block;
 
 #ednav {
 line-height: 47px;
-width:38px;
-height:32px;
+width:36px;
+height:30px;
 background:orange;
 display: block;
 }
 
 
  #exnav {
-width:38px;
-height:32px;
+width:36px;
+height:30px;
 background:yellow;
 display: block;
 
 }
 
 #sknav {
-width:38px;
-height:32px;
+width:36px;
+height:30px;
 background:green;
 display: block;
 
 }
 
 #vinav {
-width:38px;
-height:32px;
+width:36px;
+height:30px;
 background:#0198E1;
 display: block;
 
@@ -2157,8 +2176,8 @@ float:left;
 #invitebutton {
 
 float:left;
-margin-left:26px;
-margin-top:58px;
+margin-left:20px;
+margin-top:64px;
 }
 
 #broadcastbutton {
