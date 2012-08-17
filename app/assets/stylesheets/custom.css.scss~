@@ -559,7 +559,7 @@ html {
 body {
   padding-top:55px;
   margin-left:-95px;
-  background-image: url(/assets/bg.jpg) #fff;
+  background-image: url(/assets/bg.jpg) ;
   
 
   }
@@ -746,7 +746,7 @@ margin-top:-5px;
 background: none;
 height:359px;
 width:292px;
-background-color: #fff;
+background-color: url(/assets/bg.jpg);
 
 
 border-left:1px solid rgba(0, 0, 0, 0.1);
@@ -829,9 +829,9 @@ border-top:1px solid rgba(0, 0, 0, 0.1);
 #studiedbox {
 
 width:288px;
-height:107px;
+height:100px;
 background-image: url(/assets/bg.jpg);
-margin-top:7px;
+margin-top:0px;
 margin-bottom:0px;
 
     
@@ -845,8 +845,8 @@ margin-bottom:0px;
 
 margin-top:0px;
 width:288px;
-height:122px;
-background-color: #fff;
+height:100px;
+background-color: url(/assets/bg.jpg);
 
 
 }
@@ -1012,11 +1012,11 @@ margin-left:0px;
 
 
 #specialtyname {
-
-margin-top:-11px;
+letter-spacing: 0px;
+margin-top:11px;
 padding-bottom:0px;
-color:#303030;
-font: normal 22px 'PT Sans Narrow', sans-serif;
+color:#444648;
+font: normal 21px 'PT Sans Narrow', sans-serif;
 font-weight:normal;
 margin-left:12px;
 float:left;
@@ -1050,7 +1050,7 @@ color: #999999  ;
 
 width:288px;
 margin-left:0;
-height:90px;
+height:100px;
 margin-top:0px;
 background-image: url(/assets/bg.jpg);
 
@@ -1096,7 +1096,7 @@ opacity:10;
 #locationname {
 letter-spacing:0px;
 font: bold 15px 'PT Sans', sans-serif;
-color:#444648;
+color:#6a6d70;
 margin-left:0px;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
@@ -1204,12 +1204,14 @@ letter-spacing:0px;
 margin-top:1px;
 padding-bottom:4px;
 font: bold 15px 'PT Sans', sans-serif;
-color:#444648;
+color:#6a6d70;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:0px;
 float:left;
 opacity:10;
  }
+
+
 
 #beforestudies {
 
@@ -1259,25 +1261,25 @@ font-weight:normal;
 }
 
 
-#studiedsubject2 {
+.studiedsubject2 {
 letter-spacing:0px;
-margin-top:3px;
-color:#999999;
-font: normal 18px 'Open Sans', sans-serif;
-margin-left:13px;
-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-text-align: center;
+margin-top:1px;
+padding-bottom:4px;
+font: bold 15px 'PT Sans', sans-serif;
+color:#313234;
+text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
+margin-left:0px;
 float:left;
-font-weight:normal;
+opacity:10;
+ }
 
-}
 
 .studiedsubject3 {
 letter-spacing:0px;
 margin-top:-2px;
 padding-bottom:4px;
 font: bold 15px 'PT Sans', sans-serif;
-color:#444648;
+color:#313234;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:24px;
 float:left;
@@ -1333,15 +1335,26 @@ margin-left:4px;
 margin-right:7px;
 text-align: center;
 float:left;
+}
 
-
+#beforework2 {
+margin-top:1px;
+letter-spacing:0px;
+font: normal 15px 'PT Sans', sans-serif;
+padding-bottom:2px;
+color:#999999;
+text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
+margin-left:4px;
+margin-right:7px;
+text-align: center;
+float:left;
 }
 
 #workedname {
 margin-top:5px;
 letter-spacing:0px;
 padding-bottom:3px;
-color:#444648;
+color:#6a6d70;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 font: bold 15px 'PT Sans', sans-serif;
 margin-left:0px;
@@ -1353,9 +1366,9 @@ opacity:10;
 
 #workedname2 {
 letter-spacing:0px;
-padding-top:5px;
+padding-top:1px;
 padding-bottom:3px;
-color:#000;
+color:#313234;
 font-size: 16px;
 margin-left:-1px;
 text-align: center;
@@ -1367,7 +1380,7 @@ font: bold 15px 'PT Sans', sans-serif;
 
 #pastworked {
 color:#444648;
-margin-top:0px;
+margin-top:-3px;
 padding-bottom:10px;
 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
 margin-left:12px;
@@ -1479,7 +1492,7 @@ padding-bottom:5px;
 letter-spacing:0px;
 float:left;
 margin-left:6px;
-margin-top:41px;
+margin-top:44px;
 padding-top:7px;
 font: normal 34px 'PT Sans Narrow', sans-serif;
 color:#444648;
@@ -1524,11 +1537,9 @@ background-color:#fff;
     width:675px;
     height:380px;
 
--webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
-	   -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
-	        box-shadow:  0 0 1px 1px rgba(0, 0, 0, 0.2);
+
   line-height: 0;
-  border: 1px solid #ddd;
+  
 }
 
 .love {
@@ -1940,7 +1951,7 @@ ul.tabnavcenter    {
 
 #navbar {
 float:left;
-margin-left:131px;
+margin-left:138px;
 margin-top:44px;
 margin-right:0px;
 
@@ -1949,7 +1960,7 @@ margin-right:0px;
  #futurebutton  {
   display: block;
   background-color:#eeeeee;
-  border: solid 1px #DEDEDE;
+  border: solid 1px #D9D9D9;
 }
 
 .open > .active >  #futurebutton:hover  {
@@ -1993,7 +2004,7 @@ text-decoration: none
 font: normal 22px 'PT Sans Narrow', sans-serif;
 color: #8A2BE2;
 margin-left:261px;
-margin-top:3px;
+margin-top:11px;
 
 }
 
@@ -2140,8 +2151,8 @@ padding:10px;
 /*Top Nav Button placement */
 
 .watchbutton {
-margin-top:44px;
-margin-left:200px;
+margin-top:51px;
+margin-left:192px;
 position:absolute;
 float:left;
 }
@@ -2149,8 +2160,8 @@ float:left;
 #invitebutton {
 
 float:left;
-margin-left:14px;
-margin-top:57px;
+margin-left:21px;
+margin-top:58px;
 }
 
 #broadcastbutton {
