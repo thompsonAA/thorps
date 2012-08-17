@@ -146,7 +146,7 @@ margin-left:6px;
 margin-top:2px;
 margin-bottom:0px;
 color:#444648;
-font: normal 22px 'PT Sans Narrow', sans-serif;
+font: normal 20px 'PT Sans Narrow', sans-serif;
 font-weight:normal;
 }
 
@@ -165,7 +165,7 @@ font-weight:normal;
 line-height:140%;
 margin-left:5px;
 padding-right:2px;
-margin-top:2px;
+margin-top:11px;
 font-size:15px;
 font-family: 'Open Sans', sans-serif;
 
@@ -843,7 +843,7 @@ margin-bottom:0px;
 
 #workedbox {
 
-margin-top:0px;
+margin-top:5px;
 width:288px;
 height:100px;
 background-color: url(/assets/bg.jpg);
@@ -1011,13 +1011,11 @@ margin-left:0px;
 
 
 
-#specialtyname {
-letter-spacing: 0px;
+h3.specialtyname {
 margin-top:11px;
 padding-bottom:0px;
 color:#444648;
-font: normal 21px 'PT Sans Narrow', sans-serif;
-font-weight:normal;
+font: normal 20px 'PT Sans Narrow', sans-serif;
 margin-left:12px;
 float:left;
 
@@ -1078,11 +1076,10 @@ font-weight:bold;
 letter-spacing:0px;
 font: normal 15px 'PT Sans', sans-serif;
 color:#999999;
-margin-left:12px;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
 margin-top:32px;
-margin-left:4px;
+margin-left:8px;
 margin-right:7px;
 margin-bottom:5px;
 opacity:10;
@@ -1218,7 +1215,7 @@ opacity:10;
 letter-spacing:0px;
 font: normal 15px 'PT Sans', sans-serif;
 color:#999999;
-margin-left:4px;
+margin-left:8px;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
 margin-top:1px;
@@ -1331,7 +1328,7 @@ font: normal 15px 'PT Sans', sans-serif;
 padding-bottom:2px;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:4px;
+margin-left:8px;
 margin-right:7px;
 text-align: center;
 float:left;
@@ -1491,7 +1488,7 @@ padding-bottom:5px;
  #username   {
 letter-spacing:0px;
 float:left;
-margin-left:6px;
+margin-left:11px;
 margin-top:44px;
 padding-top:7px;
 font: normal 34px 'PT Sans Narrow', sans-serif;
@@ -1960,7 +1957,7 @@ margin-right:0px;
  #futurebutton  {
   display: block;
   background-color:#eeeeee;
-  border: solid 1px #D9D9D9;
+  
 }
 
 .open > .active >  #futurebutton:hover  {
@@ -2001,10 +1998,10 @@ text-decoration: none
 }
 
 #indexrank {
-font: normal 22px 'PT Sans Narrow', sans-serif;
-color: #8A2BE2;
+font: normal 21px 'PT Sans Narrow', sans-serif;
+color: #0000FF;
 margin-left:261px;
-margin-top:11px;
+margin-top:9px;
 
 }
 
@@ -2152,7 +2149,7 @@ padding:10px;
 
 .watchbutton {
 margin-top:51px;
-margin-left:192px;
+margin-left:178px;
 position:absolute;
 float:left;
 }
@@ -2160,7 +2157,7 @@ float:left;
 #invitebutton {
 
 float:left;
-margin-left:21px;
+margin-left:26px;
 margin-top:58px;
 }
 

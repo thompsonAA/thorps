@@ -63,7 +63,7 @@
 
  <div id="topbar">
   
-  <h3 id="specialtyname">Product Management </h3>
+  <h3 class="specialtyname">Product Management </h3>
 <h3 id="indexrank">97 </h3>
     </div>
 
@@ -275,7 +275,7 @@
 <div id="bottomcontainer">
  <div id="belowabout">
    <div class="tab-content">
-     <div class="tab-pane active fade in" id="home_else"><h3 class="tagline">I make things.</h3><p class="userwhy"> Hi, I'm West, a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active fade in" id="home_else"><h3 class="tagline">I want to create moments in products.</h3><p class="userwhy"> Hi, I'm West, a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
     <div class="tab-pane fade" id="tab2_else"><h3 class="tagline">Education</h3><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
