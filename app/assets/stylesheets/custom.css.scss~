@@ -12,6 +12,7 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 
 .container,
@@ -123,58 +124,59 @@ width:1200px;
 
 
 #belowabout {
-
-
 float:left;
-width:1000px;
-height:100px;
+margin-top:4px;
+width:1200px;
+height:1000px;
 background:none;
 
 }
 
 #bottomcontainer {
+margin-top:-10px;
 width:1100px;
 height:500px;
 background:none;
-
-
-
 }
 
 
-.tagline {
-margin-left:6px;
-margin-top:2px;
-margin-bottom:0px;
+h3.tagline {
+margin-left:0px;
+margin-top:8px;
+margin-bottom:4px;
 color:#444648;
-font: normal 21px 'PT Sans Narrow', sans-serif;
-font-weight:normal;
-}
-
-
-
-p.userwhy {
-width:1000px;
-height:100px;
-text-indent:2px;
+font-family: 'PT Sans narrow', sans-serif;
+font-size:18px;
 font-weight:normal;
 letter-spacing:0px;
+}
+
+
+
+.userwhy {
+width:1033px;
+height:100px;
+text-indent:0px;
+font-weight:normal;
+
 text-align: left;
 float:left;
 font-weight:normal;
 line-height:145%;
-margin-left:5px;
+margin-left:0px;
 padding-right:2px;
-margin-top:11px;
+margin-top:4px;
+font-family: 'PT Sans', sans-serif;
 font-size:15px;
-font: normal 15px sans-serif;
+font-weight:normal;
 color:#444444;
 
 }
 
 #home_else {
 float:left;
-width:1000px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 
@@ -200,7 +202,8 @@ background:#fff;
 #tab2_else {
 
 float:left;
-width:700px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 }
@@ -234,7 +237,8 @@ background: #fff;
 #tab7_else {
 
 float:left;
-width:700px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 }
@@ -243,7 +247,8 @@ background-image: url(/assets/bg.jpg);
 #tab3_else {
 
 float:left;
-width:700px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 }
@@ -251,7 +256,8 @@ background-image: url(/assets/bg.jpg);
 #tab4_else {
 
 float:left;
-width:700px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 }
@@ -259,7 +265,8 @@ background-image: url(/assets/bg.jpg);
 #tab9_else {
 
 float:left;
-width:700px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 }
@@ -267,7 +274,8 @@ background-image: url(/assets/bg.jpg);
 #tab5_else {
 
 float:left;
-width:700px;
+margin-top:4px;
+width:1038px;
 height:100px;
 background-image: url(/assets/bg.jpg);
 }
@@ -716,7 +724,7 @@ margin-left:375px;
 
 #topnav {
 margin-left:1px;
-margin-top:0px;
+margin-top:-11px;
 margin-bottom:20px;
 height:69px;
 width:1000px;
@@ -834,10 +842,10 @@ background-image: url(/assets/bg.jpg) ;
 
 
 #workedbox {
-
+margin-top:-4px;
 width:333px;
 height:75px;
- background-image: url(/assets/bg.jpg) ;
+background-image: url(/assets/bg.jpg) ;
 
 
 }
@@ -1006,7 +1014,9 @@ h3.specialtyname {
 margin-top:15px;
 padding-bottom:0px;
 color:#444648;
-font: normal 24px 'PT Sans Narrow', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-size:17px;
+font-weight:normal;
 margin-left:12px;
 float:left;
 
@@ -1065,13 +1075,16 @@ font-weight:bold;
 
 #beforelives{
 letter-spacing:0px;
-font: italic 15px 'PT Sans', sans-serif;
+font-style: italic;
+font-family: 'PT Sans', sans-serif;
+font-size:15px;
+font-weight:normal;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
 margin-top:32px;
 margin-left:8px;
-margin-right:7px;
+margin-right:10px;
 margin-bottom:5px;
 opacity:10;
 
@@ -1083,10 +1096,12 @@ opacity:10;
 
 #locationname {
 letter-spacing:0px;
-font: normal 15px sans-serif;
-color:#999999;
+font-family: 'PT Sans', sans-serif;
+font-size:15px;
+font-weight:normal;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:0px;
+color:#999999;
 float:left;
 margin-top:32px;
 margin-bottom:5px;
@@ -1191,7 +1206,9 @@ font-weight:bold;
 letter-spacing:0px;
 margin-top:1px;
 padding-bottom:4px;
-font: normal 15px 'PT Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-size:15px;
+font-weight:normal;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:0px;
@@ -1204,7 +1221,10 @@ opacity:10;
 #beforestudies {
 
 letter-spacing:0px;
-font: italic 15px sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-size:15px;
+font-weight:normal;
+font-style: italic;
 color:#999999;
 margin-left:8px;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
@@ -1270,7 +1290,9 @@ font-weight:normal;
 letter-spacing:0px;
 margin-top:1px;
 padding-bottom:4px;
-font: normal 15px 'PT Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-size:15px;
+font-weight:normal;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:8px;
@@ -1323,7 +1345,9 @@ color:#BEBEBE;
 font-size: 15px;
 margin-left:11px;
 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
-font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-size:15px;
+font-weight:normal;
 text-align: center;
 float:left;
 font-weight:bold;
@@ -1499,7 +1523,7 @@ float:left;
 margin-left:11px;
 margin-top:44px;
 padding-top:7px;
-font: 34px 'PT Sans Narrow', sans-serif;
+font: 33px 'PT Sans Narrow', sans-serif;
 color:#444648;
 margin-bottom:5px;
 
@@ -1956,8 +1980,9 @@ ul.tabnavcenter    {
 
 #navbar {
 float:left;
-margin-left:267px;
-margin-top:50px;
+margin-left:7px;
+margin-top:-19px;
+margin-bottom:-6px;
 margin-right:0px;
 
 }
@@ -2026,12 +2051,12 @@ text-decoration: none
 }
 
 #indexrank {
-font-size: 21px;
+font-size: 20px;
 font-weight: 400;
-font-family: 'Quattrocento', serif;
-color: #555555;
+font-family: 'PT Sans', sans-serif;
+color:#999999;
 margin-left:307px;
-margin-top:20px;
+margin-top:15px;
 
 }
 
@@ -2058,7 +2083,7 @@ font-family: 'Open Sans', sans-serif;
 #homenav {
 
 line-height: 47px;
-width:30px;
+width:33px;
 height:24px;
 background:red;
 display: block;
@@ -2068,7 +2093,7 @@ display: block;
 
 #ednav {
 line-height: 47px;
-width:30px;
+width:33px;
 height:24px;
 background:orange;
 display: block;
@@ -2076,7 +2101,7 @@ display: block;
 
 
  #exnav {
-width:30px;
+width:33px;
 height:24px;
 background:yellow;
 display: block;
@@ -2084,7 +2109,7 @@ display: block;
 }
 
 #sknav {
-width:30px;
+width:33px;
 height:24px;
 background:green;
 display: block;
@@ -2092,7 +2117,7 @@ display: block;
 }
 
 #vinav {
-width:30px;
+width:33px;
 height:24px;
 background:#0198E1;
 display: block;
@@ -2180,7 +2205,7 @@ padding:10px;
 
 .watchbutton {
 margin-top:51px;
-margin-left:167px;
+margin-left:711px;
 position:absolute;
 float:left;
 }
@@ -2188,8 +2213,8 @@ float:left;
 #invitebutton {
 
 float:left;
-margin-left:20px;
-margin-top:64px;
+margin-left:27px;
+margin-top:68px;
 }
 
 #broadcastbutton {
@@ -2290,18 +2315,18 @@ color:#fff;
  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#686a6c', endColorstr='#343536', GradientType=0);
    
 /* Rounded Corners */ 
-    -moz-border-radius-topleft: 2px; 
-    -moz-border-radius-bottomleft: 2px; 
-    -webkit-border-top-left-radius: 2px; 
-    -webkit-border-bottom-left-radius: 2px; 
-    border-top-left-radius: 2px; 
-    border-bottom-left-radius: 2px; 
-    -moz-border-radius-topright: 2px; 
-    -moz-border-radius-bottomright: 2px; 
-    -webkit-border-top-right-radius: 2px; 
-    -webkit-border-bottom-right-radius: 2px; 
-    border-top-right-radius: 2px; 
-    border-bottom-right-radius: 2px; 
+    -moz-border-radius-topleft: 1px; 
+    -moz-border-radius-bottomleft: 1px; 
+    -webkit-border-top-left-radius: 1px; 
+    -webkit-border-bottom-left-radius: 1px; 
+    border-top-left-radius: 1px; 
+    border-bottom-left-radius: 1px; 
+    -moz-border-radius-topright: 1px; 
+    -moz-border-radius-bottomright: 1px; 
+    -webkit-border-top-right-radius: 1px; 
+    -webkit-border-bottom-right-radius: 1px; 
+    border-top-right-radius: 1px; 
+    border-bottom-right-radius: 1px; 
  
 }
 
