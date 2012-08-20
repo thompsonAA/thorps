@@ -145,9 +145,9 @@ margin-left:0px;
 margin-top:8px;
 margin-bottom:4px;
 color:#444648;
-font-family: 'PT Sans narrow', sans-serif;
-font-size:18px;
-font-weight:normal;
+font-family: 'PT Sans', sans-serif;
+font-size:17px;
+font-weight:700;
 letter-spacing:0px;
 }
 
@@ -1097,7 +1097,7 @@ opacity:10;
 #locationname {
 letter-spacing:0px;
 font-family: 'PT Sans', sans-serif;
-font-size:15px;
+font-size:16px;
 font-weight:normal;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:0px;
@@ -1517,13 +1517,14 @@ padding-bottom:5px;
 }
 
 
- .username   {
+ h3.username   {
 letter-spacing:0px;
 float:left;
 margin-left:11px;
 margin-top:44px;
 padding-top:7px;
-font: 33px 'PT Sans Narrow', sans-serif;
+font: 31px 'PT Sans', sans-serif;
+font-weight:600;
 color:#444648;
 margin-bottom:5px;
 
