@@ -1,7 +1,7 @@
 
 <div id="topnav">
 
-  <span id="username"><%= @user.first_name %> <%= @user.last_name %></span>
+  <h3 class="username"><%= @user.first_name %> <%= @user.last_name %></h3>
  
   
 <div id="invitebutton">
@@ -83,10 +83,8 @@
 
 <div id="studiedbox">
 
-<h3 id="beforestudies">Studied </h3><h3 class="studiedsubject">International Management </h3><h3 id="beforestudies">at </h3>
-<h3 class="studiedsubject2">The Hague University of Applied </h3>
-
-<h3 class="studiedsubject3"> Science</h3>
+<h3 id="beforestudies">Studied </h3><h3 class="studiedsubject">International Business & Management</h3> 
+<h3 class="studiedsubject2">(The Hague University of Applied Science)</h3>
 
 
 </div>
@@ -96,8 +94,7 @@
 
 <div id="workedbox">
 <h3 id="beforework">Worked as </h3><h3 id="workedname">Analyst / Product Manager</h3>
-<h3 id="beforework2">at</h3>
-<h3 id="workedname2">Public Safety Network Inc. </h3>
+<h3 id="workedname2">(Public Safety Network Inc.)</h3>
 
 
 
@@ -275,7 +272,7 @@
 <div id="bottomcontainer">
  <div id="belowabout">
    <div class="tab-content">
-     <div class="tab-pane active fade in" id="home_else"><h3 class="tagline">I want to create moments in products and in whatever I do.</h3><p class="userwhy"> Hi, I'm West, a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active fade in" id="home_else"><h3 class="tagline">In products, as in life, I just want to create moments </h3><p class="userwhy"> Hi, I'm West, a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
     <div class="tab-pane fade" id="tab2_else"><h3 class="tagline">Education</h3><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>

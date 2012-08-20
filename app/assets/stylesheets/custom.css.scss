@@ -11,6 +11,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
 
 
 .container,
@@ -141,19 +142,18 @@ background:none;
 }
 
 
-h3.tagline {
+.tagline {
 margin-left:6px;
 margin-top:2px;
 margin-bottom:0px;
 color:#444648;
-font: normal 20px 'PT Sans Narrow', sans-serif;
+font: normal 21px 'PT Sans Narrow', sans-serif;
 font-weight:normal;
 }
 
 
 
 p.userwhy {
-color:#212222;
 width:1000px;
 height:100px;
 text-indent:2px;
@@ -162,12 +162,13 @@ letter-spacing:0px;
 text-align: left;
 float:left;
 font-weight:normal;
-line-height:140%;
+line-height:145%;
 margin-left:5px;
 padding-right:2px;
 margin-top:11px;
 font-size:15px;
-font-family: 'Open Sans', sans-serif;
+font: normal 15px sans-serif;
+color:#444444;
 
 }
 
@@ -745,15 +746,9 @@ margin-right:1px;
 margin-top:-5px;
 background: none;
 height:359px;
-width:292px;
+width:400px;
 background-color: url(/assets/bg.jpg);
 
-
-border-left:1px solid rgba(0, 0, 0, 0.1);
-border-bottom:1px solid rgba(0, 0, 0, 0.1);
--moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
--webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 
 -moz-border-radius-topleft: 0px; 
     -moz-border-radius-bottomleft: 0px; 
@@ -770,15 +765,14 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 #topbar {
-background:  #fff;
+background:  url(/assets/bg.jpg);
 height:55px;
 width:292px;
 float:left;
 margin-top:1px;
 margin-left:1px;
 margin-bottom:2px;
-border-left:1px solid rgba(0, 0, 0, 0.1);
-border-top:1px solid rgba(0, 0, 0, 0.1);
+
 
 -moz-border-radius-topleft: 0px; 
     -moz-border-radius-bottomleft: 0px; 
@@ -793,9 +787,7 @@ border-top:1px solid rgba(0, 0, 0, 0.1);
     border-top-right-radius: 0px; 
     border-bottom-right-radius: 0px; 
 
--moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
--webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -828,11 +820,11 @@ border-top:1px solid rgba(0, 0, 0, 0.1);
 
 #studiedbox {
 
-width:288px;
-height:100px;
-background-image: url(/assets/bg.jpg);
-margin-top:0px;
-margin-bottom:0px;
+width:333px;
+height:75px;
+margin-bottom:4px;
+background-image: url(/assets/bg.jpg) ;
+
 
     
 }
@@ -843,10 +835,9 @@ margin-bottom:0px;
 
 #workedbox {
 
-margin-top:5px;
-width:288px;
-height:100px;
-background-color: url(/assets/bg.jpg);
+width:333px;
+height:75px;
+ background-image: url(/assets/bg.jpg) ;
 
 
 }
@@ -1012,10 +1003,10 @@ margin-left:0px;
 
 
 h3.specialtyname {
-margin-top:11px;
+margin-top:15px;
 padding-bottom:0px;
 color:#444648;
-font: normal 20px 'PT Sans Narrow', sans-serif;
+font: normal 24px 'PT Sans Narrow', sans-serif;
 margin-left:12px;
 float:left;
 
@@ -1046,11 +1037,11 @@ color: #999999  ;
 
 #locationbox {
 
-width:288px;
+width:333px;
 margin-left:0;
-height:100px;
-margin-top:0px;
-background-image: url(/assets/bg.jpg);
+height:75px;
+margin-bottom:16px;
+background-image: url(/assets/bg.jpg) ;
 
   
 }
@@ -1062,7 +1053,7 @@ letter-spacing:0px;
 margin-top:25px;
 padding-bottom:8px;
 color:#BEBEBE;
-font-size: 15px;
+font-size: 16px;
 margin-left:-3px;
 font-family: 'Open Sans', sans-serif;
 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -1074,7 +1065,7 @@ font-weight:bold;
 
 #beforelives{
 letter-spacing:0px;
-font: normal 15px 'PT Sans', sans-serif;
+font: italic 15px 'PT Sans', sans-serif;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
@@ -1092,10 +1083,10 @@ opacity:10;
 
 #locationname {
 letter-spacing:0px;
-font: bold 15px 'PT Sans', sans-serif;
-color:#6a6d70;
-margin-left:0px;
+font: normal 15px sans-serif;
+color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
+margin-left:0px;
 float:left;
 margin-top:32px;
 margin-bottom:5px;
@@ -1200,8 +1191,8 @@ font-weight:bold;
 letter-spacing:0px;
 margin-top:1px;
 padding-bottom:4px;
-font: bold 15px 'PT Sans', sans-serif;
-color:#6a6d70;
+font: normal 15px 'PT Sans', sans-serif;
+color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:0px;
 float:left;
@@ -1213,7 +1204,7 @@ opacity:10;
 #beforestudies {
 
 letter-spacing:0px;
-font: normal 15px 'PT Sans', sans-serif;
+font: italic 15px sans-serif;
 color:#999999;
 margin-left:8px;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
@@ -1225,6 +1216,23 @@ opacity:10;
 clear:both;
 
 }
+
+#beforestudies2 {
+
+letter-spacing:0px;
+margin-left:64px;
+font: normal 15px 'PT Sans', sans-serif;
+color:#999999;
+text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
+float:left;
+margin-top:-2px;
+margin-right:5px;
+margin-bottom:7px;
+opacity:10;
+clear:both;
+
+}
+
 
 
 .from {
@@ -1262,10 +1270,10 @@ font-weight:normal;
 letter-spacing:0px;
 margin-top:1px;
 padding-bottom:4px;
-font: bold 15px 'PT Sans', sans-serif;
-color:#313234;
+font: normal 15px 'PT Sans', sans-serif;
+color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:0px;
+margin-left:8px;
 float:left;
 opacity:10;
  }
@@ -1275,8 +1283,8 @@ opacity:10;
 letter-spacing:0px;
 margin-top:-2px;
 padding-bottom:4px;
-font: bold 15px 'PT Sans', sans-serif;
-color:#313234;
+font: normal 15px 'PT Sans', sans-serif;
+color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:24px;
 float:left;
@@ -1324,7 +1332,7 @@ font-weight:bold;
 #beforework {
 margin-top:5px;
 letter-spacing:0px;
-font: normal 15px 'PT Sans', sans-serif;
+font: italic 15px 'PT Sans', sans-serif;
 padding-bottom:2px;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
@@ -1341,7 +1349,7 @@ font: normal 15px 'PT Sans', sans-serif;
 padding-bottom:2px;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:4px;
+margin-left:10px;
 margin-right:7px;
 text-align: center;
 float:left;
@@ -1351,13 +1359,14 @@ float:left;
 margin-top:5px;
 letter-spacing:0px;
 padding-bottom:3px;
-color:#6a6d70;
+font: normal 15px 'PT Sans', sans-serif;
+color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-font: bold 15px 'PT Sans', sans-serif;
 margin-left:0px;
 text-align: center;
 float:left;
 opacity:10;
+
 
 }
 
@@ -1365,13 +1374,12 @@ opacity:10;
 letter-spacing:0px;
 padding-top:1px;
 padding-bottom:3px;
-color:#313234;
-font-size: 16px;
-margin-left:-1px;
+font: normal 15px 'PT Sans', sans-serif;
+color:#999999;
+text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
+margin-left:8px;
 text-align: center;
 float:left;
-font-weight:normal;
-font: bold 15px 'PT Sans', sans-serif;
 
 }
 
@@ -1381,7 +1389,7 @@ margin-top:-3px;
 padding-bottom:10px;
 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
 margin-left:12px;
-font: bold 15px 'PT Sans', sans-serif;
+font: normal 15px 'PT Sans', sans-serif;
 letter-spacing: 0px;
 text-align: center;
 float:left;
@@ -1485,13 +1493,13 @@ padding-bottom:5px;
 }
 
 
- #username   {
+ .username   {
 letter-spacing:0px;
 float:left;
 margin-left:11px;
 margin-top:44px;
 padding-top:7px;
-font: normal 34px 'PT Sans Narrow', sans-serif;
+font: 34px 'PT Sans Narrow', sans-serif;
 color:#444648;
 margin-bottom:5px;
 
@@ -2018,10 +2026,12 @@ text-decoration: none
 }
 
 #indexrank {
-font: normal 21px 'PT Sans Narrow', sans-serif;
-color: #0000FF;
-margin-left:261px;
-margin-top:9px;
+font-size: 21px;
+font-weight: 400;
+font-family: 'Quattrocento', serif;
+color: #555555;
+margin-left:307px;
+margin-top:20px;
 
 }
 
@@ -2170,7 +2180,7 @@ padding:10px;
 
 .watchbutton {
 margin-top:51px;
-margin-left:120px;
+margin-left:167px;
 position:absolute;
 float:left;
 }
