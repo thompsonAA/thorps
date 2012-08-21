@@ -86,65 +86,41 @@
 
 
 
-</div>
-
-
       </div>
+     </div>
 
 
-<div id="right-bar">
-
-
-
-</div>
-
-
+     <div id="right-bar">
+     </div>
     </div>
 
 
 
 <div class="tab-pane fade" id="tab2">
  <div class="row">
-  
-    <div id="toptabs" class="span4 offset4">
-      <div class="btn-group">
-         <ul class="nav nav-pills blue">
-            <li class="active"><a href="#tab6" data-toggle="tab" data-target="#tab6, #tab2_else"><i class="icon-pencil"></i> Undergraduate</a>
-            </li>
-            <li><a href="#tab7" data-toggle="tab" data-target="#tab7, #tab7_else"><i class="icon-star"></i> Other</a>          </li>
-          </ul>
-        
-      </div>
-   </div>
-          <div class="tab-content">
-          
-           <div class="tab-pane active fade in" id="tab6">
-             <div id="undergradshow" class="span12">
-               
-                 
-                   
-             </div>
-      
-           </div>
-   
+  <div id="undergradshow" class="span12">
+           
 
-
-  <div class="tab-pane fade" id="tab7">
-     
-       <div id="othershow" class="span12">
-         <div class ="span12">
-            
-                   
-      
-         </div>
+    
+       <h2 class="redtitle">Education</h2>
 
 
 
-          </div>
-        </div>
-      </div>
-    </div> 
+
+<div id="schoolspace">
+       <h3 class="greytitle">(Undergraduate)</h3> 
+        <h2 class="blacktitle">California Lutheran University Class of 08</h2>   
+</div> 
+
+<div id="otherspace">
+       <h3 class="othertitle">(Study Abroad)</h3> 
+        <h3 class="abroadtitle">The Hague University of Applied Science</h3> 
+       <h3 class="abroadtitle">Exchange Student, 2007</h3>          
+       </div>         
   </div>
+ </div>
+</div>
+  
    
  
 <div class="tab-pane fade" id="tab3" >
@@ -270,10 +246,10 @@
 <div id="belowabout">
 
  <div class="tab-content">
-     <div class="tab-pane active" id="home_else"><h3 class="tagline">In products, as in life, I want to create moments that people remember</h3><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active" id="home_else"><h3 class="tagline">In products, as in life, my mission is simple. Create moments that people remember</h3><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
-    <div class="tab-pane" id="tab2_else"><h3 class="tagline">Education</h3><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
+    <div class="tab-pane" id="tab2_else"><h3 class="tagline">Summary</h3><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
    </div>
 
 <div class="tab-pane" id="tab7_else"><h3 class="tagline">Other</h3><p class="userwhy"> Studying abroad in The Hague was insanely fun. I worked with people from all over the world </p>

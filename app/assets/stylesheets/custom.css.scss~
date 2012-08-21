@@ -185,7 +185,7 @@ background-image: url(/assets/bg.jpg);
 
 
 .tab-content > #tab2 {
-width:1000px;
+width:1050px;
 height:413px;
 margin-top:12px;
 background:#f1f5fd;
@@ -213,11 +213,80 @@ background-image: url(/assets/bg.jpg);
 #undergradshow {
 
 margin-top:0px;
-margin-left:19px;
-width:1000px;
+margin-left:28px;
+width:1050px;
 height:250px;
 background:#fff;
+}
 
+
+.redtitle {
+margin-top:24px;
+padding-bottom:0px;
+color:#DD4B39;
+font-size:22px;
+font-weight:normal;
+margin-left:12px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+.greytitle {
+margin-top:24px;
+padding-bottom:0px;
+color:#555555;
+font-size:18px;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+.blacktitle {
+margin-top:11px;
+padding-bottom:0px;
+color:#999999;
+font-size:18px;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+#schoolspace {
+
+margin-mabottom:44px;
+width:444px;
+height:120px;
+
+}
+
+.abroadtitle {
+margin-top:11px;
+margin-bottom:0px;
+padding-bottom:0px;
+color:#999999;
+font-size:18px;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+.othertitle {
+margin-top:24px;
+padding-bottom:0px;
+color:#555555;
+font-size:18px;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
 }
 
 #back1 {
@@ -748,9 +817,11 @@ padding-left:0px;
 
 }
 
+
+
 #rightabout {
 float:left;
-margin-left:1px;
+margin-left:11px;
 margin-right:1px;
 margin-top:-5px;
 background: none;
@@ -779,7 +850,7 @@ height:55px;
 width:292px;
 float:left;
 margin-top:1px;
-margin-left:1px;
+margin-left:11px;
 margin-bottom:2px;
 
 
@@ -2193,9 +2264,6 @@ width:288px;
 height:68px;
 background:#fff;
 
- 
-
-
 }
 
 
@@ -2207,7 +2275,7 @@ padding:10px;
 /*Top Nav Button placement */
 
 .watchbutton {
-margin-top:51px;
+margin-top:54px;
 margin-left:711px;
 position:absolute;
 float:left;
