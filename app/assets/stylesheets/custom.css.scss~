@@ -140,16 +140,15 @@ background:none;
 }
 
 
-h3.tagline {
+.tagline {
 
-font-family: 'PT Sans', sans-serif;
-font-size:17px;
+font-size:1.32em;
 font-weight:normal;
 margin-left:0px;
 margin-top:14px;
 margin-bottom:6px;
-color:#222222;
-font-family: 'PT Sans', sans-serif;
+color:#575a5c;
+font: arial,helvetica,sans-serif;
 
 }
 
@@ -170,7 +169,7 @@ margin-top:8px;
 font: arial,helvetica,sans-serif;
 font-size:15px;
 font-weight:normal;
-color:#666666;
+color:#919498;
 
 }
 
@@ -232,24 +231,14 @@ font: arial,helvetica,sans-serif;
 
 }
 
-.greytitle {
-margin-top:24px;
-padding-bottom:0px;
-color:#babcbe;
-font-size:1.31em;
-font-weight:normal;
-margin-left:22px;
-float:left;
-clear:both;
-font: arial,helvetica,sans-serif;
-}
+
 
 .edutitle {
 margin-top:24px;
 margin-bottom:0px;
-color:#6a6d70;
-font-size:1.31em;
-font-weight:normal;
+color:#7d8184;
+font-size:1.32em;
+font-weight:444;
 margin-left:22px;
 float:left;
 clear:both;
@@ -271,7 +260,7 @@ font: arial,helvetica,sans-serif;
 .blacktitle {
 margin-top:11px;
 margin-bottom:-4px;
-color:#6a6d70;
+color:#babcbe;
 font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
@@ -281,10 +270,22 @@ clear:both;
 font: arial,helvetica,sans-serif;
 }
 
+.greytitle {
+margin-top:24px;
+padding-bottom:0px;
+color:#7d8184;
+font-size:1.31em;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
 .edutitle2 {
 margin-top:8px;
 margin-bottom:-4px;
-color:#6a6d70;
+color:#babcbe;
 font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
@@ -363,7 +364,7 @@ background:#fff;
 #school1 {
 
 float:left;
-width:344px;
+width:377px;
 
 height:150px;
 margin-right:0px;
@@ -374,13 +375,14 @@ clear:both;
 
 #school4 {
 float:left;
-width:344px;
+width:377px;
 height:150px;
 background-color:#fff;
 
 }
 
 #school5 {
+margin-left:14px;
 float:left;
 width:400px;
 height:150px;
@@ -393,7 +395,7 @@ background-color:#fff;
 margin-left:14px;
 margin-right:14px;
 float:left;
-width:90px;
+width:55px;
 height:150px;
 
 background-color:#fff;
@@ -401,8 +403,8 @@ background-color:#fff;
 }
 
 #school25 {
-margin-left:34px;
-margin-right:24px;
+margin-left:21px;
+margin-right:21px;
 float:left;
 width:214px;
 height:150px;
@@ -412,7 +414,7 @@ background-color:#fff;
 }
 
 #school3 {
-margin-left:11px;
+margin-left:14px;
 float:left;
 width:300px;
 height:200px;
@@ -424,7 +426,7 @@ background-color:#fff;
 margin-top:11px;
 margin-bottom:-4px;
 padding-bottom:0px;
-color:#575a5c;
+color:#babcbe;
 font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
@@ -437,7 +439,7 @@ font: arial,helvetica,sans-serif;
 .othertitle {
 margin-top:24px;
 padding-bottom:0px;
-color:#babcbe;
+color:#7d8184;
 font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
@@ -1331,7 +1333,7 @@ font-size:18px;
 font-weight:normal;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:12px;
-color:#888888;
+color:#a6a8ab;
 float:left;
 margin-top:-49px;
 margin-bottom:5px;
@@ -1439,7 +1441,7 @@ padding-bottom:4px;
 font-family: 'PT Sans', sans-serif;
 font-size:18px;
 font-weight:normal;
-color:#999999;
+color:#a6a8ab;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
 float:left;
@@ -1523,7 +1525,7 @@ padding-bottom:4px;
 font-family: 'PT Sans', sans-serif;
 font-size:18px;
 font-weight:normal;
-color:#444444;
+color:#575a5c;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
 float:left;
@@ -1614,7 +1616,7 @@ margin-top:-32px;
 letter-spacing:0px;
 margin-bottom:-4px;
 font: normal 18px 'PT Sans', sans-serif;
-color:#999999;
+color:#a6a8ab;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
 text-align: center;
@@ -1629,7 +1631,7 @@ letter-spacing:0px;
 margin-top:-7px;
 padding-bottom:3px;
 font: normal 18px 'PT Sans', sans-serif;
-color:#444444;
+color:#575a5c;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
 text-align: center;

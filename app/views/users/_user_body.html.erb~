@@ -63,7 +63,7 @@
          
          <div id="locationbox">
          <h3 id="beforelives"></h3>
-         <h3 id="locationname">(Santa Barbara, California) </h3>
+         <h3 id="locationname">Santa Barbara, California </h3>
          </div>
 
     
@@ -72,7 +72,7 @@
 <div id="studiedbox">
 
 <h3 id="beforestudies"> </h3><h3 class="studiedsubject">International Business & Management</h3> 
-<h3 class="studiedsubject2">(The Hague University of Applied Science)</h3>
+<h3 class="studiedsubject2">The Hague University of Applied Science</h3>
 
 
 </div>
@@ -82,7 +82,7 @@
 
 <div id="workedbox">
 <h3 id="beforework"> </h3><h3 id="workedname">Analyst / Product Manager</h3>
-<h3 id="workedname2">(Public Safety Network Inc.)</h3>
+<h3 id="workedname2">Public Safety Network Inc.</h3>
 
 
 
@@ -115,8 +115,8 @@
 
      <div id="school1">
        <h2 class="edutitle">California Lutheran University</h2> 
-        <h2 class="edutitle2">B.S. International Business/ Management </h2> 
-     <h2 class="blacktitle2">(Undergraduate)</h2>  
+        <h2 class="edutitle2">B.S. International Business Management </h2> 
+     <h2 class="blacktitle2">Undergraduate</h2>  
 <h2 class="blacktitle"></h2>
      </div>
 
@@ -157,10 +157,10 @@
 <div id="otherspace">
 
 <div id="school4">
-       <h3 class="othertitle">The Hague University of Applied Science</h3> 
+       <h2 class="edutitle">The Hague University of Applied Science</h2> 
        
-        <h2 class="abroadtitle">IBMS- International Business Management Studies</h2>
-       <h2 class="abroadtitle">Global</h2>   
+        <h2 class="edutitle2">IBMS International Business/ Strategic Management</h2>
+       <h2 class="blacktitle2">Exchange Student</h2>   
 </div>
 <div id="school5">
 <h3 class="othertitle">Courses</h3> 
@@ -299,21 +299,21 @@
 <div id="belowabout">
 
  <div class="tab-content">
-     <div class="tab-pane active" id="home_else"><h3 class="tagline">In products, as in life, my mission is simple - Create moments that people remember</h3><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active" id="home_else"><h2 class="tagline">In products, as in life, my mission is simple - Create moments that people remember</h2><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
-    <div class="tab-pane" id="tab2_else"><h3 class="tagline">Summary</h3><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
+    <div class="tab-pane" id="tab2_else"><h2 class="tagline">Summary</h2><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
    </div>
 
-<div class="tab-pane" id="tab7_else"><h3 class="tagline">Summary</h3><p class="userwhy"> Studying abroad in The Hague was insanely fun. I worked with people from all over the world </p>
+<div class="tab-pane" id="tab7_else"><h2 class="tagline">Summary</h2><p class="userwhy"> Studying abroad in The Hague was insanely fun. I worked with people from all over the world </p>
    </div>
-<div class="tab-pane" id="tab3_else"><h3 class="tagline">Summary</h3><p class="userwhy"> As an Analyst for Public Safety Network and ended up climbing the ranks to become a Product Manager </p>
+<div class="tab-pane" id="tab3_else"><h2 class="tagline">Summary</h2><p class="userwhy"> As an Analyst for Public Safety Network and ended up climbing the ranks to become a Product Manager </p>
    </div>
-<div class="tab-pane" id="tab9_else"><h3 class="tagline">Summary</h3><p class="userwhy"> Used to work as a lifeguard </p>
+<div class="tab-pane" id="tab9_else"><h2 class="tagline">Summary</h2><p class="userwhy"> Used to work as a lifeguard </p>
    </div>
-<div class="tab-pane" id="tab4_else"><h3 class="tagline">Summary</h3><p class="userwhy"> I don't even think verified skills should be included in the MVP, lol </p>
+<div class="tab-pane" id="tab4_else"><h2 class="tagline">Summary</h2><p class="userwhy"> I don't even think verified skills should be included in the MVP, lol </p>
    </div>
-<div class="tab-pane" id="tab5_else"><h3 class="tagline">Summary</h3><p class="userwhy"> Voted unniest speech of the night from my sister's wedding night. </p>
+<div class="tab-pane" id="tab5_else"><h2 class="tagline">Summary</h2><p class="userwhy"> Voted unniest speech of the night from my sister's wedding night. </p>
    </div>
 
 
