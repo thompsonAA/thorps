@@ -211,32 +211,56 @@ background-image: url(/assets/bg.jpg);
 
 
 #undergradshow {
-
 margin-top:0px;
-margin-left:28px;
+margin-left:22px;
 width:1050px;
-height:250px;
+height:411px;
 background:#fff;
 }
 
 
 .redtitle {
 margin-top:24px;
-padding-bottom:0px;
-color:#DD4B39;
-font-size:22px;
+padding-bottom:7px;
+color:orange;
+font-size:1.88em;
 font-weight:normal;
-margin-left:12px;
+margin-left:22px;
 float:left;
 clear:both;
 font: arial,helvetica,sans-serif;
+
 }
 
 .greytitle {
 margin-top:24px;
 padding-bottom:0px;
-color:#555555;
-font-size:18px;
+color:#babcbe;
+font-size:1.31em;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+.edutitle {
+margin-top:24px;
+margin-bottom:0px;
+color:#6a6d70;
+font-size:1.31em;
+font-weight:normal;
+margin-left:22px;
+float:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+.utitle {
+
+margin-bottom:0px;
+color:#babcbe;
+font-size:1.48em;
 font-weight:normal;
 margin-left:22px;
 float:left;
@@ -246,9 +270,34 @@ font: arial,helvetica,sans-serif;
 
 .blacktitle {
 margin-top:11px;
+margin-bottom:-4px;
+color:#6a6d70;
+font-size:1.31em;
+font-weight:normal;
+margin-left:22px;
+float:left;
+text-align:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+.edutitle2 {
+margin-top:8px;
+margin-bottom:-4px;
+color:#6a6d70;
+font-size:1.31em;
+font-weight:normal;
+margin-left:22px;
+float:left;
+text-align:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+.blacktitle2 {
+margin-top:11px;
 padding-bottom:0px;
-color:#999999;
-font-size:18px;
+color:#babcbe;
+font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
 float:left;
@@ -256,32 +305,140 @@ clear:both;
 font: arial,helvetica,sans-serif;
 }
 
-#schoolspace {
 
-margin-mabottom:44px;
+
+#school3 {
+float:left;
 width:444px;
-height:120px;
+height:200px;
+background-color:#fff;
+}
+
+.port1 {
+clear:both;
+float:left;
+padding:11px 0px 2px 19px;
+float:left;
 
 }
 
+.port2 {
+float:left;
+padding:11px 1px 2px 0px;
+float:left;
+margin-right:2px;
+}
+
+.port3 {
+float:left;
+padding:11px 1px 2px 0px;
+float:left;
+
+}
+
+
+
+
+#schoolspace {
+margin-top:0px;
+overflow: hidden;
+float:left;
+width:1048px;
+height:143px;
+background:#fff;
+border-bottom:solid 1px #F0F0F0;
+
+}
+
+#otherspace {
+margin-top:22px;
+overflow: hidden;
+float:left;
+width:1048px;
+height:150px;
+background:#fff;
+
+}
+
+#school1 {
+
+float:left;
+width:344px;
+
+height:150px;
+margin-right:0px;
+background-color:#fff;
+clear:both;
+
+}
+
+#school4 {
+float:left;
+width:344px;
+height:150px;
+background-color:#fff;
+
+}
+
+#school5 {
+float:left;
+width:400px;
+height:150px;
+text-align:left;
+background-color:#fff;
+
+}
+
+#school2 {
+margin-left:14px;
+margin-right:14px;
+float:left;
+width:90px;
+height:150px;
+
+background-color:#fff;
+
+}
+
+#school25 {
+margin-left:34px;
+margin-right:24px;
+float:left;
+width:214px;
+height:150px;
+float:left;
+background-color:#fff;
+
+}
+
+#school3 {
+margin-left:11px;
+float:left;
+width:300px;
+height:200px;
+background-color:#fff;
+}
+
+
 .abroadtitle {
 margin-top:11px;
-margin-bottom:0px;
+margin-bottom:-4px;
 padding-bottom:0px;
-color:#999999;
-font-size:18px;
+color:#575a5c;
+font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
 float:left;
 clear:both;
+text-align:left;
 font: arial,helvetica,sans-serif;
 }
 
 .othertitle {
 margin-top:24px;
 padding-bottom:0px;
-color:#555555;
-font-size:18px;
+color:#babcbe;
+font-size:1.31em;
 font-weight:normal;
 margin-left:22px;
 float:left;
