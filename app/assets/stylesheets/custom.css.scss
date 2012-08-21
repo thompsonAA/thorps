@@ -1077,11 +1077,11 @@ font-weight:bold;
 
 #beforelives{
 letter-spacing:0px;
-font-style: italic;
+font-style: normal;
 font-family: 'PT Sans', sans-serif;
 font-size:15px;
 font-weight:normal;
-color:#999999;
+color:#333333;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
 margin-top:32px;
@@ -1089,6 +1089,7 @@ margin-left:8px;
 margin-right:10px;
 margin-bottom:5px;
 opacity:10;
+clear:both;
 
 
 
@@ -1099,15 +1100,16 @@ opacity:10;
 #locationname {
 letter-spacing:0px;
 font-family: 'PT Sans', sans-serif;
-font-size:16px;
+font-size:18px;
 font-weight:normal;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:0px;
-color:#999999;
+margin-left:12px;
+color:#777777;
 float:left;
-margin-top:32px;
+margin-top:-49px;
 margin-bottom:5px;
 opacity:10;
+clear:both;
 
 
 
@@ -1206,14 +1208,14 @@ font-weight:bold;
 
 .studiedsubject {
 letter-spacing:0px;
-margin-top:1px;
+margin-top:-44px;
 padding-bottom:4px;
 font-family: 'PT Sans', sans-serif;
-font-size:15px;
+font-size:18px;
 font-weight:normal;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:0px;
+margin-left:-2px;
 float:left;
 opacity:10;
  }
@@ -1226,8 +1228,8 @@ letter-spacing:0px;
 font-family: 'PT Sans', sans-serif;
 font-size:15px;
 font-weight:normal;
-font-style: italic;
-color:#999999;
+font-style: normal;
+color:#333333;
 margin-left:8px;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 float:left;
@@ -1290,14 +1292,14 @@ font-weight:normal;
 
 .studiedsubject2 {
 letter-spacing:0px;
-margin-top:1px;
+margin-top:-20px;
 padding-bottom:4px;
 font-family: 'PT Sans', sans-serif;
-font-size:15px;
+font-size:18px;
 font-weight:normal;
-color:#999999;
+color:#777777;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:8px;
+margin-left:-2px;
 float:left;
 opacity:10;
  }
@@ -1358,9 +1360,9 @@ font-weight:bold;
 #beforework {
 margin-top:5px;
 letter-spacing:0px;
-font: italic 15px 'PT Sans', sans-serif;
+font: normal 15px 'PT Sans', sans-serif;
 padding-bottom:2px;
-color:#999999;
+color:#333333;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:8px;
 margin-right:7px;
@@ -1382,10 +1384,10 @@ float:left;
 }
 
 #workedname {
-margin-top:5px;
+margin-top:-32px;
 letter-spacing:0px;
-padding-bottom:3px;
-font: normal 15px 'PT Sans', sans-serif;
+margin-bottom:-4px;
+font: normal 18px 'PT Sans', sans-serif;
 color:#999999;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:0px;
@@ -1398,12 +1400,12 @@ opacity:10;
 
 #workedname2 {
 letter-spacing:0px;
-padding-top:1px;
+margin-top:-5px;
 padding-bottom:3px;
-font: normal 15px 'PT Sans', sans-serif;
-color:#999999;
+font: normal 18px 'PT Sans', sans-serif;
+color:#777777;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:8px;
+margin-left:0px;
 text-align: center;
 float:left;
 
@@ -1411,7 +1413,7 @@ float:left;
 
 #pastworked {
 color:#444648;
-margin-top:-3px;
+margin-top:-5px;
 padding-bottom:10px;
 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
 margin-left:12px;
@@ -2057,7 +2059,7 @@ text-decoration: none
 font-size: 20px;
 font-weight: 400;
 font-family: 'PT Sans', sans-serif;
-color:#999999;
+color:#666666;
 margin-left:307px;
 margin-top:15px;
 
