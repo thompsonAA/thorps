@@ -13,7 +13,7 @@
     </a>
     <ul class="dropdown-menu">
       
-              <li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Invite to:</span></h5></li></li><li><%= link_to "Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Broadcast to:</span></h5></li></li><li><%= link_to "Jamie O Brian", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
+              <span><h5 class="listin">&nbsp;&nbsp;Invite to:</span></h5></li></li><li><%= link_to "Product Manager", current_user, :class => "bar"%></li><li><%= link_to "Marketing Coordinator", current_user, :class => "bar" %></li><li><%= link_to "Marketing Analyst", current_user, :class => "bar"%></li><li class="divider"></li><span><h5 class="listin">&nbsp;&nbsp;Broadcast to:</span></h5></li></li><li><%= link_to "Jamie O Brian", current_user %></li><li><%= link_to "Deyan Milov", current_user %><li><%= link_to "Jared Clark", current_user %></li></li><li><%= link_to "Talent Hunter2", current_user %></li><li><%= link_to "Talent Hunter3", current_user %></li>
                   </li></li></li><li><%= link_to "(All) Marketing Department:", current_user %></li></li><span><h5 class="listin">&nbsp;&nbsp;Request:</span></h5></li><li><%= link_to "Interview", current_user, :class => "foo" %></li><li><%= link_to "Video Chat", current_user, :class => "foo" %></li>
 
 
