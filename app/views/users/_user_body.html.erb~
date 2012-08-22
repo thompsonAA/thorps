@@ -208,13 +208,13 @@
 <h2 class="sprayit"> </h2> 
 
 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
-<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">- International Business Management, 2008 </h2> 
 
                  </div>
 
@@ -222,7 +222,7 @@
                       <ul class="thumbnails">
   <li class="workthumb">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/350x190" alt="">
+      <img src="http://placehold.it/275x150" alt="">
     </a>
   </li>
 </ul>
@@ -231,9 +231,8 @@
 
 
                      </div>
-
+                   </div>
                 </div>
-             </div>
            
           
 
@@ -242,7 +241,6 @@
       <div id="pastshow">
         
             
-               
         
            
           </div>
@@ -266,7 +264,30 @@
 
     <div class="tab-pane fade" id="tab4">
       <div class="row">
-        <div id="skillshow" class ="span12"><br /> <br /><h3 class="verified">Verified Skills</h3>
+        <div id="skillshow">
+
+
+<ul class="thumbnails">
+  <li class="skthumb">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/275x150" alt="">
+    </a>
+  </li>
+<li class="skthumb">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/275x150" alt="">
+    </a>
+  </li>
+<li class="skthumb">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/275x150" alt="">
+    </a>
+  </li>
+</ul>
+
+
+
+
        
        </div>
      </div>
