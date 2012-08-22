@@ -251,7 +251,7 @@ font: arial,helvetica,sans-serif;
 margin-top:24px;
 margin-bottom:0px;
 color:#7d8184;
-font-size:1.31em;
+font-size:1.32em;
 font-weight:444;
 margin-left:22px;
 float:left;
@@ -317,7 +317,7 @@ margin-bottom:-4px;
 color:#babcbe;
 font-size:1.31em;
 font-weight:normal;
-margin-left:22px;
+margin-left:14px;
 float:left;
 text-align:left;
 clear:both;
@@ -344,24 +344,25 @@ height:200px;
 background-color:#fff;
 }
 
-.port1 {
+li.port1 {
 clear:both;
 float:left;
-padding:29px 0px 2px 19px;
+margin-right:-7px;
+padding:22px 0px 2px 19px;
 float:left;
 
 }
 
-.port2 {
+li.port2 {
 float:left;
-padding:29px 1px 2px 0px;
+padding:22px 1px 2px 0px;
 float:left;
-margin-right:2px;
+margin-right:-7px;
 }
 
 .port3 {
 float:left;
-padding:29px 1px 2px 0px;
+padding:22px 1px 2px 0px;
 float:left;
 
 }
@@ -370,7 +371,7 @@ float:left;
 
 
 #schoolspace {
-margin-top:22px;
+margin-top:7px;
 overflow: hidden;
 float:left;
 width:1048px;
@@ -380,7 +381,7 @@ background:#fff;
 }
 
 #otherspace {
-margin-top:2px;
+margin-top:11px;
 overflow: hidden;
 float:left;
 width:1048px;
@@ -390,29 +391,29 @@ background:#fff;
 }
 
 #school1 {
-
+margin-left:12px;
 float:left;
-width:377px;
-
+width:333px;
 height:150px;
-margin-right:0px;
+margin-right:69px;
 background-color:#fff;
-clear:both;
+
 
 }
 
 #school4 {
 float:left;
-width:377px;
+margin-left:304px;
+width:344px;
 height:150px;
 background-color:#fff;
 
 }
 
 #school5 {
-margin-left:14px;
+margin-left:88px;
 float:left;
-width:400px;
+width:277px;
 height:150px;
 text-align:left;
 background-color:#fff;
@@ -420,8 +421,8 @@ background-color:#fff;
 }
 
 #school2 {
-margin-left:14px;
-margin-right:14px;
+margin-left:169px;
+margin-right:66px;
 float:left;
 width:55px;
 height:150px;
@@ -431,11 +432,11 @@ background-color:#fff;
 }
 
 #school25 {
-margin-left:28px;
-margin-right:28px;
+margin-left:4px;
+margin-right:0px;
 float:left;
-width:214px;
-height:150px;
+width:244px;
+height:400px;
 float:left;
 background-color:#fff;
 
@@ -456,8 +457,9 @@ margin-bottom:-4px;
 padding-bottom:0px;
 color:#babcbe;
 font-size:1.31em;
+line-height:133%;
 font-weight:normal;
-margin-left:22px;
+margin-left:0px;
 float:left;
 clear:both;
 text-align:left;
@@ -470,7 +472,7 @@ padding-bottom:0px;
 color:#7d8184;
 font-size:15px;
 font-weight:bold;
-margin-left:22px;
+margin-left:0px;
 float:left;
 clear:both;
 font-family: 'Georgia', sans-serif;
@@ -632,23 +634,59 @@ background: #fff;
 
 }
 
+li.workthumb {
+float:left;
+margin-right:-12px;
+
+}
+
+li.workthumb {
+float:left;
+clear:both;
+
+}
+
+li.workthumb2 {
+float:left;
+margin-top:-12px;
+}
+
+li.workthumb3 {
+float:left;
+margin-right:-12px;
+margin-top:-12px;
+}
+
 #workspace {
-margin-left:22px;
-margin-top:22px;
-width:500px;
+margin-left:77px;
+margin-top:33px;
+width:477px;
 height:300px;
 float:left;
 background: #fff;
 }
 
 #workspacetwo {
-margin-top:22px;
-width:500px;
-height:300px;
+margin-left:55px;
+margin-top:40px;
+width:444px;
+height:250px;
 float:left;
 background: #fff;
 }
 
+li.workthumb {
+
+float:left;
+
+
+}
+
+li.workthumb2 {
+
+float:left;
+
+}
 
 
 
@@ -672,7 +710,7 @@ margin-top:250px;
 #pastshow {
 
 margin-top:0px;
-width:960px;
+width:1050px;
 height:250px;
 background: #fff;
 
@@ -977,7 +1015,7 @@ margin-left:15px;
 
 #toptabs{
 width:444px;
-margin-top:12px;
+margin-top:24px;
 margin-left:399px;
 background:#fff;
 
@@ -2137,10 +2175,9 @@ font-weight:bold;
 }
 
 .lightsp {
-
 color:#000;
 font-size:16px;
-margin-left:18px;
+margin-left:14px;
 
 }
 
@@ -2151,8 +2188,8 @@ letter-spacing: -1px;
 font-weight:bold;
 left:10px;
 padding-top:3px;
-padding-bottom:10px;
-margin-left:17px;
+margin-bottom:-2px;
+margin-left:14px;
 color: $grayLight;
 }
 
@@ -2340,7 +2377,7 @@ text-decoration: none
 font-size: 18px;
 font-weight: 400;
 font: arial,helvetica,sans-serif;
-color:#555555;
+color:purple;
 margin-left:307px;
 margin-top:11px;
 
