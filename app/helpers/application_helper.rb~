@@ -15,7 +15,7 @@ end
 # Logo
 
   def logo
-    logo = image_tag("itern_w2.gif", :alt => "Itern", :class => "logo")
+    logo = image_tag("headlogo.gif", :alt => "Itern", :class => "logo")
   end
 
 

@@ -113,6 +113,9 @@ width:1000px;
 }
 
 
+
+
+
 .tab-content > #home {
 
 margin-top:12px;
@@ -120,6 +123,15 @@ margin-bottom:9px;
 margin-left:-2px;
 height:417px;
 width:1200px;
+}
+
+.tab-content > #topple {
+
+margin-top:0px;
+margin-bottom:0px;
+margin-left:px;
+height:22px;
+width:22px;
 }
 
 
@@ -221,26 +233,33 @@ background:#fff;
 
 
 .redtitle {
-margin-top:22px;
+margin-top:55px;
 padding-bottom:7px;
 color:#DD4B39;
-font-size:1.64em;
-font-weight:normal;
-margin-left:22px;
+font-size:17px;
+font-weight:bold;
+margin-left:140px;
 float:left;
-
 font: arial,helvetica,sans-serif;
 
 }
+
+
+.educationlogo {
+
+float:left;
+margin-top:9px;
+margin-left:14px;
+
+}
 .redtitletwo {
-margin-top:22px;
+margin-top:55px;
 padding-bottom:7px;
 color:#DD4B39;
-font-size:1.64em;
-font-weight:normal;
-margin-left:44px;
+font-size:17px;
+font-weight:bold;
+margin-left:140px;
 float:left;
-
 font: arial,helvetica,sans-serif;
 
 }
@@ -251,7 +270,7 @@ font: arial,helvetica,sans-serif;
 margin-top:24px;
 margin-bottom:0px;
 color:#7d8184;
-font-size:1.32em;
+font-size:1.25em;
 font-weight:444;
 margin-left:22px;
 float:left;
@@ -381,7 +400,7 @@ background:#fff;
 }
 
 #otherspace {
-margin-top:11px;
+margin-top:-18px;
 overflow: hidden;
 float:left;
 width:1048px;
@@ -391,11 +410,11 @@ background:#fff;
 }
 
 #school1 {
-margin-left:12px;
+margin-left:166px;
 float:left;
 width:333px;
 height:150px;
-margin-right:69px;
+margin-right:32px;
 background-color:#fff;
 
 
@@ -403,7 +422,7 @@ background-color:#fff;
 
 #school4 {
 float:left;
-margin-left:304px;
+margin-left:166px;
 width:344px;
 height:150px;
 background-color:#fff;
@@ -411,7 +430,7 @@ background-color:#fff;
 }
 
 #school5 {
-margin-left:109px;
+margin-left:66px;
 float:left;
 width:277px;
 height:150px;
@@ -421,8 +440,8 @@ background-color:#fff;
 }
 
 #school2 {
-margin-left:169px;
-margin-right:66px;
+margin-left:22px;
+margin-right:0px;
 float:left;
 width:55px;
 height:150px;
@@ -433,9 +452,9 @@ background-color:#fff;
 
 #school25 {
 margin-left:25px;
-margin-right:0px;
+margin-right:14px;
 float:left;
-width:244px;
+width:277px;
 height:400px;
 float:left;
 background-color:#fff;
@@ -761,7 +780,7 @@ margin-top:44px;
 margin-left:22px;
 width:1100px;
 height:400px;
-background: #000;
+background: #fff;
 
 }
 
@@ -1023,9 +1042,16 @@ margin-left:15px;
 #toptabs{
 width:444px;
 margin-top:22px;
-margin-left:422px;
+margin-left:488px;
 background:#fff;
 
+}
+
+.nav-pills > li > a {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 2px;
+  line-height: 11px;
 }
 
 
@@ -1039,7 +1065,7 @@ margin-left:1px;
 margin-top:-11px;
 margin-bottom:20px;
 height:69px;
-width:1000px;
+width:600px;
 background-image: url(/assets/bg.jpg);
 
 }
@@ -1085,6 +1111,20 @@ background-color: url(/assets/bg.jpg);
     border-top-right-radius: 0px; 
     border-bottom-right-radius: 0px; 
 }
+
+#cotchbox {
+
+background-image: url(/assets/bg.jpg);
+height:11px;
+width:292px;
+float:left;
+
+
+}
+
+
+
+
 
 #topbar {
 background:  url(/assets/bg.jpg);
@@ -2487,14 +2527,6 @@ ul.tabnavcenter
 
  .nav-pills > .active > a, .nav-pills > .active li, .nav-pills > .active > li:hover, .nav-pills > .active > a:hover {
 
-color: gray;
-background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* IE10+ */
-background: linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
 
  
 }
@@ -2502,25 +2534,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .nav-pills > a,  .nav-pills > a:hover {
 
 
-color:#AA56FF;
-background: #fafafa; /* Old browsers */
-background: -moz-linear-gradient(top,  #fafafa 0%, #eeeeee 50%, #e8e8e8 51%, #fafafa 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(50%,#eeeeee), color-stop(51%,#e8e8e8), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* IE10+ */
-background: linear-gradient(top,  #fafafa 0%,#eeeeee 50%,#e8e8e8 51%,#fafafa 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+
 
 
 }
 
-#insta {
-width:288px;
-height:68px;
-background:#fff;
 
-}
 
 
 li.clear {

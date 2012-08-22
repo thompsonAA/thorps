@@ -23,17 +23,15 @@
 
 </div>
 
-
-
-<div>
-   <span class="watchbutton" ><a class="btn btn-large">Watch</a>
-   </span></div>
-
 </div>
 
- 
+
+<div class="tab-content">
+     <div class="tab-pane active" id="topple">
 
 
+  </div>
+</div>
 
 
    <div class="tab-content">
@@ -48,6 +46,10 @@
           </li>
        </ul>
         </div>
+
+<div id="cotchbox">
+
+</div>
 
  <div id="topbar">
   
@@ -101,7 +103,10 @@
   
 
     <div id="undergradshow">
-         
+        
+
+<img src="/assets/iternluna.gif" class="educationlogo" height="34" width="34" />
+ 
      <div id="tope">
       <h2 class="redtitle">Education</h2>
      </div>
@@ -112,10 +117,7 @@
 <div id="schoolspace">
 
      
-<div id="school2">
-       <h2 class="greytitle">GPA</h2> 
-        <h2 class="blacktitle">3.91</h2>   
-     </div>
+
 
      <div id="school1">
        <h2 class="edutitle">California Lutheran University</h2> 
@@ -128,26 +130,11 @@
 <div id="school25">
        <h2 class="greytitle">Awards</h2> 
         <h2 class="blacktitle">Scholar Athlete, Dean's List</h2>   
-           
-<ul class="thumbnails">
+           </div>
 
-  <li class="port1">
-    <a href="#" class="thumbnail">
-      <img src="http://placehold.it/55x35" alt="">
-    </a>
-  </li>  
-<li class="port2">
-    <a href="#" class="thumbnail">
-      <img src="http://placehold.it/55x35" alt="">
-    </a>
-  </li>  
-
-<li class="port3">
-    <a href="#" class="thumbnail">
-      <img src="http://placehold.it/55x35" alt="">
-    </a>
-  </li>  
-</ul>
+<div id="school2">
+       <h2 class="greytitle">GPA</h2> 
+        <h2 class="blacktitle">3.91</h2>   
      </div>
    
       
@@ -178,17 +165,17 @@
   
    
  
-<div class="tab-pane fade" id="tab3" >
+<div class="tab-pane fade" id="tab3" ><img src="/assets/iternluna.gif" class="educationlogo" height="34" width="34" />
+      <h2 class="redtitletwo">Experience</h2>
   <div class="row">
     
-      <h2 class="redtitletwo">Experience</h2>
      
       <div id="toptabs">
         <div class="btn-group">
          <ul class="nav nav-pills blue">
-            <li class="active"><a href="#tab8" data-toggle="tab" data-target="#tab8, #tab3_else"><i class="icon-pencil"></i> Most Recent </a>
+            <li class="active"><a href="#tab8" data-toggle="tab" data-target="#tab8, #tab3_else">Recent</a>
             </li>
-            <li><a href="#tab9" data-toggle="tab" data-target="#tab9, #tab9_else"><i class="icon-star"></i> Past</a>
+            <li><a href="#tab9" data-toggle="tab" data-target="#tab9, #tab9_else">Past</a>
             </li>
          </ul>
         
@@ -321,7 +308,7 @@
 
 <div id="navbar">
      <ul class="tabnavcenter">
-       <li class="active" ><a href="#home" data-target="#home, #home_else" data-toggle="tab" id="homenav"></a></li>
+       <li class="active" ><a href="#home" data-target="#home, #home_else, #topple" data-toggle="tab" id="homenav"></a></li>
        <li><a href="#tab2" data-target="#tab2, #tab2_else" data-toggle="tab" id="ednav"></a></li>
        <li><a href="#tab3" data-target="#tab3, #tab3_else" data-toggle="tab" id="exnav"></a></li>
        <li><a href="#tab4" data-target="#tab4, #tab4_else" data-toggle="tab" id="sknav"></a></li>
