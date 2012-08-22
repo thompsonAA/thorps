@@ -71,7 +71,7 @@
 
 <div id="studiedbox">
 
-<h3 id="beforestudies"> </h3><h3 class="studiedsubject">International Business & Management</h3> 
+<h3 id="beforestudies"> </h3><h3 class="studiedsubject">B.S. International Business & Management</h3> 
 <h3 class="studiedsubject2">The Hague University of Applied Science</h3>
 
 
@@ -115,8 +115,8 @@
 
      <div id="school1">
        <h2 class="edutitle">California Lutheran University</h2> 
-        <h2 class="edutitle2">B.S. International Business Management </h2> 
-     <h2 class="blacktitle2">Undergraduate</h2>  
+        <h2 class="edutitle2">International Business Management, 2008 </h2> 
+     <h2 class="blacktitle2">Bachelor of Science</h2>  
 <h2 class="blacktitle"></h2>
      </div>
 
@@ -130,7 +130,7 @@
            
      </div>
    <div id="school3">
-       <h2 class="greytitle">Portfolio</h2> 
+       <h2 class="greytitle"></h2> 
         <ul class="thumbnails">
 
   <li class="port1">
@@ -160,7 +160,7 @@
        <h2 class="edutitle">The Hague University of Applied Science</h2> 
        
         <h2 class="edutitle2">International Strategic Management</h2>
-       <h2 class="blacktitle2">Exchange Student</h2>   
+       <h2 class="blacktitle2">Exchange Student, 2007</h2>   
 </div>
 <div id="school5">
 <h3 class="othertitle">Courses</h3> 
@@ -179,6 +179,8 @@
 <div class="tab-pane fade" id="tab3" >
   <div class="row">
     
+      <h2 class="redtitletwo">Experience</h2>
+     
       <div id="toptabs">
         <div class="btn-group">
          <ul class="nav nav-pills blue">
@@ -193,31 +195,43 @@
 
        <div class="tab-content">
          <div class="tab-pane active fade in" id="tab8">
-            <div id="recentshow" class="span12">
-                <ul class="thumbnails">
+            <div id="recentshow">
+                
 
-                 <div class="span6">
-                   <div class="span6">
-                    <h3 class="lightsp"><i class="icon-lock"></i> Project Manager</h3></div><div class="span5" id="mystery">Public Safety Network
+                 <div id="workspace">
+                  
+                    <h3 class="lightsp"> Public Safety Network</h3><div id="mystery">Project Manager
                    </div>
-                     <div class="span5">            
-<p></p>           </div>
+                     
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
                  </div>
 
-                    <div class="span6">
-                      <div class="span6"> <h3 class="lightsp"><i class="icon-lock"></i> Business Development Assistant</h3>
+                    <div id="workspacetwo">
+                      <div > <h3 class="lightsp">Rockefeller & Company </h3>
                       </div>
-                        <div class="span5" id="mystery">Rockefeller & Company
+                        <div id="mystery">Business Development Assistant
                         </div>
-                      <div class="span5">            
-<p> </p>              </div>
+                   <h2 class="sprayit">International Business Management, 2008 </h2> 
+
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
                      </div>
 
                 </div>
-
-
-
-              </div>
+             </div>
            
           
 

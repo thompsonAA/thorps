@@ -142,12 +142,12 @@ background:none;
 
 .tagline {
 
-font-size:1.29em;
-font-weight:normal;
+font-size:17px;
+font-weight:bold;
 margin-left:0px;
 margin-top:14px;
 margin-bottom:6px;
-color:#575a5c;
+color:#444648;
 font: arial,helvetica,sans-serif;
 
 }
@@ -195,9 +195,9 @@ border-left:1px solid  #F0F0F0;
 border-top:1px solid  #F0F0F0;
 border-right:1px solid  #F0F0F0;
  
- -webkit-box-shadow: 0 3px 2px -2px #cecfd1;
-	   -moz-box-shadow: 0 3px 2px -2px #cecfd1;
-	        box-shadow:  0 3px 2px -2px #cecfd1;
+ -webkit-box-shadow: 0 3px 3px -3px #cecfd1;
+	   -moz-box-shadow: 0 3px 3px -3px #cecfd1;
+	        box-shadow:  0 3px 3px -3px #cecfd1;
 
 }
 
@@ -223,12 +223,24 @@ background:#fff;
 .redtitle {
 margin-top:22px;
 padding-bottom:7px;
-color:orange;
+color:#DD4B39;
 font-size:1.64em;
 font-weight:normal;
 margin-left:22px;
 float:left;
-clear:both;
+
+font: arial,helvetica,sans-serif;
+
+}
+.redtitletwo {
+margin-top:22px;
+padding-bottom:7px;
+color:#DD4B39;
+font-size:1.64em;
+font-weight:normal;
+margin-left:44px;
+float:left;
+
 font: arial,helvetica,sans-serif;
 
 }
@@ -243,6 +255,7 @@ font-size:1.31em;
 font-weight:444;
 margin-left:22px;
 float:left;
+font-weight:bold;
 clear:both;
 font: arial,helvetica,sans-serif;
 }
@@ -252,7 +265,7 @@ font: arial,helvetica,sans-serif;
 margin-bottom:0px;
 color:#babcbe;
 font-size:1.48em;
-font-weight:normal;
+font-weight:bold;
 margin-left:22px;
 float:left;
 clear:both;
@@ -297,6 +310,19 @@ text-align:left;
 clear:both;
 font: arial,helvetica,sans-serif;
 }
+
+.sprayit {
+margin-top:8px;
+margin-bottom:-4px;
+color:#babcbe;
+font-size:1.31em;
+font-weight:normal;
+margin-left:22px;
+float:left;
+text-align:left;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
 .blacktitle2 {
 margin-top:11px;
 padding-bottom:0px;
@@ -321,21 +347,21 @@ background-color:#fff;
 .port1 {
 clear:both;
 float:left;
-padding:11px 0px 2px 19px;
+padding:29px 0px 2px 19px;
 float:left;
 
 }
 
 .port2 {
 float:left;
-padding:11px 1px 2px 0px;
+padding:29px 1px 2px 0px;
 float:left;
 margin-right:2px;
 }
 
 .port3 {
 float:left;
-padding:11px 1px 2px 0px;
+padding:29px 1px 2px 0px;
 float:left;
 
 }
@@ -344,7 +370,7 @@ float:left;
 
 
 #schoolspace {
-margin-top:33px;
+margin-top:22px;
 overflow: hidden;
 float:left;
 width:1048px;
@@ -354,7 +380,7 @@ background:#fff;
 }
 
 #otherspace {
-margin-top:7px;
+margin-top:2px;
 overflow: hidden;
 float:left;
 width:1048px;
@@ -580,29 +606,49 @@ margin-top:250px;
 }
 
 .tab-content > #tab3 {
-width:1000px;
+width:1050px;
 height:413px;
 margin-top:12px;
 background:#fff;
 margin-bottom:13px;
 margin-left:1px;
--webkit-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-	   -moz-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-	        box-shadow:  -1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+border-left:1px solid  #F0F0F0;
+border-top:1px solid  #F0F0F0;
+border-right:1px solid  #F0F0F0;
+ 
+ -webkit-box-shadow: 0 3px 3px -3px #cecfd1;
+	   -moz-box-shadow: 0 3px 3px -3px #cecfd1;
+	        box-shadow:  0 3px 3px -3px #cecfd1;
 }
-
-
-
 
 
 
 #recentshow {
 margin-top:0px;
-width:960px;
-height:250px;
+margin-left:22px;
+width:1100px;
+height:400px;
 background: #fff;
 
 }
+
+#workspace {
+margin-left:22px;
+margin-top:22px;
+width:525px;
+height:300px;
+float:left;
+background: #fff;
+}
+
+#workspacetwo {
+margin-top:22px;
+width:525px;
+height:300px;
+float:left;
+background: #fff;
+}
+
 
 
 
@@ -857,19 +903,6 @@ padding:2px 2px;
 
 
 
-#mystery {
-
-font-size: 14px;
-letter-spacing: -1px;
-font-weight:bold;
-left:10px;
-padding-top:3px;
-padding-bottom:10px;
-color: $grayLight;
-
-
-}
-
 
 
 h1.aboutuser {
@@ -943,11 +976,14 @@ margin-left:15px;
 /* Nav Pills */
 
 #toptabs{
-margin-top:26px;
-margin-left:375px;
-
+width:444px;
+margin-top:12px;
+margin-left:399px;
+background:#fff;
 
 }
+
+
 
 /* Profile Tab1 --User Content- Right Section-- */
 
@@ -1247,8 +1283,8 @@ h3.specialtyname {
 margin-top:15px;
 padding-bottom:0px;
 color:#DD4B39;
-font-family: 'PT Sans', sans-serif;
-font-size:18px;
+font: arial,helvetica,sans-serif;
+font-size:16px;
 font-weight:normal;
 margin-left:12px;
 float:left;
@@ -1330,8 +1366,8 @@ clear:both;
 
 #locationname {
 letter-spacing:0px;
-font-family: 'PT Sans', sans-serif;
-font-size:18px;
+font: arial,helvetica,sans-serif;
+font-size:16px;
 font-weight:normal;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:12px;
@@ -1436,21 +1472,6 @@ float:left;
 font-weight:bold;
 }
 
-.studiedsubject {
-letter-spacing:0px;
-margin-top:-44px;
-padding-bottom:4px;
-font-family: 'PT Sans', sans-serif;
-font-size:18px;
-font-weight:normal;
-color:#a6a8ab;
-text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
-margin-left:-2px;
-float:left;
-opacity:10;
- }
-
-
 
 #beforestudies {
 
@@ -1520,14 +1541,29 @@ font-weight:normal;
 }
 
 
+.studiedsubject {
+letter-spacing:0px;
+margin-top:-44px;
+padding-bottom:4px;
+font: arial,helvetica,sans-serif;
+font-size:16px;
+font-weight:normal;
+color:#a6a8ab;
+text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
+margin-left:-2px;
+float:left;
+opacity:10;
+ }
+
+
 .studiedsubject2 {
 letter-spacing:0px;
 margin-top:-20px;
 padding-bottom:4px;
-font-family: 'PT Sans', sans-serif;
-font-size:18px;
+font: arial,helvetica,sans-serif;
+font-size:16px;
 font-weight:normal;
-color:#575a5c;
+color:#a6a8ab;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
 float:left;
@@ -1617,7 +1653,9 @@ float:left;
 margin-top:-32px;
 letter-spacing:0px;
 margin-bottom:-4px;
-font: normal 18px 'PT Sans', sans-serif;
+font: arial,helvetica,sans-serif;
+font-size:16px;
+font-weight:normal;
 color:#a6a8ab;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
@@ -1632,8 +1670,10 @@ opacity:10;
 letter-spacing:0px;
 margin-top:-7px;
 padding-bottom:3px;
-font: normal 18px 'PT Sans', sans-serif;
-color:#575a5c;
+font: arial,helvetica,sans-serif;
+font-size:16px;
+font-weight:normal;
+color:#a6a8ab;
 text-shadow: 0 10px 0 rgba(255, 255, 255, 0.5);
 margin-left:-2px;
 text-align: center;
@@ -2100,10 +2140,21 @@ font-weight:bold;
 
 color:#000;
 font-size:16px;
+margin-left:18px;
 
 }
 
+#mystery {
 
+font-size: 16px;
+letter-spacing: -1px;
+font-weight:bold;
+left:10px;
+padding-top:3px;
+padding-bottom:10px;
+margin-left:17px;
+color: $grayLight;
+}
 
 .label-info {
 
@@ -2286,12 +2337,12 @@ text-decoration: none
 }
 
 #indexrank {
-font-size: 20px;
+font-size: 18px;
 font-weight: 400;
-font-family: 'PT Sans', sans-serif;
+font: arial,helvetica,sans-serif;
 color:#555555;
 margin-left:307px;
-margin-top:15px;
+margin-top:11px;
 
 }
 
