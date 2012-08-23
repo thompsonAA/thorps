@@ -248,16 +248,16 @@ font: arial,helvetica,sans-serif;
 .educationlogo {
 
 float:right;
-margin-top:24px;
-margin-right:12px;
+margin-top:12px;
+margin-right:18px;
 
 }
 
 .rightlogo {
 
 float:right;
-margin-top:88px;
-margin-right:6px;
+margin-top:84px;
+margin-right:10px;
 
 }
 
@@ -391,12 +391,19 @@ margin-top:11px;
 border-right:solid 1px #cecfd1;
 }
 
+#broad {
+
+padding-left:30px;
+padding-right:30px;
+
+}
+
 
 .sprayit {
 margin-top:8px;
 padding-bottom:3px;
 color:#babcbe;
-font-size:1.31em;
+font-size:15px;
 font-weight:normal;
 margin-left:44px;
 float:left;
@@ -1152,8 +1159,8 @@ margin-left:1px;
 margin-top:-11px;
 margin-bottom:20px;
 height:69px;
-width:600px;
-background-image: url(/assets/bg.jpg);
+width:1050px;
+background-image: url(/assets/bg.jpg) ;
 
 }
 
@@ -1196,7 +1203,11 @@ background-color: #fff;
     -webkit-border-top-right-radius: 0px; 
     -webkit-border-bottom-right-radius: 0px; 
     border-top-right-radius: 0px; 
-    border-bottom-right-radius: 0px; 
+    border-bottom-right-radius: 0px;
+
+-webkit-box-shadow: 0 3px 3px -3px #cecfd1;
+	   -moz-box-shadow: 0 3px 3px -3px #cecfd1;
+	        box-shadow:  0 3px 3px -3px #cecfd1; 
 }
 
 #cotchbox {
@@ -2638,7 +2649,19 @@ padding:10px;
 
 .watchbutton {
 margin-top:64px;
-margin-left:21px;
+margin-left:599px;
+float:left;
+}
+
+#button2 {
+margin-left:8px;
+margin-top:64px;
+float:left;
+}
+
+#button3 {
+margin-top:67px;
+margin-left:14px;
 float:left;
 }
 
