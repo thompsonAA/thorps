@@ -23,15 +23,12 @@
 
 </div>
 
+<div>
+   <span class="watchbutton" ><a class="btn btn-info">Watch</a>
+   </span></div>
+
 </div>
 
-
-<div class="tab-content">
-     <div class="tab-pane active" id="topple">
-
-
-  </div>
-</div>
 
 
    <div class="tab-content">
@@ -105,7 +102,7 @@
     <div id="undergradshow">
         
 
-<img src="/assets/iternluna.gif" class="educationlogo" height="34" width="34" />
+<img src="/assets/iternluna.gif" class="educationlogo" height="31" width="31" />
  
      <div id="tope">
       <h2 class="redtitle">Education</h2>
@@ -119,21 +116,21 @@
      
 
 
-     <div id="school1">
+     <div id="school1"><div id="schoolnest">
        <h2 class="edutitle">California Lutheran University</h2> 
         <h2 class="edutitle2">International Business Management, 2008 </h2> 
      <h2 class="blacktitle2">Bachelor of Science</h2>  
-<h2 class="blacktitle"></h2>
+<h2 class="blacktitle"></h2></div>
      </div>
 
 
 <div id="school25">
-       <h2 class="greytitle">Awards</h2> 
+       <h2 class="greytitle">Awards.</h2> 
         <h2 class="blacktitle">Scholar Athlete, Dean's List</h2>   
            </div>
 
 <div id="school2">
-       <h2 class="greytitle">GPA</h2> 
+       <h2 class="greytitle">GPA.</h2> 
         <h2 class="blacktitle">3.91</h2>   
      </div>
    
@@ -145,11 +142,12 @@
 
 <div id="otherspace">
 
-<div id="school4">
+<div id="school4"><div id="othernest">
        <h2 class="edutitle">The Hague University of Applied Science</h2> 
        
         <h2 class="edutitle2">International Strategic Management</h2>
-       <h2 class="blacktitle2">Exchange Student, 2007</h2>   
+       <h2 class="blacktitle2">Exchange Student, 2007</h2> 
+</div>  
 </div>
 <div id="school5">
 <h3 class="othertitle">Courses</h3> 
@@ -192,16 +190,15 @@
                     <h3 class="lightsp"> Public Safety Network Inc.</h3><div id="mystery">Project Manager
                    </div>
                      
+<div id="spraybox">
+<div id="spraynest">
 <h2 class="sprayit"> </h2> 
-
-
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
-<h2 class="sprayit">- International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+<h2 class="sprayit">International Business Management, 2008 </h2> 
+</div>
+</div>
 
                  </div>
 
@@ -209,7 +206,12 @@
                       <ul class="thumbnails">
   <li class="workthumb">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/275x150" alt="">
+      <img src="http://placehold.it/200x100" alt="">
+    </a>
+  </li>
+<li class="workthumb2">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/200x100" alt="">
     </a>
   </li>
 </ul>
