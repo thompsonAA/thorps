@@ -253,6 +253,14 @@ margin-right:18px;
 
 }
 
+.leftlogo {
+
+float:left;
+margin-top:38px;
+margin-left:18px;
+
+}
+
 .rightlogo {
 
 float:right;
@@ -263,12 +271,12 @@ margin-right:10px;
 
 
 .redtitle {
-margin-top:46px;
+margin-top:19px;
 padding-bottom:7px;
 color:#DD4B39;
 font-size:17px;
 font-weight:bold;
-margin-left:44px;
+margin-left:19px;
 float:left;
 font: arial,helvetica,sans-serif;
 }
@@ -343,6 +351,7 @@ font: arial,helvetica,sans-serif;
 margin-top:11px;
 margin-bottom:-4px;
 color:#babcbe;
+line-height:133%;
 font-size:15px;
 font-weight:normal;
 margin-left:22px;
@@ -380,7 +389,7 @@ font: arial,helvetica,sans-serif;
 #spraybox {
 
 margin-top:11px;
-width:388px;
+width:377px;
 height:300px;
 }
 
@@ -459,7 +468,7 @@ float:left;
 
 
 #schoolspace {
-margin-top:-2px;
+margin-top:2px;
 float:left;
 width:1048px;
 height:143px;
@@ -506,7 +515,7 @@ border-right:solid 1px #cecfd1;
 
 
 #otherspace {
-margin-top:2px;
+margin-top:11px;
 overflow: hidden;
 float:left;
 width:1048px;
@@ -782,8 +791,8 @@ background: #fff;
 }
 
 #workspacetwo {
-margin-left:14px;
-margin-top:82px;
+margin-left:44px;
+margin-top:111px;
 width:477px;
 height:250px;
 float:left;
@@ -2491,7 +2500,7 @@ margin-right:0px;
 
 ul.tabnavcenter li {
 margin-left:0px;
-margin-right:9px;
+margin-right:10px;
 background-color: #fff;
 float:left;
 border-right: 1px solid #E8E8E9;
@@ -2649,7 +2658,7 @@ padding:10px;
 
 .watchbutton {
 margin-top:64px;
-margin-left:599px;
+margin-left:604px;
 float:left;
 }
 
