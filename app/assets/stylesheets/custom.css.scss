@@ -207,9 +207,9 @@ border-left:1px solid  #F0F0F0;
 border-top:1px solid  #F0F0F0;
 border-right:1px solid  #F0F0F0;
  
- -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-	   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-	        box-shadow:  0 1px 4px rgba(0, 0, 0, 0.2);
+ -webkit-box-shadow: 0 3px 3px -3px #cecfd1;
+	   -moz-box-shadow: 0 3px 3px -3px #cecfd1;
+	        box-shadow:  0 3px 3px -3px #cecfd1;
 
 }
 
@@ -238,7 +238,7 @@ padding-bottom:7px;
 color:#DD4B39;
 font-size:17px;
 font-weight:bold;
-margin-left:50px;
+margin-left:44px;
 float:left;
 font: arial,helvetica,sans-serif;
 
@@ -247,18 +247,40 @@ font: arial,helvetica,sans-serif;
 
 .educationlogo {
 
-float:left;
-margin-top:9px;
-margin-left:14px;
+float:right;
+margin-top:24px;
+margin-right:12px;
 
 }
-.redtitletwo {
-margin-top:77px;
+
+.rightlogo {
+
+float:right;
+margin-top:88px;
+margin-right:6px;
+
+}
+
+
+.redtitle {
+margin-top:46px;
 padding-bottom:7px;
 color:#DD4B39;
 font-size:17px;
 font-weight:bold;
-margin-left:50px;
+margin-left:44px;
+float:left;
+font: arial,helvetica,sans-serif;
+}
+
+
+.redtitletwo {
+margin-top:46px;
+padding-bottom:7px;
+color:#DD4B39;
+font-size:17px;
+font-weight:bold;
+margin-left:44px;
 float:left;
 font: arial,helvetica,sans-serif;
 
@@ -269,10 +291,36 @@ font: arial,helvetica,sans-serif;
 .edutitle {
 margin-top:24px;
 margin-bottom:0px;
-color:#7d8184;
+color: $grayLight;
 font-size:15px;
 font-weight:444;
 margin-left:22px;
+float:left;
+font-weight:bold;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+h3.worktitle {
+margin-top:24px;
+margin-bottom:7px;
+color:#7d8184;
+font-size:15px;
+font-weight:444;
+margin-left:0px;
+float:left;
+font-weight:bold;
+clear:both;
+font: arial,helvetica,sans-serif;
+}
+
+h3.worktitle2 {
+margin-top:0px;
+margin-bottom:0px;
+color:#7d8184;
+font-size:15px;
+font-weight:444;
+margin-left:0px;
 float:left;
 font-weight:bold;
 clear:both;
@@ -404,7 +452,7 @@ float:left;
 
 
 #schoolspace {
-margin-top:2px;
+margin-top:-2px;
 float:left;
 width:1048px;
 height:143px;
@@ -718,7 +766,7 @@ margin-top:12px;
 }
 
 #workspace {
-margin-left:151px;
+margin-left:144px;
 margin-top:18px;
 width:388px;
 height:300px;
@@ -996,7 +1044,12 @@ padding:2px 2px;
 
 }
 
-.logo{ margin: 11px 8px 5px 33px; }
+.logo{ 
+
+
+margin: 11px 8px 5px 33px; 
+
+}
 
 .dropdown{ margin: 0 5px 0 0; }
 
@@ -2458,7 +2511,7 @@ text-decoration: none
 font-size: 18px;
 font-weight: 400;
 font: arial,helvetica,sans-serif;
-color:purple;
+color:#000;
 margin-left:307px;
 margin-top:11px;
 

@@ -1,1 +1,1 @@
-$('a').tooltip(placement:'top');
+ $('a').popover(placement:'top');

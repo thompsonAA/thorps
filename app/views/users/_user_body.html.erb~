@@ -86,6 +86,8 @@
 
 
       </div>
+
+<img src="/assets/iternluna.gif" class="rightlogo" height="31" width="31" />
      </div>
 
 
@@ -102,7 +104,7 @@
     <div id="undergradshow">
         
 
-<img src="/assets/iternluna.gif" class="educationlogo" height="31" width="31" />
+
  
      <div id="tope">
       <h2 class="redtitle">Education</h2>
@@ -155,7 +157,7 @@
 </div>
        
        </div> 
-
+<img src="/assets/iternluna.gif" class="educationlogo" height="31" width="31" />
         
   </div>
  </div>
@@ -187,8 +189,8 @@
 
                  <div id="workspace">
                   
-                    <h3 class="lightsp"> Public Safety Network Inc.</h3><div id="mystery">Project Manager
-                   </div>
+                    <h3 class="worktitle"> Public Safety Network Inc.</h3>
+             <h3 class="worktitle2"> Public Safety Network Inc.</h3>
                      
 <div id="spraybox">
 <div id="spraynest">
@@ -206,12 +208,12 @@
                       <ul class="thumbnails">
   <li class="workthumb">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/200x100" alt="">
+      <img src="http://placehold.it/175x100" alt="">
     </a>
   </li>
 <li class="workthumb2">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/200x100" alt="">
+      <img src="http://placehold.it/175x100" alt="">
     </a>
   </li>
 </ul>
@@ -219,7 +221,7 @@
 
 
 
-                     </div>
+                     </div><img src="/assets/iternluna.gif" class="educationlogo" height="31" width="31" />
                    </div>
                 </div>
            
@@ -310,7 +312,7 @@
 
 <div id="navbar">
      <ul class="tabnavcenter">
-       <li class="active" ><a href="#home" data-target="#home, #home_else, #topple" data-toggle="tab" id="homenav"></a></li>
+       <li class="active" ><a  href="#home" data-target="#home, #home_else, #topple" data-toggle="tab" id="homenav"></a></li>
        <li><a href="#tab2" data-target="#tab2, #tab2_else" data-toggle="tab" id="ednav"></a></li>
        <li><a href="#tab3" data-target="#tab3, #tab3_else" data-toggle="tab" id="exnav"></a></li>
        <li><a href="#tab4" data-target="#tab4, #tab4_else" data-toggle="tab" id="sknav"></a></li>
@@ -321,7 +323,7 @@
 <div id="belowabout">
 
  <div class="tab-content">
-     <div class="tab-pane active" id="home_else"><h2 class="tagline">In products, as in life, my mission is simple - Create moments that people remember</h2><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active" id="home_else"><h2 class="tagline">In products, and in life, my mission is to create moments that people remember</h2><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
     <div class="tab-pane" id="tab2_else"><h2 class="tagline">Summary</h2><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>

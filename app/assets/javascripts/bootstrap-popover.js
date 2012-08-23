@@ -1,6 +1,6 @@
 
 
-$('a').popover(placement:'top');
+ $('a').popover(placement:'top');
 
 
 
