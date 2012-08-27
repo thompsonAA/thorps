@@ -4,9 +4,9 @@
          <%= link_to logo, root_path, :class=>"logo1" %>
 
          
-            <nav>
+            <nav><% if signed_in? %>
             <ul class="nav pull-right">
-         <% if signed_in? %>
+         
 <li class="hova"><%= link_to "Profile", current_user %></li>
          <li class="hova"><%= link_to "Inbox", invites_path %></li>   <li class="hova"><%= link_to "Navigate", root_path %></li>
             

@@ -58,27 +58,26 @@
 <div id="rightabout">
  
   <div id="contextbox">
-  <h3 class="specialtyname">Product Management </h3>
-  <h3 id="indexrank">98 </h3>
-   
+  <h1 class="specialtyname">Product Management </h1><p id="indexrank">98 </p>
+   <p id="locationname">Santa Barbara, California </p>
     </div>
 
    
 
         
          
-         <div id="locationbox">
          
-         <h1 id="locationname">Santa Barbara, California </h1>
-         </div>
+         
+        
+         
 
     
 
 
 <div id="studiedbox">
 
-<h3 class="studiedsubject">The Hague University of Applied Science</h3> 
-<h3 class="studiedsubject2">B.S. International Business / Management</h3>
+<h1 class="studiedsubject">The Hague University of Applied Science</h1> 
+<p class="studiedsubject2">B.S. International Business / Management</p>
 
 
 </div>
@@ -87,34 +86,40 @@
 
 
 <div id="workedbox">
-<h3 id="workedname">Public Safety Network Inc.</h3>
-<h3 id="workedname2">Analyst / Product Manager</h3>
+<h1 id="workedname">Analyst / Senior Project Manager</h1>
+<p id="workedname2">Public Safety Network Inc.</p>
+
+</div>
 
 
+<div id="skillbox">
+<h1 id="skillname">Ruby on Rails, Powerpoint</h1>
 
-      </div>
+
+</div>
+
 
 
 <div id="thumbbox">
 
 <li class="mainthumb">
-    <a href="#" class="thumbnail">
+    <a href="#" >
       <img src="http://placehold.it/60x40" alt="">
     </a>
   </li>
 <li class="mainthumb2">
-    <a href="#" class="thumbnail">
+    <a href="#" >
       <img src="http://placehold.it/60x40" alt="">
     </a>
   </li>
 <li class="mainthumb3">
-    <a href="#" class="thumbnail">
+    <a href="#" >
       <img src="http://placehold.it/60x40" alt="">
     </a>
   </li>
 
 </div>
-<img src="/assets/iternluna.gif" class="rightlogo" height="31" width="31" />
+<img src="/assets/headlogo.gif" class="rightlogo" height="26" width="26" />
      </div>
 
 
@@ -136,7 +141,7 @@
       <h2 class="redtitle">Education</h2>
      </div>
 
-<img src="/assets/iternluna.gif" class="educationlogo" height="31" width="31" />
+<img src="/assets/iternluna.gif" class="educationlogo" height="26" width="26" />
 
 
 <div id="schoolspace">
@@ -183,7 +188,7 @@
 </div>
        
        </div> 
-<img src="/assets/iternluna.gif" class="leftlogo" height="31" width="31" />
+<img src="/assets/iternluna.gif" class="leftlogo" height="26" width="26" />
         
   </div>
  </div>
@@ -191,9 +196,16 @@
   
    
  
-<div class="tab-pane fade" id="tab3" ><img src="/assets/iternluna.gif" class="educationlogo" height="34" width="34" />
-      <h2 class="redtitletwo">Experience</h2>
-  <div class="row">
+<div class="tab-pane fade" id="tab3" >
+<div id="tope">
+      <h2 class="redtitle">Experience</h2>
+     </div>
+
+<img src="/assets/iternluna.gif" class="educationlogo" height="26" width="26" />
+      
+  
+
+<div class="row">
     
      
       <div id="toptabs">
@@ -215,11 +227,15 @@
 
                  <div id="workspace">
                   
-                    <h3 class="worktitle"> Product Manager</h3>
-             <h3 class="worktitle2"> Public Safety Network Inc.</h3>
-                     
+             
+
+
+
+        <h3 class="worktitle"> Public Safety Network Inc.</h3>
+             <h3 class="worktitle2"> Product Manager</h3>
+                   
 <div id="spraybox">
-<div id="spraynest">
+<div id="spraynest">  
 <h2 class="sprayit"> </h2> 
 <h2 class="sprayit">International Business Management, 2008 </h2> 
 <h2 class="sprayit">International Business Management, 2008 </h2> 
@@ -287,17 +303,17 @@
 <ul class="thumbnails">
   <li class="skthumb">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/275x150" alt="">
+      <img src="http://placehold.it/25x25" alt="">
     </a>
   </li>
 <li class="skthumb">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/275x150" alt="">
+      <img src="http://placehold.it/25x25" alt="">
     </a>
   </li>
 <li class="skthumb">
     <a href="#" class="thumbnail">
-      <img src="http://placehold.it/275x150" alt="">
+      <img src="http://placehold.it/25x25" alt="">
     </a>
   </li>
 </ul>
@@ -349,10 +365,10 @@
 <div id="belowabout">
 
  <div class="tab-content">
-     <div class="tab-pane active" id="home_else"><h2 class="tagline">My mission - in life and in products - is to create moments that people remember</h2><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active" id="home_else"><h2 class="tagline">My mission - in life and in products - to create moments that people remember</h2><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
-    <div class="tab-pane" id="tab2_else"><h2 class="tagline">Summary</h2><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
+    <div class="tab-pane" id="tab2_else"><h2 class="tagline">Highlights</h2><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
    </div>
 
 <div class="tab-pane" id="tab7_else"><h2 class="tagline">Summary</h2><p class="userwhy"> Studying abroad in The Hague was insanely fun. I worked with people from all over the world </p>
