@@ -160,13 +160,15 @@ background:none;
 
 .tagline {
 
-font-size:15px;
+font-size:16px;
 font-weight:bold;
 margin-left:0px;
 margin-top:14px;
 margin-bottom:6px;
 color:#444648;
-font: arial,helvetica,sans-serif;
+font-family: 'Open Sans', sans-serif;
+letter-spacing:0px;
+
 
 }
 
@@ -184,7 +186,8 @@ line-height:145%;
 margin-left:0px;
 padding-right:2px;
 margin-top:8px;
-font: arial,helvetica,sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
 font-size:15px;
 font-weight:normal;
 color:#919498;
@@ -238,10 +241,10 @@ background:#fff;
 }
 
 
-.redtitle {
+h2.redtitle {
 margin-top:46px;
 padding-bottom:7px;
-color:#DD4B39;
+color:orange;
 font-size:17px;
 font-weight:bold;
 margin-left:44px;
@@ -1319,38 +1322,42 @@ border-top:1px solid rgba(0, 0, 0, 0.1);
 #studiedbox {
 
 width:336px;
-height:44px;
+height:35px;
 margin-bottom:0px;
-margin-top:4px;
+margin-top:0px;
 margin-left:1px;
 background:#fff;
-border-left:2px solid orange;
+
 }
 
 
 #workedbox {
-margin-top:48px;
+margin-top:44px;
 width:336px;
-height:44px;
+height:35px;
 margin-left:1px;
 background:#fff;
-border-left:2px solid #FFFF1F;
+
 }
 
 #skillbox {
-margin-top:48px;
+margin-top:44px;
 width:338px;
-height:44px;
+height:35px;
 margin-left:2px;
-border-left:2px solid green;
+background:#fff;
+
 }
 
 #thumbbox {
-margin-top:57px;
+margin-top:11px;
 width:333px;
 height:63px;
 margin-left:2px;
 background:#fff ;
+float:left;
+clear:both;
+
 }
 
 #worked2 {
@@ -1515,15 +1522,15 @@ margin-left:0px;
 
 
 .specialtyname {
-margin-top:8px;
+margin-top:0px;
 font-family: 'Open Sans', sans-serif;
 font-weight: lighter;
-color:red;
+color:#FF3329;
 margin-left:12px;
 font-size:15px;
 float:left;
 letter-spacing:0px;
-margin-bottom:0px;
+margin-bottom:8px;
 
 }
 
@@ -1552,10 +1559,10 @@ color: #999999  ;
 margin-top:16px;
 width:336px;
 margin-left:1px;
-height:44px;
-margin-bottom:15px;
+height:35px;
+margin-bottom:44px;
 background: #fff ;
-border-right:2px solid #FF3329;
+
 }
 
 
@@ -1616,7 +1623,7 @@ font-weight: lighter;
 font-size:15px;
 margin-left:13px;
 float:left;
-margin-top:-2px;
+margin-top:0px;
 color:#666666;
 margin-bottom:0px;
 clear:both;
@@ -1785,12 +1792,12 @@ font-weight:normal;
 
 .studiedsubject {
 letter-spacing:0px;
-margin-top:8px;
-margin-bottom:13px;
+margin-top:0px;
+margin-bottom:8px;
 font-family: 'Open Sans', sans-serif;
 font-weight: lighter;
 font-size:15px;
-color:orange;
+color:#FFA81F;
 margin-left:12px;
 float:left;
 opacity:10;
@@ -1799,12 +1806,12 @@ opacity:10;
 
 .studiedsubject2 {
 letter-spacing:0px;
-margin-top:3px;
+margin-top:0px;
 font-family: 'Open Sans', sans-serif;
 font-weight: lighter;
 color:#666666;
 font-size:15px;
-margin-left:11px;
+margin-left:13px;
 float:left;
 opacity:10;
  }
@@ -1889,16 +1896,17 @@ float:left;
 }
 
 #workedname {
-margin-top:8px;
+margin-top:0px;
 letter-spacing:0px;
-margin-bottom:3px;
+margin-bottom:8px;
 font-family: 'Open Sans', sans-serif;
-color:#FFFF1F;
+color:#FFE303;
 font-weight: lighter;
 font-size:15px;
 margin-left:12px;
 text-align: center;
 float:left;
+clear:both;
 opacity:10;
 
 }
@@ -1906,7 +1914,7 @@ opacity:10;
 #skillname {
 margin-top:8px;
 letter-spacing:0px;
-margin-bottom:3px;
+margin-bottom:8px;
 font-family: 'Open Sans', sans-serif;
 color:#33D629;
 font-weight: lighter;
@@ -1915,12 +1923,29 @@ margin-left:12px;
 text-align: center;
 float:left;
 opacity:10;
-
-
 }
+
+#thumbname {
+margin-top:8px;
+letter-spacing:0px;
+margin-bottom:0px;
+font-family: 'Open Sans', sans-serif;
+color:#40B2DC;
+font-weight: lighter;
+font-size:15px;
+margin-left:12px;
+text-align: center;
+clear:both;
+float:left;
+opacity:10;
+}
+
+
+
+
 #workedname2 {
 letter-spacing:0px;
-margin-top:7px;
+margin-top:0px;
 padding-bottom:4px;
 font-family: 'Open Sans', sans-serif;
 font-weight: lighter;
@@ -1930,6 +1955,21 @@ margin-left:12px;
 float:left;
 
 }
+
+#skillname2 {
+letter-spacing:0px;
+margin-top:0px;
+padding-bottom:4px;
+font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
+color:#666666;
+font-size:15px;
+clear:both;
+margin-left:12px;
+float:left;
+
+}
+
 
 #pastworked {
 color:#444648;
