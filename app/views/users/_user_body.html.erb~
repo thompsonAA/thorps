@@ -66,7 +66,7 @@
 
 <div id="studiedbox">
 
-<h1 class="studiedsubject">The Hague University of Applied Science</h1> 
+<h1 class="studiedsubject">The Hague University of Applied Science 08'</h1> 
 <p class="studiedsubject2">B.S. International Business / Management</p>
 
 
@@ -89,11 +89,9 @@
 </div>
 
 
-<h1 id="thumbname">Westley </h1>
+
 <div id="thumbbox">
-
-
-
+<h1 id="thumbname">Westley </h1>
 <li class="mainthumb">
     <a href="#" >
       <img src="http://placehold.it/60x40" alt="">
@@ -111,7 +109,7 @@
   </li>
 
 </div>
-<img src="/assets/headlogo.gif" class="rightlogo" height="26" width="26" />
+<img src="/assets/Itern_logo.png" class="rightlogo" height="26" width="26" />
      </div>
 
 
