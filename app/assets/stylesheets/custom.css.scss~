@@ -2615,6 +2615,36 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+#navone {
+margin-top:-9px;
+margin-left:9px;
+
+}
+
+#navtwo {
+margin-top:-9px;
+margin-left:9px;
+
+}
+
+#navthree {
+margin-top:5px;
+margin-left:10px;
+
+}
+
+#navfour {
+margin-top:5px;
+margin-left:10px;
+
+}
+
+#navfive {
+margin-top:5px;
+margin-left:10px;
+
+}
+
 
 
 
