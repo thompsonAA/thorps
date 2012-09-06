@@ -1,6 +1,8 @@
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import 'font-awesome';
 
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
@@ -2557,6 +2559,10 @@ margin-right:0px;
 }
 
 
+.input-small {
+
+width:200px;
+}
 
 ul.tabnavcenter li {
 margin-left:0px;

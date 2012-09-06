@@ -11,3 +11,9 @@
  *= require_self
  *= require_tree .
 */
+
+
+.input-small {
+
+width:200px;
+}
