@@ -2500,7 +2500,7 @@ font-weight:bold;
 
 
 
-/* Profile navbar */
+/* Navigate Nar */
 
 ul.tabnavcenter    {
  
@@ -2512,8 +2512,6 @@ ul.tabnavcenter    {
  overflow:hidden;
  font-family: 'Open Sans', sans-serif;
  
- 
-
 }
 
 #navbar {
@@ -2568,23 +2566,24 @@ margin-left:0px;
 margin-right:10px;
 background-color: #fff;
 float:left;
-width:33px;
-height:24px;
+width:38px;
+height:29px;
 list-style-type:none;
 
 }
 
 
 
-ul.tabnavcenter li.active  {
-
+ul.tabnavcenter li a:hover  {
+text-decoration:none;
 }
 
 ul.tabnavcenter li.active:hover {
+
 }
 
-ul.tabnavcenter li.active a {
-
+ul.tabnavcenter li.active a:hover {
+text-decoration:none;
 
 }
 
@@ -2616,83 +2615,100 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
-#navone{
-margin-top:4px;
-margin-left:9px;
 
-}
 
-#navtwo {
-margin-top:-9px;
-margin-left:9px;
 
-}
-
-#navthree {
-margin-top:5px;
-margin-left:10px;
-
-}
-
-#navfour {
-margin-top:5px;
-margin-left:10px;
-
-}
-
-#navfive {
-margin-top:5px;
-margin-left:10px;
-
-}
 
 
 
 
 #homenav {
 
-width:33px;
-height:24px;
+width:36px;
+height:27px;
 background:#FF3329;
 display: block;
 
 }
 
+#navone{
+margin-left:8px;
+margin-top:5px;
+font-size:15px;
+color:#FFA38C;
+
+}
+
 
 #ednav {
-
-width:33px;
-height:24px;
-background:#FFA81F;
+width:36px;
+height:27px;
+background:#FF7500;
 display: block;
 }
 
+#navtwo {
+margin-left:8px;
+margin-top:5px;
+font-size:17px;
+color:#FFC9A6;
+text-shadow: none;
 
- #exnav {
-width:33px;
-height:24px;
-background:#FFFF1F;
+}
+
+
+#exnav {
+width:36px;
+height:27px;
+background:#FFD900;
 display: block;
 
 }
+
+
+#navthree {
+margin-left:7px;
+margin-top:5px;
+font-size:19px;
+color:#FFFFA6;
+text-shadow: none;
+
+}
+
 
 #sknav {
-width:33px;
-height:24px;
+width:36px;
+height:27px;
 background:#33D629;
 display: block;
 
 }
 
+#navfour {
+margin-left:7px;
+margin-top:4px;
+font-size:16px;
+color:#EBFAEB;
+text-shadow: none;
+}
+
+
 #vinav {
-width:33px;
-height:24px;
+width:36px;
+height:27px;
 background:#40B2DC;
 display: block;
 
 }
 
+#navfive {
+margin-left:9px;
+margin-top:5px;
+font-size:15px;
+color:#CCE0FF;
+text-shadow: none;
 
+}
 
 
 
