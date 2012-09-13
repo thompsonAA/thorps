@@ -2505,7 +2505,7 @@ font-weight:bold;
 ul.tabnavcenter    {
  
  background-image: url(/assets/bg.jpg);
- width:288px;
+ width:1200px;
  margin-top:14px;
  margin-bottom:2px;
  margin-left:0px;
@@ -2520,6 +2520,7 @@ margin-left:7px;
 margin-top:-15px;
 margin-bottom:-6px;
 margin-right:0px;
+width:1000px;
 
 }
 
@@ -2561,13 +2562,14 @@ margin-right:0px;
 width:200px;
 }
 
+
 ul.tabnavcenter li {
 margin-left:0px;
-margin-right:14px;
-background-color: #fff;
+margin-right:0px;
+background-color: none;
 float:left;
-width:38px;
-height:33px;
+width:167px;
+height:38px;
 list-style-type:none;
 
 }
@@ -2601,13 +2603,11 @@ margin-top:8px;
 
 
 #indexed {
-
 color: #000;
 background:#fff;
 width:50px;
 height:45px;
 font-size:19px;
-
 margin-top:-48px;
 float:left;
 border: 1px solid #E8E8E9;
@@ -2618,97 +2618,171 @@ font-family: 'Open Sans', sans-serif;
 
 
 
-
 #homenav {
 
-width:41px;
-height:31px;
-background:#FFEBEA;
+width:167px;
+height:38px;
+background:#fff;
 display: block;
+}
 
+#homenav:hover {
+
+width:177px;
+height:38px;
+background:#FFF5F4;
+display: block;
+}
+
+
+#navone{
+margin-left:0px;
+margin-top:10px;
+font-size:25px;
+color:#FF3329;
+float:left;
 
 }
 
-#navone{
-margin-left:10px;
-margin-top:6px;
-font-size:17px;
-color:#FF3329;
-
+#navabout {
+margin-top:13px;
+margin-left:24px;
+font-size:12px;
+float:left;
 }
 
 
 #ednav {
-width:41px;
-height:31px;
+width:167px;
+height:38px;
+background:#fff;
+display: block;
+}
+
+#ednav:hover {
+width:118px;
+height:38px;
 background:#FFF1E6;
 display: block;
 }
 
 #navtwo {
-margin-left:10px;
-margin-top:7px;
-font-size:18px;
+margin-left:0px;
+margin-top:10px;
+font-size:25px;
 color:#FF7500;
 text-shadow: none;
+float:left;
 
 }
 
+#edabout {
+margin-top:13px;
+margin-left:7px;
+font-size:12px;
+float:left;
+}
 
 #exnav {
-width:41px;
-height:31px;
+width:167px;
+height:38px;
+background:#fff;
+display: block;
+
+}
+
+#exnav:hover {
+width:118px;
+height:38px;
 background:#FFFBE6;
 display: block;
 
 }
 
 
+
 #navthree {
-margin-left:7px;
-margin-top:7px;
-font-size:21px;
+margin-left:0px;
+margin-top:10px;
+font-size:25px;
 color:#FFD900;
 text-shadow: none;
+float:left
 
+}
+
+#exabout {
+margin-top:13px;
+margin-left:7px;
+font-size:12px;
+float:left;
 }
 
 
 #sknav {
-width:41px;
-height:31px;
+width:167px;
+height:38px;
+background:#fff;
+display: block;
+}
+
+#sknav:hover {
+width:118px;
+height:38px;
 background:#F3FCF2;
 border:1px solid #E7FAE5;
 display: block;
-
 }
 
 #navfour {
-margin-left:9px;
-margin-top:7px;
-font-size:18px;
+margin-left:0px;
+margin-top:10px;
+font-size:25px;
 color:#85E67F;
-
 text-shadow: none;
+float:left;
+}
+
+#skabout {
+margin-top:13px;
+margin-left:7px;
+font-size:12px;
+float:left;
 }
 
 
+
 #vinav {
-width:41px;
-height:31px;
+width:167px;
+height:38px;
+background:#fff;
+display: block;
+}
+
+#vinav:hover {
+width:118px;
+height:38px;
 background:#F0F9FC;
 border:1px solid #E0F3F9;
 display: block;
 
+
 }
 
 #navfive {
-margin-left:10px;
-margin-top:5px;
-font-size:17px;
+margin-left:0px;
+margin-top:10px;
+font-size:25px;
 color:#66C1E3;
 text-shadow: none;
+float:left;
+}
 
+#vabout {
+margin-top:13px;
+margin-left:7px;
+font-size:12px;
+float:left;
 }
 
 
