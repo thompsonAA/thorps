@@ -4,11 +4,21 @@
          <%= link_to logo, root_path, :class=>"logo1" %>
 
          
-            <nav><% if signed_in? %>
+            <nav>
+
+     <% if signed_in? %>
+
+ 
+<div id="top">
+ <ul class="nav pull-right">
+    <li class="hova"><%= link_to "Live", root_path %></li>  
+       </div>
+
+<div id="wreck">
             <ul class="nav pull-right">
-         
-<li class="hova"><%= link_to "Profile", current_user %></li>
-         <li class="hova"><%= link_to "Inbox", invites_path %></li>   <li class="hova"><%= link_to "Navigate", root_path %></li>
+       
+<li class="hova"><%= link_to "Westley", current_user %></li>
+         <li class="hova"><%= link_to "Incoming", invites_path %></li>   
             
             
            
@@ -48,7 +58,11 @@
       <% end %>
     </ul>
   </li>
-</ul>
+</ul></div>
+
+
+
+
        </nav>
       </div>
     </div>
