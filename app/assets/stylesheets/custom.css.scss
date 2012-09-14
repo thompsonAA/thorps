@@ -2638,17 +2638,21 @@ display: block;
 #navone{
 margin-left:0px;
 margin-top:10px;
-font-size:25px;
+font-size:16px;
 color:#FF3329;
 float:left;
 
 }
 
-#navabout {
+.navabout {
 margin-top:13px;
 margin-left:24px;
-font-size:12px;
+font-size:13px;
 float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+color:#9C9C9C;
+letter-spacing:0.070em;
 }
 
 
@@ -2666,10 +2670,12 @@ background:#FFF1E6;
 display: block;
 }
 
+
+
 #navtwo {
 margin-left:0px;
 margin-top:10px;
-font-size:25px;
+font-size:16px;
 color:#FF7500;
 text-shadow: none;
 float:left;
@@ -2679,8 +2685,12 @@ float:left;
 #edabout {
 margin-top:13px;
 margin-left:7px;
-font-size:12px;
 float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
+font-size:13px;
+
+color:#9C9C9C;
 }
 
 #exnav {
@@ -2692,11 +2702,40 @@ display: block;
 }
 
 #exnav:hover {
-width:118px;
+width:167px;
 height:38px;
 background:#FFFBE6;
 display: block;
 
+}
+
+#exabout {
+margin-top:13px;
+margin-left:7px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
+}
+
+#skabout {
+margin-top:13px;
+margin-left:7px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
+}
+#vabout {
+margin-top:13px;
+margin-left:7px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
 }
 
 
@@ -2704,19 +2743,14 @@ display: block;
 #navthree {
 margin-left:0px;
 margin-top:10px;
-font-size:25px;
+font-size:16px;
 color:#FFD900;
 text-shadow: none;
 float:left
 
 }
 
-#exabout {
-margin-top:13px;
-margin-left:7px;
-font-size:12px;
-float:left;
-}
+
 
 
 #sknav {
@@ -2737,7 +2771,7 @@ display: block;
 #navfour {
 margin-left:0px;
 margin-top:10px;
-font-size:25px;
+font-size:16px;
 color:#85E67F;
 text-shadow: none;
 float:left;
@@ -2772,7 +2806,7 @@ display: block;
 #navfive {
 margin-left:0px;
 margin-top:10px;
-font-size:25px;
+font-size:16px;
 color:#66C1E3;
 text-shadow: none;
 float:left;
