@@ -11,19 +11,19 @@
  
 <div id="top">
  <ul class="nav pull-right">
-    <li class="hova"><%= link_to "Live", root_path %></li>  
+    <li class="nas"><%= link_to "Live", root_path %></li>  
        </div>
 
 <div id="wreck">
             <ul class="nav pull-right">
-       
+       <li class="hova"><%= link_to "Incoming", invites_path %></li> 
 <li class="hova"><%= link_to "Westley", current_user %></li>
-         <li class="hova"><%= link_to "Incoming", invites_path %></li>   
-            
-            
-           
+          </ul> 
+            </div>
+          <div id="drake">
+           <ul class="nav pull-right">
             <li id="fat-menu" class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i><b class="caret"></b>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-caret-down"></i>
               </a>
               <ul class="dropdown-menu">
                 <li><%= link_to "Settings", current_user %></li>
@@ -58,7 +58,8 @@
       <% end %>
     </ul>
   </li>
-</ul></div>
+</ul>
+</div>
 
 
 
