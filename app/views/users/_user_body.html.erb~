@@ -130,10 +130,10 @@
 
 
      <div id="tope">
-      <h2 class="redtitle">Education Highlights</h2>
-     </div>
+      <h2 class="redtitle">Education </h2>
+     </div><img src="/assets/iternluna.gif" class="educationlogo" height="26" width="26" />
 </div>
-<img src="/assets/iternluna.gif" class="educationlogo" height="26" width="26" />
+
 
 
 <div id="schoolspace">

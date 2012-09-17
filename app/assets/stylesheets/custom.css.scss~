@@ -268,7 +268,7 @@ color: #333333;
 text-shadow: none; 
 font-size:15px;
 margin-left:12px;
-margin-top:7px;
+margin-top:4px;
 margin-bottom:0px;
 font-weight:bolder;
 
@@ -587,7 +587,7 @@ float:left;
 #schoolspace {
 margin-top:2px;
 float:left;
-width:1048px;
+width:700px;
 height:143px;
 background:#fff;
 
