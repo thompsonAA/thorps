@@ -249,9 +249,9 @@ width:22px;
 #belowabout {
 float:left;
 margin-top:4px;
-width:1200px;
-height:1000px;
-background:none;
+width:1055px;
+height:133px;
+background:#fff;
 
 }
 
@@ -264,18 +264,16 @@ background:none;
 
 
 .tagline {
-color: #555555;
+color: #333333;
 text-shadow: none; 
-font-size:13px;
-margin-left:7px;
-margin-top:14px;
-margin-bottom:6px;
+font-size:15px;
+margin-left:12px;
+margin-top:7px;
+margin-bottom:0px;
 font-weight:bolder;
 
-font-family: 'Open Sans', sans-serif;
 list-style-type: none;
 }
-
 
 
 .userwhy {
@@ -287,22 +285,22 @@ text-align: left;
 float:left;
 font-weight:normal;
 line-height:145%;
-margin-left:7px;
+margin-left:14px;
 padding-right:2px;
 margin-top:8px;
 font-family: 'Open Sans', sans-serif;
 font-weight: normal;
 font-size:13px;
-color:#7d8085;
+color:#555555;
 
 }
 
 #home_else {
 float:left;
-margin-top:4px;
+margin-top:0px;
 width:1058px;
 height:100px;
-background-image: url(/assets/bg.jpg);
+background-image: #fff;
 
 }
 
@@ -345,7 +343,7 @@ background:#fff;
 h2.redtitle {
 margin-top:22px;
 padding-bottom:7px;
-color:#FFA81F;
+color:#fff;
 font-size:17px;
 font-weight:bold;
 margin-left:9px;
@@ -523,6 +521,7 @@ padding-top:6px;
 padding-bottom:6px;
 padding-left:22px;
 padding-right:22px;
+font-weight:bold;
 
 }
 
@@ -2621,23 +2620,29 @@ font-weight:bold;
 
 ul.tabnavcenter    {
  
- background-image: url(/assets/bg.jpg);
- width:1200px;
- margin-top:14px;
- margin-bottom:2px;
+ width:839px;
+ height:43px;
+ margin-top:0px;
  margin-left:0px;
- overflow:hidden;
  font-family: 'Open Sans', sans-serif;
+
+
+-webkit-box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+
+
  
 }
 
 #navbar {
 float:left;
 margin-left:0px;
-margin-top:-11px;
-margin-bottom:-6px;
+margin-top:0px;
+margin-bottom:0px;
 margin-right:0px;
 width:1000px;
+
 
 
 }
@@ -2690,6 +2695,7 @@ width:167px;
 height:39px;
 list-style-type:none;
 
+
 }
 
 
@@ -2740,18 +2746,35 @@ font-family: 'Open Sans', sans-serif;
 #homenav {
 
 width:171px;
-height:38px;
-background:#FFF5F4;
+height:43px;
+background:#fff;
 display: block;
+
+-webkit-box-shadow:  -1px 0px 1px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow:  -1px 0px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow:  -1px 0px 1px rgba(0, 0, 0, 0.2);
+
 }
 
 #homenav:hover {
 
 width:171px;
-height:38px;
-background:#FFF5F4;
+height:43px;
+background:#fff;
 display: block;
 }
+
+
+#edsquare {
+
+width:300px;
+height:400px;
+background:orange;
+float:left;
+
+
+}
+
 
 
 #navone{
@@ -2788,15 +2811,19 @@ letter-spacing:0.070em;
 
 #ednav {
 width:171px;
-height:38px;
-background:#FFF1E6;
+height:43px;
+background:#fff;
 display: block;
+
+-webkit-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 #ednav:hover {
 width:171px;
-height:38px;
-background:#FFF1E6;
+height:43px;
+background:#fff;
 display: block;
 }
 
@@ -2822,18 +2849,31 @@ font-size:13px;
 color:#9C9C9C;
 }
 
+#edabout:hover {
+margin-top:13px;
+margin-left:24px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
+font-size:13px;
+color:#9C9C9C;
+}
+
 #exnav {
 width:171px;
-height:38px;
-background:#FFFBE6;
+height:43px;
+background:#fff;
 display: block;
+-webkit-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
 
 }
 
 #exnav:hover {
 width:171px;
-height:38px;
-background:#FFFBE6;
+height:43px;
+background:#fff;
 display: block;
 
 }
@@ -2848,15 +2888,28 @@ font-size:13px;
 color:#9C9C9C;
 }
 
-#skabout {
+#exabout:hover {
 margin-top:13px;
-margin-left:7px;
+margin-left:24px;
 float:left;
 font-family: 'Open Sans', sans-serif;
 font-weight: normal;
 font-size:13px;
 color:#9C9C9C;
 }
+
+#skabout {
+margin-top:13px;
+margin-left:24px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
+}
+
+
+
 #vabout {
 margin-top:13px;
 margin-left:7px;
@@ -2866,6 +2919,7 @@ font-weight: normal;
 font-size:13px;
 color:#9C9C9C;
 }
+
 
 
 
@@ -2881,16 +2935,18 @@ float:left
 
 #sknav {
 width:171px;
-height:38px;
-background:#F3FCF2;
+height:43px;
+background:#fff;
 display: block;
+-webkit-box-shadow:  1px 0px 1px  rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 #sknav:hover {
 width:171px;
-height:38px;
-background:#F3FCF2;
-border:1px solid #E7FAE5;
+height:43px;
+background:#fff;
 display: block;
 }
 
@@ -2903,27 +2959,36 @@ text-shadow: none;
 float:left;
 }
 
-#skabout {
+
+
+#skabout:hover {
 margin-top:13px;
 margin-left:24px;
-font-size:12px;
 float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
 }
 
 
 
 #vinav {
 width:171px;
-height:38px;
-background:#F0F9FC;
+height:43px;
+background:#fff;
 display: block;
+
+-webkit-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow:  1px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 #vinav:hover {
 width:171px;
-height:38px;
-background:#F0F9FC;
-border:1px solid #E0F3F9;
+height:43px;
+background:#fff;
+
 display: block;
 
 
@@ -2941,8 +3006,21 @@ float:left;
 #vabout {
 margin-top:13px;
 margin-left:24px;
-font-size:12px;
 float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
+}
+
+#vabout:hover {
+margin-top:13px;
+margin-left:24px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size:13px;
+color:#9C9C9C;
 }
 
 
@@ -2981,7 +3059,7 @@ padding:10px;
 
 .watchbutton {
 margin-top:63px;
-margin-left:588px;
+margin-left:607px;
 float:left;
 }
 
