@@ -57,7 +57,7 @@
 <div id="rightabout">
  
   <div id="contextbox">
-  <h1 class="specialtyname">Product Marketing </h1>
+  <h1 class="specialtyname">Product Marketing </h1> <div class="roundinfo"><i class="icon-chevron-right" id="showme"> </i></div>
    <p id="locationname">Santa Barbara, California </p>
     </div>
 
@@ -371,7 +371,7 @@
 
 <div id="navbar">
      <ul class="tabnavcenter">
-       <li class="active" ><a  href="#home" data-target="#home, #home_else" data-toggle="tab" id="homenav" ><i class="icon-tasks" id="navone"></i><h1 class="navabout">About</h1></a></li>
+       <li class="active" ><a  href="#home" data-target="#home, #home_else" data-toggle="tab" id="homenav" ><i class="icon-tasks" id="navone"></i><h1 class="navabout">Featuring </h1></a></li>
        <li><a href="#tab2" data-target="#tab2, #tab2_else" data-toggle="tab" id="ednav"><i class="icon-pencil icon-white" id="navtwo"></i><h5 id="edabout">Education</h5></a></li>
        <li><a href="#tab3" data-target="#tab3, #tab3_else" data-toggle="tab" id="exnav"><i class="icon-globe" id="navthree"></i><h5 id="exabout">Experience</h5></a></li>
        <li><a href="#tab4" data-target="#tab4, #tab4_else" data-toggle="tab" id="sknav"><i class="icon-ok" id="navfour"></i><h5 id="skabout">Skills</h5></a></li>
@@ -382,7 +382,7 @@
 <div id="belowabout">
 
  <div class="tab-content">
-     <div class="tab-pane active" id="home_else"><h4 class="tagline">I create moments that people remember</h4><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
+     <div class="tab-pane active" id="home_else"><h4 class="tagline">I want to create moments that people remember</h4><p class="userwhy"> Hi Google, I'm West - a 26 year old startup enthusiast, study abroad student, world traveler, and over-thinker. I have a passion for thinking larger than I can afford, and building things bigger than I can handle.  </p>
     </div>
     
     <div class="tab-pane" id="tab2_else"><h2 class="tagline">Highlights</h2><p class="userwhy"> I went to a small liberal arts school right  out of High School... </p>
