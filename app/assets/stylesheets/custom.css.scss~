@@ -28,7 +28,7 @@
   line-height: 19px;
   color: #555555;
   text-shadow: none; 
-  
+  font-family: 'Open Sans', sans-serif;
 font-weight:bolder;
   text-decoration: none;
   margin-right:11px;
@@ -41,7 +41,7 @@ font-size:13px;
 .navbar .nav > li.hova:hover > a {
   color: #000;
   padding: 14px 14px 14px 24px;
-  font-family: arial,helvetica,clean,sans-serif;
+ font-family: 'Open Sans', sans-serif;
   font-weight:bolder;
   margin-right:11px;
   line-height: 19px;
@@ -56,7 +56,7 @@ font-size:13px;
   color: #555555;
   font-weight:bolder;
   text-shadow: none; 
-  font-family: arial,helvetica,clean,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   margin-right:11px;
   font-size:13px;
@@ -67,15 +67,12 @@ font-size:13px;
 .navbar .nav > li.em:hover > a {
   color: #000;
   padding: 14px 14px 14px 24px;
-  font-family: arial,helvetica,clean,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-right:11px;
   line-height: 19px;
   text-shadow: none;
   text-decoration: none;
 }
-
-
-
 
 
 
@@ -86,7 +83,7 @@ font-size:13px;
   color: #68B3FF;
   text-shadow: none; 
   font-weight:normal;
-  
+  font-family: 'Open Sans', sans-serif;
   font-size:13px;
   text-decoration: none;
   margin-right:11px;
@@ -262,7 +259,7 @@ width:22px;
 #belowabout {
 float:left;
 margin-top:2px;
-width:1055px;
+width:1050px;
 height:133px;
 background:#fff;
 
@@ -315,7 +312,7 @@ margin-left:3px;
 
 text-shadow: none; 
 font-size:15px;
-margin-left:12px;
+margin-left:8px;
 margin-top:2px;
 margin-bottom:0px;
 font-weight:bolder;
@@ -332,7 +329,7 @@ text-align: left;
 float:left;
 font-weight:normal;
 line-height:145%;
-margin-left:14px;
+margin-left:8px;
 padding-right:2px;
 margin-top:8px;
 font-weight: normal;
@@ -2858,14 +2855,12 @@ width:220px;
 height:400px;
 background:#fff;
 float:left;
-
-
 }
 
 
 
 #navone{
-margin-left:14px;
+margin-left:26px;
 margin-top:10px;
 font-size:15px;
 color:#FF3329;
@@ -2874,22 +2869,21 @@ float:left;
 }
 
 .navabout {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
 font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 letter-spacing:0.044em;
+color:#444444;
 }
 
 .navabout:hover {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
 font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
-font-weight: bold;
-color:#888888;
+font-family: 'Open Sans', sans-serif;
 letter-spacing:0.044em;
 }
 
@@ -2915,7 +2909,7 @@ display: block;
 
 
 #navtwo {
-margin-left:14px;
+margin-left:26px;
 margin-top:11px;
 font-size:16px;
 color:#FF7500;
@@ -2924,22 +2918,22 @@ float:left;
 }
 
 #edabout {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
 font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
 }
 
 #edabout:hover {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
 font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
@@ -2965,33 +2959,33 @@ display: block;
 }
 
 #exabout {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
-font-size:12px;
+font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
 }
 
 #exabout:hover {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
-font-size:12px;
+font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
 }
 
 #skabout {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
-font-size:12px;
+font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
@@ -2999,11 +2993,11 @@ letter-spacing:0.044em;
 
 
 #skabout:hover {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
-font-size:12px;
+font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
@@ -3012,7 +3006,7 @@ letter-spacing:0.044em;
 
 
 #navthree {
-margin-left:14px;
+margin-left:26px;
 margin-top:10px;
 font-size:16px;
 color:#FFD900;
@@ -3039,7 +3033,7 @@ display: block;
 }
 
 #navfour {
-margin-left:14px;
+margin-left:26px;
 margin-top:10px;
 font-size:16px;
 color:#85E67F;
@@ -3126,7 +3120,7 @@ display: block;
 }
 
 #navfive {
-margin-left:14px;
+margin-left:26px;
 margin-top:10px;
 font-size:16px;
 color:#66C1E3;
@@ -3135,22 +3129,22 @@ float:left;
 }
 
 #vabout {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
-font-size:12px;
+font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
 }
 
 #vabout:hover {
-margin-top:15px;
+margin-top:13px;
 margin-left:18px;
-font-size:12px;
+font-size:13px;
 float:left;
-font-family: arial,helvetica,clean,sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: bold;
 color:#888888;
 letter-spacing:0.044em;
@@ -3160,24 +3154,10 @@ letter-spacing:0.044em;
 
 /*Nav pills color */
 
-
-
-
-
-
-
  .nav-pills > .active > a, .nav-pills > .active li, .nav-pills > .active > li:hover, .nav-pills > .active > a:hover {
-
-
- 
 }
 
 .nav-pills > a,  .nav-pills > a:hover {
-
-
-
-
-
 }
 
 
